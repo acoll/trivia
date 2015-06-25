@@ -1,0 +1,19 @@
+li {
+	text-align: center;
+	color: white;
+
+	.name {
+		font-size: 12px;
+		padding-top: 35px;
+		margin-bottom: -20px;
+	}
+
+	.score {
+		font-size: 2em;
+	}
+
+	.box {
+		height: 150px;
+		width: 150px;
+	}
+}

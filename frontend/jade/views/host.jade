@@ -1,0 +1,41 @@
+doctype html
+html(ng-app='host')
+	head
+		title TRIVINATOR
+		link(rel='stylesheet', type='text/css', href='/css/host.css')
+		script(src='/socket.io/socket.io.js')
+	body(ng-controller='HostController')
+		.header
+			.row
+				.columns.small-2.text-left 
+					button.no-style-btn MENU
+				.columns.small-8.text-center {{title}}
+				.columns.small-2.text-right 
+					button.no-style-btn  EDIT
+		.container
+			.row.question
+				.columns.small-8
+					textarea(placeholder='TYPE QUESTION HERE', ng-model='round.question')
+				.columns.small-3.text-right
+					button.no-style-btn(ng-click='updateRound()') UPDATE
+			.row.pickers
+				.columns.small-6
+					.columns.small-2.text-left(ng-click='round.points = round.points - 5')  -
+					.columns.small-8.text-center.value {{ round.points }}
+					.columns.small-2(ng-click='round.points = round.points + 5') +
+				.columns.small-6
+					.columns.small-2 -
+					.columns.small-8.text-center.value TIME ALLOWED
+					.columns.small-2 +
+		.footer
+			.row
+				.columns.small-4.text-left
+					button.wrong(ng-click='wrongClick()') WRONG
+				.columns.small-4.text-center(ng-show='currentBuzzer') {{ currentBuzzer }}
+				.columns.small-4.text-right
+					button.correct(ng-click='correctClick()') CORRECT
+			.row.teams
+				.columns.small-12
+					include teamBlockGrid
+		script(src='http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js')
+		script(src='/js/host.js')

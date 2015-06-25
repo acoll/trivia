@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html ng-app="host">
+  <head>
+    <title>TRIVINATOR</title>
+    <link rel="stylesheet" type="text/css" href="/css/host.css">
+    <script src="/socket.io/socket.io.js"></script>
+  </head>
+  <body ng-controller="HostController">
+    <div class="header">
+      <div class="row">
+        <div class="columns small-2 text-left"> 
+          <button class="no-style-btn">MENU</button>
+        </div>
+        <div class="columns small-8 text-center">{{title}}</div>
+        <div class="columns small-2 text-right"> 
+          <button class="no-style-btn"> EDIT</button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row question">
+        <div class="columns small-8">
+          <textarea placeholder="TYPE QUESTION HERE" ng-model="round.question"></textarea>
+        </div>
+        <div class="columns small-3 text-right">
+          <button ng-click="updateRound()" class="no-style-btn">UPDATE</button>
+        </div>
+      </div>
+      <div class="row pickers">
+        <div class="columns small-6">
+          <div ng-click="round.points = round.points - 5" class="columns small-2 text-left"> -</div>
+          <div class="columns small-8 text-center value">{{ round.points }}</div>
+          <div ng-click="round.points = round.points + 5" class="columns small-2">+</div>
+        </div>
+        <div class="columns small-6">
+          <div class="columns small-2">-</div>
+          <div class="columns small-8 text-center value">TIME ALLOWED</div>
+          <div class="columns small-2">+</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="row">
+        <div class="columns small-4 text-left">
+          <button ng-click="wrongClick()" class="wrong">WRONG</button>
+        </div>
+        <div ng-show="currentBuzzer" class="columns small-4 text-center">{{ currentBuzzer }}</div>
+        <div class="columns small-4 text-right">
+          <button ng-click="correctClick()" class="correct">CORRECT</button>
+        </div>
+      </div>
+      <div class="row teams">
+        <div class="columns small-12">
+          <ul class="small-block-grid-6">
+            <li ng-repeat="team in teams">
+              <div ng-class="team.color" class="box">
+                <div class="name">{{team.name}}</div>
+                <div class="score">{{team.score}}</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+    <script src="/js/host.js"></script>
+  </body>
+</html>

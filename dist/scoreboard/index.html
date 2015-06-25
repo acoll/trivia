@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="scoreboard">
+  <head>
+    <title>TRIVINATOR</title>
+    <link rel="stylesheet" type="text/css" href="/css/scoreboard.css">
+    <script src="/socket.io/socket.io.js"></script>
+  </head>
+  <body ng-controller="ScoreboardController">
+    <div class="header row"><span class="text-center columns small-12">{{title}}</span></div>
+    <div class="container">
+      <div class="row">
+        <p ng-show="round.points" class="columns small-2">Question:</p>
+        <p ng-show="round.points" class="columns small-2">{{round.points}}pts</p>
+      </div>
+      <div class="row">
+        <p class="columns small-12">{{round.question}}</p>
+      </div>
+      <div ng-show="currentBuzzer" class="row">
+        <div class="columns small-12 text-center"><span class="buzz-alert">{{ currentBuzzer }}</span></div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="row">
+        <div class="columns small-12">
+          <ul class="small-block-grid-6">
+            <li ng-repeat="team in teams">
+              <div ng-class="team.color" class="box">
+                <div class="name">{{team.name}}</div>
+                <div class="score">{{team.score}}</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+    <script src="/js/scoreboard.js"></script>
+  </body>
+</html>

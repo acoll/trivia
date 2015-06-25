@@ -1,0 +1,76 @@
+@import "_fonts";
+@import "_mixins";
+@import "_foundation";
+
+$FONTFAMILY: 'Open Sans', sans-serif;
+
+html, body {
+	height: 100%;
+	margin: 0;
+	font-family: $FONTFAMILY;
+	font-size: 28px;
+	background-image: url('/images/bg.jpeg');
+}
+
+.header {
+	background-color: rgb(56, 215, 144);
+	color: white;
+
+	.row {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	button {
+		color: white;
+	}
+}
+
+.container {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: rgba(255, 255, 255, 0.7);
+
+	textarea {
+		height: 200px;
+		resize: none;
+		border: none;
+		background: none;
+		border-color: transparent;
+	}
+
+	.question {
+		button { opacity: .5; font-size: 26px; }
+	}
+
+	.pickers {
+		opacity: .5;
+		font-size: 30px;
+
+		.value { font-size: 26px; }
+	}
+}
+
+.footer {
+	padding-top: 30px;
+
+	button {
+		border: solid 2px black;
+		color: black;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 40px;
+		padding-right: 40px;
+
+		font-size: .8em;
+
+		&.wrong {
+			background-color: rgb(253, 86, 51);
+		}
+	}
+
+	.teams {
+		padding-top: 50px;
+		@import "_teamBlockGrid";
+	}
+}

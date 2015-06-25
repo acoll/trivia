@@ -1,0 +1,43 @@
+@import "_fonts";
+@import "_mixins";
+@import "../../node_modules/foundation/scss/foundation.scss";
+
+$FONTFAMILY: 'Open Sans', sans-serif;
+
+html, body {
+	height: 100%;
+	margin: 0;
+	font-family: $FONTFAMILY;
+	font-size: 28px;
+	background-image: url('/images/bg.jpeg');
+}
+
+
+.header {
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+	background-color: rgba(0, 0, 0, .5);
+	color: white;
+	text-transform: uppercase;
+}
+
+.container {
+	padding-top: 30px;
+	padding-bottom: 100px;
+
+	.buzz-alert {
+		border: 1px solid black;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+.footer {
+	
+	height: 40%;
+
+	@import "_teamBlockGrid";
+}

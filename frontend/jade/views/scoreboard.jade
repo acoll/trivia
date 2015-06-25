@@ -1,0 +1,24 @@
+doctype html
+html(ng-app='scoreboard')
+	head
+		title TRIVINATOR
+		link(rel='stylesheet', type='text/css', href='/css/scoreboard.css')
+		script(src='/socket.io/socket.io.js')
+	body(ng-controller='ScoreboardController')
+		.header.row
+			span.text-center.columns.small-12 {{title}}
+		.container
+			.row
+				p.columns.small-2(ng-show='round.points') Question:
+				p.columns.small-2(ng-show='round.points') {{round.points}}pts
+			.row
+				p.columns.small-12 {{round.question}}
+			.row(ng-show='currentBuzzer')
+				.columns.small-12.text-center
+					span.buzz-alert {{ currentBuzzer }}
+		.footer
+			.row
+				.columns.small-12
+					include teamBlockGrid
+		script(src='http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js')
+		script(src='/js/scoreboard.js')

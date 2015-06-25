@@ -1,0 +1,16 @@
+@mixin placeholder() {
+	&::-webkit-input-placeholder {@content}
+	&:-moz-placeholder           {@content}
+	&::-moz-placeholder          {@content}
+	&:-ms-input-placeholder      {@content}  
+}
+
+$colors: #FDAD46, #FD7436, #FA573C, #F73922, #D06A63, #AC725E, #FAD165, #FBE983, #B3DC6C, #7BD148, #18A765, #42D692, #B69AFC, #999CFC, #4985E7, #9E65E6, #9FE1E7, #92E1BF, #A379E1, #CC74E5, #F691B2, #CCA6AC, #CABDBF, #C2C2C2;
+
+@for $i from 1 through length($colors) {
+
+	.color-#{$i} {
+		background-color: nth($colors, $i);
+	}
+
+}
