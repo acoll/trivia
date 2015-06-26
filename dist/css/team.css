@@ -89,12 +89,15 @@ button {
 .color-24 {
   background-color: #C2C2C2; }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-html, body {
+html,
+body {
   font-size: 100%; }
 
 body {
@@ -115,17 +118,25 @@ a:hover {
 a:focus {
   outline: none; }
 
-img, object, embed {
+img,
+object,
+embed {
   max-width: 100%;
   height: auto; }
 
-object, embed {
+object,
+embed {
   height: 100%; }
 
 img {
   -ms-interpolation-mode: bicubic; }
 
-#map_canvas img, #map_canvas embed, #map_canvas object, .map_canvas img, .map_canvas embed, .map_canvas object {
+#map_canvas img,
+#map_canvas embed,
+#map_canvas object,
+.map_canvas img,
+.map_canvas embed,
+.map_canvas object {
   max-width: none !important; }
 
 .left {
@@ -177,7 +188,8 @@ select {
     display: table; }
   .row:after {
     clear: both; }
-  .row.collapse .column, .row.collapse .columns {
+  .row.collapse .column,
+  .row.collapse .columns {
     position: relative;
     padding-left: 0;
     padding-right: 0;
@@ -206,7 +218,8 @@ select {
       .row .row.collapse:after {
         clear: both; }
 
-.column, .columns {
+.column,
+.columns {
   position: relative;
   padding-left: 0.9375em;
   padding-right: 0.9375em;
@@ -214,532 +227,555 @@ select {
   float: left; }
 
 @media only screen {
-  .column, .columns {
+  .column,
+  .columns {
     position: relative;
     padding-left: 0.9375em;
     padding-right: 0.9375em;
     float: left; }
-
   .small-1 {
     position: relative;
     width: 8.3333333333%; }
-
   .small-2 {
     position: relative;
     width: 16.6666666667%; }
-
   .small-3 {
     position: relative;
     width: 25%; }
-
   .small-4 {
     position: relative;
     width: 33.3333333333%; }
-
   .small-5 {
     position: relative;
     width: 41.6666666667%; }
-
   .small-6 {
     position: relative;
     width: 50%; }
-
   .small-7 {
     position: relative;
     width: 58.3333333333%; }
-
   .small-8 {
     position: relative;
     width: 66.6666666667%; }
-
   .small-9 {
     position: relative;
     width: 75%; }
-
   .small-10 {
     position: relative;
     width: 83.3333333333%; }
-
   .small-11 {
     position: relative;
     width: 91.6666666667%; }
-
   .small-12 {
     position: relative;
     width: 100%; }
-
   .small-offset-0 {
     position: relative;
     margin-left: 0%; }
-
   .small-offset-1 {
     position: relative;
     margin-left: 8.3333333333%; }
-
   .small-offset-2 {
     position: relative;
     margin-left: 16.6666666667%; }
-
   .small-offset-3 {
     position: relative;
     margin-left: 25%; }
-
   .small-offset-4 {
     position: relative;
     margin-left: 33.3333333333%; }
-
   .small-offset-5 {
     position: relative;
     margin-left: 41.6666666667%; }
-
   .small-offset-6 {
     position: relative;
     margin-left: 50%; }
-
   .small-offset-7 {
     position: relative;
     margin-left: 58.3333333333%; }
-
   .small-offset-8 {
     position: relative;
     margin-left: 66.6666666667%; }
-
   .small-offset-9 {
     position: relative;
     margin-left: 75%; }
-
   .small-offset-10 {
     position: relative;
     margin-left: 83.3333333333%; }
-
   [class*="column"] + [class*="column"]:last-child {
     float: right; }
-
   [class*="column"] + [class*="column"].end {
     float: left; }
-
-  .column.small-centered, .columns.small-centered {
+  .column.small-centered,
+  .columns.small-centered {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    float: none !important; }
- }
+    float: none !important; } }
 
 /* Styles for screens that are atleast 768px; */
 @media only screen and (min-width: 768px) {
   .large-1 {
     position: relative;
     width: 8.3333333333%; }
-
   .large-2 {
     position: relative;
     width: 16.6666666667%; }
-
   .large-3 {
     position: relative;
     width: 25%; }
-
   .large-4 {
     position: relative;
     width: 33.3333333333%; }
-
   .large-5 {
     position: relative;
     width: 41.6666666667%; }
-
   .large-6 {
     position: relative;
     width: 50%; }
-
   .large-7 {
     position: relative;
     width: 58.3333333333%; }
-
   .large-8 {
     position: relative;
     width: 66.6666666667%; }
-
   .large-9 {
     position: relative;
     width: 75%; }
-
   .large-10 {
     position: relative;
     width: 83.3333333333%; }
-
   .large-11 {
     position: relative;
     width: 91.6666666667%; }
-
   .large-12 {
     position: relative;
     width: 100%; }
-
   .row .large-offset-0 {
     position: relative;
     margin-left: 0%; }
-
   .row .large-offset-1 {
     position: relative;
     margin-left: 8.3333333333%; }
-
   .row .large-offset-2 {
     position: relative;
     margin-left: 16.6666666667%; }
-
   .row .large-offset-3 {
     position: relative;
     margin-left: 25%; }
-
   .row .large-offset-4 {
     position: relative;
     margin-left: 33.3333333333%; }
-
   .row .large-offset-5 {
     position: relative;
     margin-left: 41.6666666667%; }
-
   .row .large-offset-6 {
     position: relative;
     margin-left: 50%; }
-
   .row .large-offset-7 {
     position: relative;
     margin-left: 58.3333333333%; }
-
   .row .large-offset-8 {
     position: relative;
     margin-left: 66.6666666667%; }
-
   .row .large-offset-9 {
     position: relative;
     margin-left: 75%; }
-
   .row .large-offset-10 {
     position: relative;
     margin-left: 83.3333333333%; }
-
   .row .large-offset-11 {
     position: relative;
     margin-left: 91.6666666667%; }
-
   .push-1 {
     position: relative;
     left: 8.3333333333%;
     right: auto; }
-
   .pull-1 {
     position: relative;
     right: 8.3333333333%;
     left: auto; }
-
   .push-2 {
     position: relative;
     left: 16.6666666667%;
     right: auto; }
-
   .pull-2 {
     position: relative;
     right: 16.6666666667%;
     left: auto; }
-
   .push-3 {
     position: relative;
     left: 25%;
     right: auto; }
-
   .pull-3 {
     position: relative;
     right: 25%;
     left: auto; }
-
   .push-4 {
     position: relative;
     left: 33.3333333333%;
     right: auto; }
-
   .pull-4 {
     position: relative;
     right: 33.3333333333%;
     left: auto; }
-
   .push-5 {
     position: relative;
     left: 41.6666666667%;
     right: auto; }
-
   .pull-5 {
     position: relative;
     right: 41.6666666667%;
     left: auto; }
-
   .push-6 {
     position: relative;
     left: 50%;
     right: auto; }
-
   .pull-6 {
     position: relative;
     right: 50%;
     left: auto; }
-
   .push-7 {
     position: relative;
     left: 58.3333333333%;
     right: auto; }
-
   .pull-7 {
     position: relative;
     right: 58.3333333333%;
     left: auto; }
-
   .push-8 {
     position: relative;
     left: 66.6666666667%;
     right: auto; }
-
   .pull-8 {
     position: relative;
     right: 66.6666666667%;
     left: auto; }
-
   .push-9 {
     position: relative;
     left: 75%;
     right: auto; }
-
   .pull-9 {
     position: relative;
     right: 75%;
     left: auto; }
-
   .push-10 {
     position: relative;
     left: 83.3333333333%;
     right: auto; }
-
   .pull-10 {
     position: relative;
     right: 83.3333333333%;
     left: auto; }
-
   .push-11 {
     position: relative;
     left: 91.6666666667%;
     right: auto; }
-
   .pull-11 {
     position: relative;
     right: 91.6666666667%;
     left: auto; }
-
-  .column.large-centered, .columns.large-centered {
+  .column.large-centered,
+  .columns.large-centered {
     position: relative;
     margin-left: auto;
     margin-right: auto;
     float: none !important; }
-
-  .column.large-uncentered, .columns.large-uncentered {
+  .column.large-uncentered,
+  .columns.large-uncentered {
     margin-left: 0;
     margin-right: 0;
     float: left !important; }
-
-  .column.large-uncentered.opposite, .columns.large-uncentered.opposite {
-    float: right !important; }
- }
+  .column.large-uncentered.opposite,
+  .columns.large-uncentered.opposite {
+    float: right !important; } }
 
 /* Foundation Visibility HTML Classes */
-.show-for-small, .show-for-medium-down, .show-for-large-down {
+.show-for-small,
+.show-for-medium-down,
+.show-for-large-down {
   display: inherit !important; }
 
-.show-for-medium, .show-for-medium-up, .show-for-large, .show-for-large-up, .show-for-xlarge {
+.show-for-medium,
+.show-for-medium-up,
+.show-for-large,
+.show-for-large-up,
+.show-for-xlarge {
   display: none !important; }
 
-.hide-for-medium, .hide-for-medium-up, .hide-for-large, .hide-for-large-up, .hide-for-xlarge {
+.hide-for-medium,
+.hide-for-medium-up,
+.hide-for-large,
+.hide-for-large-up,
+.hide-for-xlarge {
   display: inherit !important; }
 
-.hide-for-small, .hide-for-medium-down, .hide-for-large-down {
+.hide-for-small,
+.hide-for-medium-down,
+.hide-for-large-down {
   display: none !important; }
 
 /* Specific visilbity for tables */
-table.show-for-small, table.show-for-medium-down, table.show-for-large-down, table.hide-for-medium, table.hide-for-medium-up, table.hide-for-large, table.hide-for-large-up, table.hide-for-xlarge {
+table.show-for-small,
+table.show-for-medium-down,
+table.show-for-large-down,
+table.hide-for-medium,
+table.hide-for-medium-up,
+table.hide-for-large,
+table.hide-for-large-up,
+table.hide-for-xlarge {
   display: table; }
 
-thead.show-for-small, thead.show-for-medium-down, thead.show-for-large-down, thead.hide-for-medium, thead.hide-for-medium-up, thead.hide-for-large, thead.hide-for-large-up, thead.hide-for-xlarge {
+thead.show-for-small,
+thead.show-for-medium-down,
+thead.show-for-large-down,
+thead.hide-for-medium,
+thead.hide-for-medium-up,
+thead.hide-for-large,
+thead.hide-for-large-up,
+thead.hide-for-xlarge {
   display: table-header-group !important; }
 
-tbody.show-for-small, tbody.show-for-medium-down, tbody.show-for-large-down, tbody.hide-for-medium, tbody.hide-for-medium-up, tbody.hide-for-large, tbody.hide-for-large-up, tbody.hide-for-xlarge {
+tbody.show-for-small,
+tbody.show-for-medium-down,
+tbody.show-for-large-down,
+tbody.hide-for-medium,
+tbody.hide-for-medium-up,
+tbody.hide-for-large,
+tbody.hide-for-large-up,
+tbody.hide-for-xlarge {
   display: table-row-group !important; }
 
-tr.show-for-small, tr.show-for-medium-down, tr.show-for-large-down, tr.hide-for-medium, tr.hide-for-medium-up, tr.hide-for-large, tr.hide-for-large-up, tr.hide-for-xlarge {
+tr.show-for-small,
+tr.show-for-medium-down,
+tr.show-for-large-down,
+tr.hide-for-medium,
+tr.hide-for-medium-up,
+tr.hide-for-large,
+tr.hide-for-large-up,
+tr.hide-for-xlarge {
   display: table-row !important; }
 
-td.show-for-small, td.show-for-medium-down, td.show-for-large-down, td.hide-for-medium, td.hide-for-medium-up, td.hide-for-large, td.hide-for-large-up, td.hide-for-xlarge, th.show-for-small, th.show-for-medium-down, th.show-for-large-down, th.hide-for-medium, th.hide-for-medium-up, th.hide-for-large, th.hide-for-large-up, th.hide-for-xlarge {
+td.show-for-small,
+td.show-for-medium-down,
+td.show-for-large-down,
+td.hide-for-medium,
+td.hide-for-medium-up,
+td.hide-for-large,
+td.hide-for-large-up,
+td.hide-for-xlarge,
+th.show-for-small,
+th.show-for-medium-down,
+th.show-for-large-down,
+th.hide-for-medium,
+th.hide-for-medium-up,
+th.hide-for-large,
+th.hide-for-large-up,
+th.hide-for-xlarge {
   display: table-cell !important; }
 
 /* Medium Displays: 768px - 1279px */
 @media only screen and (min-width: 768px) {
-  .show-for-medium, .show-for-medium-up {
+  .show-for-medium,
+  .show-for-medium-up {
     display: inherit !important; }
-
   .show-for-small {
     display: none !important; }
-
   .hide-for-small {
     display: inherit !important; }
-
-  .hide-for-medium, .hide-for-medium-up {
+  .hide-for-medium,
+  .hide-for-medium-up {
     display: none !important; }
-
   /* Specific visilbity for tables */
-  table.show-for-medium, table.show-for-medium-up, table.hide-for-small {
+  table.show-for-medium,
+  table.show-for-medium-up,
+  table.hide-for-small {
     display: table; }
-
-  thead.show-for-medium, thead.show-for-medium-up, thead.hide-for-small {
+  thead.show-for-medium,
+  thead.show-for-medium-up,
+  thead.hide-for-small {
     display: table-header-group !important; }
-
-  tbody.show-for-medium, tbody.show-for-medium-up, tbody.hide-for-small {
+  tbody.show-for-medium,
+  tbody.show-for-medium-up,
+  tbody.hide-for-small {
     display: table-row-group !important; }
-
-  tr.show-for-medium, tr.show-for-medium-up, tr.hide-for-small {
+  tr.show-for-medium,
+  tr.show-for-medium-up,
+  tr.hide-for-small {
     display: table-row !important; }
-
-  td.show-for-medium, td.show-for-medium-up, td.hide-for-small, th.show-for-medium, th.show-for-medium-up, th.hide-for-small {
-    display: table-cell !important; }
- }
+  td.show-for-medium,
+  td.show-for-medium-up,
+  td.hide-for-small,
+  th.show-for-medium,
+  th.show-for-medium-up,
+  th.hide-for-small {
+    display: table-cell !important; } }
 
 /* Large Displays: 1280px - 1440px */
-@media only screen and (min-width:1280px) {
-  .show-for-large, .show-for-large-up {
+@media only screen and (min-width: 1280px) {
+  .show-for-large,
+  .show-for-large-up {
     display: inherit !important; }
-
-  .show-for-medium, .show-for-medium-down {
+  .show-for-medium,
+  .show-for-medium-down {
     display: none !important; }
-
-  .hide-for-medium, .hide-for-medium-down {
+  .hide-for-medium,
+  .hide-for-medium-down {
     display: inherit !important; }
-
-  .hide-for-large, .hide-for-large-up {
+  .hide-for-large,
+  .hide-for-large-up {
     display: none !important; }
-
   /* Specific visilbity for tables */
-  table.show-for-large, table.show-for-large-up, table.hide-for-medium, table.hide-for-medium-down {
+  table.show-for-large,
+  table.show-for-large-up,
+  table.hide-for-medium,
+  table.hide-for-medium-down {
     display: table; }
-
-  thead.show-for-large, thead.show-for-large-up, thead.hide-for-medium, thead.hide-for-medium-down {
+  thead.show-for-large,
+  thead.show-for-large-up,
+  thead.hide-for-medium,
+  thead.hide-for-medium-down {
     display: table-header-group !important; }
-
-  tbody.show-for-large, tbody.show-for-large-up, tbody.hide-for-medium, tbody.hide-for-medium-down {
+  tbody.show-for-large,
+  tbody.show-for-large-up,
+  tbody.hide-for-medium,
+  tbody.hide-for-medium-down {
     display: table-row-group !important; }
-
-  tr.show-for-large, tr.show-for-large-up, tr.hide-for-medium, tr.hide-for-medium-down {
+  tr.show-for-large,
+  tr.show-for-large-up,
+  tr.hide-for-medium,
+  tr.hide-for-medium-down {
     display: table-row !important; }
-
-  td.show-for-large, td.show-for-large-up, td.hide-for-medium, td.hide-for-medium-down, th.show-for-large, th.show-for-large-up, th.hide-for-medium, th.hide-for-medium-down {
-    display: table-cell !important; }
- }
+  td.show-for-large,
+  td.show-for-large-up,
+  td.hide-for-medium,
+  td.hide-for-medium-down,
+  th.show-for-large,
+  th.show-for-large-up,
+  th.hide-for-medium,
+  th.hide-for-medium-down {
+    display: table-cell !important; } }
 
 /* X-Large Displays: 1400px and up */
-@media only screen and (min-width:1440px) {
+@media only screen and (min-width: 1440px) {
   .show-for-xlarge {
     display: inherit !important; }
-
-  .show-for-large, .show-for-large-down {
+  .show-for-large,
+  .show-for-large-down {
     display: none !important; }
-
-  .hide-for-large, .hide-for-large-down {
+  .hide-for-large,
+  .hide-for-large-down {
     display: inherit !important; }
-
   .hide-for-xlarge {
     display: none !important; }
-
   /* Specific visilbity for tables */
-  table.show-for-xlarge, table.hide-for-large, table.hide-for-large-down {
+  table.show-for-xlarge,
+  table.hide-for-large,
+  table.hide-for-large-down {
     display: table; }
-
-  thead.show-for-xlarge, thead.hide-for-large, thead.hide-for-large-down {
+  thead.show-for-xlarge,
+  thead.hide-for-large,
+  thead.hide-for-large-down {
     display: table-header-group !important; }
-
-  tbody.show-for-xlarge, tbody.hide-for-large, tbody.hide-for-large-down {
+  tbody.show-for-xlarge,
+  tbody.hide-for-large,
+  tbody.hide-for-large-down {
     display: table-row-group !important; }
-
-  tr.show-for-xlarge, tr.hide-for-large, tr.hide-for-large-down {
+  tr.show-for-xlarge,
+  tr.hide-for-large,
+  tr.hide-for-large-down {
     display: table-row !important; }
-
-  td.show-for-xlarge, td.hide-for-large, td.hide-for-large-down, th.show-for-xlarge, th.hide-for-large, th.hide-for-large-down {
-    display: table-cell !important; }
- }
+  td.show-for-xlarge,
+  td.hide-for-large,
+  td.hide-for-large-down,
+  th.show-for-xlarge,
+  th.hide-for-large,
+  th.hide-for-large-down {
+    display: table-cell !important; } }
 
 /* Orientation targeting */
-.show-for-landscape, .hide-for-portrait {
+.show-for-landscape,
+.hide-for-portrait {
   display: inherit !important; }
 
-.hide-for-landscape, .show-for-portrait {
+.hide-for-landscape,
+.show-for-portrait {
   display: none !important; }
 
 /* Specific visilbity for tables */
-table.hide-for-landscape, table.show-for-portrait {
+table.hide-for-landscape,
+table.show-for-portrait {
   display: table; }
 
-thead.hide-for-landscape, thead.show-for-portrait {
+thead.hide-for-landscape,
+thead.show-for-portrait {
   display: table-header-group !important; }
 
-tbody.hide-for-landscape, tbody.show-for-portrait {
+tbody.hide-for-landscape,
+tbody.show-for-portrait {
   display: table-row-group !important; }
 
-tr.hide-for-landscape, tr.show-for-portrait {
+tr.hide-for-landscape,
+tr.show-for-portrait {
   display: table-row !important; }
 
-td.hide-for-landscape, td.show-for-portrait, th.hide-for-landscape, th.show-for-portrait {
+td.hide-for-landscape,
+td.show-for-portrait,
+th.hide-for-landscape,
+th.show-for-portrait {
   display: table-cell !important; }
 
 @media only screen and (orientation: landscape) {
-  .show-for-landscape, .hide-for-portrait {
+  .show-for-landscape,
+  .hide-for-portrait {
     display: inherit !important; }
-
-  .hide-for-landscape, .show-for-portrait {
+  .hide-for-landscape,
+  .show-for-portrait {
     display: none !important; }
-
   /* Specific visilbity for tables */
-  table.show-for-landscape, table.hide-for-portrait {
+  table.show-for-landscape,
+  table.hide-for-portrait {
     display: table; }
-
-  thead.show-for-landscape, thead.hide-for-portrait {
+  thead.show-for-landscape,
+  thead.hide-for-portrait {
     display: table-header-group !important; }
-
-  tbody.show-for-landscape, tbody.hide-for-portrait {
+  tbody.show-for-landscape,
+  tbody.hide-for-portrait {
     display: table-row-group !important; }
-
-  tr.show-for-landscape, tr.hide-for-portrait {
+  tr.show-for-landscape,
+  tr.hide-for-portrait {
     display: table-row !important; }
-
-  td.show-for-landscape, td.hide-for-portrait, th.show-for-landscape, th.hide-for-portrait {
-    display: table-cell !important; }
- }
+  td.show-for-landscape,
+  td.hide-for-portrait,
+  th.show-for-landscape,
+  th.hide-for-portrait {
+    display: table-cell !important; } }
 
 @media only screen and (orientation: portrait) {
-  .show-for-portrait, .hide-for-landscape {
+  .show-for-portrait,
+  .hide-for-landscape {
     display: inherit !important; }
-
-  .hide-for-portrait, .show-for-landscape {
+  .hide-for-portrait,
+  .show-for-landscape {
     display: none !important; }
-
   /* Specific visilbity for tables */
-  table.show-for-portrait, table.hide-for-landscape {
+  table.show-for-portrait,
+  table.hide-for-landscape {
     display: table; }
-
-  thead.show-for-portrait, thead.hide-for-landscape {
+  thead.show-for-portrait,
+  thead.hide-for-landscape {
     display: table-header-group !important; }
-
-  tbody.show-for-portrait, tbody.hide-for-landscape {
+  tbody.show-for-portrait,
+  tbody.hide-for-landscape {
     display: table-row-group !important; }
-
-  tr.show-for-portrait, tr.hide-for-landscape {
+  tr.show-for-portrait,
+  tr.hide-for-landscape {
     display: table-row !important; }
-
-  td.show-for-portrait, td.hide-for-landscape, th.show-for-portrait, th.hide-for-landscape {
-    display: table-cell !important; }
- }
+  td.show-for-portrait,
+  td.hide-for-landscape,
+  th.show-for-portrait,
+  th.hide-for-landscape {
+    display: table-cell !important; } }
 
 /* Touch-enabled device targeting */
 .show-for-touch {
@@ -808,7 +844,6 @@ th.hide-for-touch {
       height: auto;
       float: left;
       padding: 0 0.625em 1.25em; }
-
   .small-block-grid-1 > li {
     width: 100%;
     padding: 0 0.625em 1.25em; }
@@ -816,7 +851,6 @@ th.hide-for-touch {
       clear: none; }
     .small-block-grid-1 > li:nth-of-type(1n+1) {
       clear: both; }
-
   .small-block-grid-2 > li {
     width: 50%;
     padding: 0 0.625em 1.25em; }
@@ -824,7 +858,6 @@ th.hide-for-touch {
       clear: none; }
     .small-block-grid-2 > li:nth-of-type(2n+1) {
       clear: both; }
-
   .small-block-grid-3 > li {
     width: 33.3333333333%;
     padding: 0 0.625em 1.25em; }
@@ -832,7 +865,6 @@ th.hide-for-touch {
       clear: none; }
     .small-block-grid-3 > li:nth-of-type(3n+1) {
       clear: both; }
-
   .small-block-grid-4 > li {
     width: 25%;
     padding: 0 0.625em 1.25em; }
@@ -840,7 +872,6 @@ th.hide-for-touch {
       clear: none; }
     .small-block-grid-4 > li:nth-of-type(4n+1) {
       clear: both; }
-
   .small-block-grid-5 > li {
     width: 20%;
     padding: 0 0.625em 1.25em; }
@@ -848,7 +879,6 @@ th.hide-for-touch {
       clear: none; }
     .small-block-grid-5 > li:nth-of-type(5n+1) {
       clear: both; }
-
   .small-block-grid-6 > li {
     width: 16.6666666667%;
     padding: 0 0.625em 1.25em; }
@@ -856,7 +886,6 @@ th.hide-for-touch {
       clear: none; }
     .small-block-grid-6 > li:nth-of-type(6n+1) {
       clear: both; }
-
   .small-block-grid-7 > li {
     width: 14.2857142857%;
     padding: 0 0.625em 1.25em; }
@@ -864,7 +893,6 @@ th.hide-for-touch {
       clear: none; }
     .small-block-grid-7 > li:nth-of-type(7n+1) {
       clear: both; }
-
   .small-block-grid-8 > li {
     width: 12.5%;
     padding: 0 0.625em 1.25em; }
@@ -872,7 +900,6 @@ th.hide-for-touch {
       clear: none; }
     .small-block-grid-8 > li:nth-of-type(8n+1) {
       clear: both; }
-
   .small-block-grid-9 > li {
     width: 11.1111111111%;
     padding: 0 0.625em 1.25em; }
@@ -880,7 +907,6 @@ th.hide-for-touch {
       clear: none; }
     .small-block-grid-9 > li:nth-of-type(9n+1) {
       clear: both; }
-
   .small-block-grid-10 > li {
     width: 10%;
     padding: 0 0.625em 1.25em; }
@@ -888,7 +914,6 @@ th.hide-for-touch {
       clear: none; }
     .small-block-grid-10 > li:nth-of-type(10n+1) {
       clear: both; }
-
   .small-block-grid-11 > li {
     width: 9.0909090909%;
     padding: 0 0.625em 1.25em; }
@@ -896,55 +921,41 @@ th.hide-for-touch {
       clear: none; }
     .small-block-grid-11 > li:nth-of-type(11n+1) {
       clear: both; }
-
   .small-block-grid-12 > li {
     width: 8.3333333333%;
     padding: 0 0.625em 1.25em; }
     .small-block-grid-12 > li:nth-of-type(n) {
       clear: none; }
     .small-block-grid-12 > li:nth-of-type(12n+1) {
-      clear: both; }
- }
+      clear: both; } }
 
 /* Foundation Block Grids for above small breakpoint */
 @media only screen and (min-width: 768px) {
   /* Remove small grid clearing */
   .small-block-grid-1 > li:nth-of-type(1n+1) {
     clear: none; }
-
   .small-block-grid-2 > li:nth-of-type(2n+1) {
     clear: none; }
-
   .small-block-grid-3 > li:nth-of-type(3n+1) {
     clear: none; }
-
   .small-block-grid-4 > li:nth-of-type(4n+1) {
     clear: none; }
-
   .small-block-grid-5 > li:nth-of-type(5n+1) {
     clear: none; }
-
   .small-block-grid-6 > li:nth-of-type(6n+1) {
     clear: none; }
-
   .small-block-grid-7 > li:nth-of-type(7n+1) {
     clear: none; }
-
   .small-block-grid-8 > li:nth-of-type(8n+1) {
     clear: none; }
-
   .small-block-grid-9 > li:nth-of-type(9n+1) {
     clear: none; }
-
   .small-block-grid-10 > li:nth-of-type(10n+1) {
     clear: none; }
-
   .small-block-grid-11 > li:nth-of-type(11n+1) {
     clear: none; }
-
   .small-block-grid-12 > li:nth-of-type(12n+1) {
     clear: none; }
-
   .large-block-grid-1 > li {
     width: 100%;
     padding: 0 0.625em 1.25em; }
@@ -952,7 +963,6 @@ th.hide-for-touch {
       clear: none; }
     .large-block-grid-1 > li:nth-of-type(1n+1) {
       clear: both; }
-
   .large-block-grid-2 > li {
     width: 50%;
     padding: 0 0.625em 1.25em; }
@@ -960,7 +970,6 @@ th.hide-for-touch {
       clear: none; }
     .large-block-grid-2 > li:nth-of-type(2n+1) {
       clear: both; }
-
   .large-block-grid-3 > li {
     width: 33.3333333333%;
     padding: 0 0.625em 1.25em; }
@@ -968,7 +977,6 @@ th.hide-for-touch {
       clear: none; }
     .large-block-grid-3 > li:nth-of-type(3n+1) {
       clear: both; }
-
   .large-block-grid-4 > li {
     width: 25%;
     padding: 0 0.625em 1.25em; }
@@ -976,7 +984,6 @@ th.hide-for-touch {
       clear: none; }
     .large-block-grid-4 > li:nth-of-type(4n+1) {
       clear: both; }
-
   .large-block-grid-5 > li {
     width: 20%;
     padding: 0 0.625em 1.25em; }
@@ -984,7 +991,6 @@ th.hide-for-touch {
       clear: none; }
     .large-block-grid-5 > li:nth-of-type(5n+1) {
       clear: both; }
-
   .large-block-grid-6 > li {
     width: 16.6666666667%;
     padding: 0 0.625em 1.25em; }
@@ -992,7 +998,6 @@ th.hide-for-touch {
       clear: none; }
     .large-block-grid-6 > li:nth-of-type(6n+1) {
       clear: both; }
-
   .large-block-grid-7 > li {
     width: 14.2857142857%;
     padding: 0 0.625em 1.25em; }
@@ -1000,7 +1005,6 @@ th.hide-for-touch {
       clear: none; }
     .large-block-grid-7 > li:nth-of-type(7n+1) {
       clear: both; }
-
   .large-block-grid-8 > li {
     width: 12.5%;
     padding: 0 0.625em 1.25em; }
@@ -1008,7 +1012,6 @@ th.hide-for-touch {
       clear: none; }
     .large-block-grid-8 > li:nth-of-type(8n+1) {
       clear: both; }
-
   .large-block-grid-9 > li {
     width: 11.1111111111%;
     padding: 0 0.625em 1.25em; }
@@ -1016,7 +1019,6 @@ th.hide-for-touch {
       clear: none; }
     .large-block-grid-9 > li:nth-of-type(9n+1) {
       clear: both; }
-
   .large-block-grid-10 > li {
     width: 10%;
     padding: 0 0.625em 1.25em; }
@@ -1024,7 +1026,6 @@ th.hide-for-touch {
       clear: none; }
     .large-block-grid-10 > li:nth-of-type(10n+1) {
       clear: both; }
-
   .large-block-grid-11 > li {
     width: 9.0909090909%;
     padding: 0 0.625em 1.25em; }
@@ -1032,15 +1033,13 @@ th.hide-for-touch {
       clear: none; }
     .large-block-grid-11 > li:nth-of-type(11n+1) {
       clear: both; }
-
   .large-block-grid-12 > li {
     width: 8.3333333333%;
     padding: 0 0.625em 1.25em; }
     .large-block-grid-12 > li:nth-of-type(n) {
       clear: none; }
     .large-block-grid-12 > li:nth-of-type(12n+1) {
-      clear: both; }
- }
+      clear: both; } }
 
 p.lead {
   font-size: 1.21875em;
@@ -1054,7 +1053,25 @@ p.lead {
   margin-bottom: 0.5em; }
 
 /* Typography resets */
-div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+p,
+blockquote,
+th,
+td {
   margin: 0;
   padding: 0;
   direction: ltr; }
@@ -1064,7 +1081,8 @@ a {
   color: #2ba6cb;
   text-decoration: none;
   line-height: inherit; }
-  a:hover, a:focus {
+  a:hover,
+  a:focus {
     color: #2795b6; }
   a img {
     border: none; }
@@ -1123,11 +1141,13 @@ hr {
   height: 0; }
 
 /* Helpful Typography Defaults */
-em, i {
+em,
+i {
   font-style: italic;
   line-height: inherit; }
 
-strong, b {
+strong,
+b {
   font-weight: bold;
   line-height: inherit; }
 
@@ -1136,12 +1156,14 @@ small {
   line-height: inherit; }
 
 code {
-  font-family: Consolas, 'Liberation Mono', Courier, monospace;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
   font-weight: bold;
   color: #7f0a0c; }
 
 /* Lists */
-ul, ol, dl {
+ul,
+ol,
+dl {
   font-size: 1em;
   line-height: 1.6;
   margin-bottom: 1.25em;
@@ -1152,24 +1174,33 @@ ul, ol {
   margin-left: 1.25em; }
 
 /* Unordered Lists */
-ul li ul, ul li ol {
+ul li ul,
+ul li ol {
   margin-left: 1.25em;
   margin-bottom: 0;
   font-size: 1em;
   /* Override nested font-size change */ }
-ul.square li ul, ul.circle li ul, ul.disc li ul {
+
+ul.square li ul,
+ul.circle li ul,
+ul.disc li ul {
   list-style: inherit; }
+
 ul.square {
   list-style-type: square; }
+
 ul.circle {
   list-style-type: circle; }
+
 ul.disc {
   list-style-type: disc; }
+
 ul.no-bullet {
   list-style: none; }
 
 /* Ordered Lists */
-ol li ul, ol li ol {
+ol li ul,
+ol li ol {
   margin-left: 1.25em;
   margin-bottom: 0; }
 
@@ -1177,11 +1208,13 @@ ol li ul, ol li ol {
 dl dt {
   margin-bottom: 0.3em;
   font-weight: bold; }
+
 dl dd {
   margin-bottom: 0.75em; }
 
 /* Abbreviations */
-abbr, acronym {
+abbr,
+acronym {
   text-transform: uppercase;
   font-size: 90%;
   color: #222;
@@ -1202,10 +1235,12 @@ blockquote {
     color: #555555; }
     blockquote cite:before {
       content: "\2014 \0020"; }
-    blockquote cite a, blockquote cite a:visited {
+    blockquote cite a,
+    blockquote cite a:visited {
       color: #555555; }
 
-blockquote, blockquote p {
+blockquote,
+blockquote p {
   line-height: 1.6;
   color: #6f6f6f; }
 
@@ -1224,6 +1259,7 @@ blockquote, blockquote p {
 
 .vevent .summary {
   font-weight: bold; }
+
 .vevent abbr {
   cursor: default;
   text-decoration: none;
@@ -1234,19 +1270,14 @@ blockquote, blockquote p {
 @media only screen and (min-width: 768px) {
   h1, h2, h3, h4, h5, h6 {
     line-height: 1.4; }
-
   h1 {
     font-size: 2.75em; }
-
   h2 {
     font-size: 2.3125em; }
-
   h3 {
     font-size: 1.6875em; }
-
   h4 {
-    font-size: 1.4375em; }
- }
+    font-size: 1.4375em; } }
 
 /*
      * Print styles.
@@ -1264,55 +1295,47 @@ blockquote, blockquote p {
     /* Black prints faster: h5bp.com/s */
     box-shadow: none !important;
     text-shadow: none !important; }
-
-  a, a:visited {
+  a,
+  a:visited {
     text-decoration: underline; }
-
   a[href]:after {
     content: " (" attr(href) ")"; }
-
   abbr[title]:after {
     content: " (" attr(title) ")"; }
-
-  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
     content: ""; }
-
-  pre, blockquote {
+  pre,
+  blockquote {
     border: 1px solid #999;
     page-break-inside: avoid; }
-
   thead {
     display: table-header-group;
     /* h5bp.com/t */ }
-
-  tr, img {
+  tr,
+  img {
     page-break-inside: avoid; }
-
   img {
     max-width: 100% !important; }
-
   @page {
     margin: 0.5cm; }
-
-  p, h2, h3 {
+  p,
+  h2,
+  h3 {
     orphans: 3;
     widows: 3; }
-
-  h2, h3 {
+  h2,
+  h3 {
     page-break-after: avoid; }
-
   .hide-on-print {
     display: none !important; }
-
   .print-only {
     display: block !important; }
-
   .hide-for-print {
     display: none !important; }
-
   .show-for-print {
-    display: inherit !important; }
- }
+    display: inherit !important; } }
 
 /* Standard Forms */
 form {
@@ -1321,13 +1344,19 @@ form {
 /* Using forms within rows, we need to set some defaults */
 form .row .row {
   margin: 0 -0.5em; }
-  form .row .row .column, form .row .row .columns {
+  form .row .row .column,
+  form .row .row .columns {
     padding: 0 0.5em; }
   form .row .row.collapse {
     margin: 0; }
-    form .row .row.collapse .column, form .row .row.collapse .columns {
+    form .row .row.collapse .column,
+    form .row .row.collapse .columns {
       padding: 0; }
-form .row input.column, form .row input.columns, form .row textarea.column, form .row textarea.columns {
+
+form .row input.column,
+form .row input.columns,
+form .row textarea.column,
+form .row textarea.columns {
   padding-left: 0.5em; }
 
 /* Label Styles */
@@ -1346,7 +1375,8 @@ label {
     padding: 0.625em 0; }
 
 /* Attach elements to the beginning or end of an input */
-.prefix, .postfix {
+.prefix,
+.postfix {
   display: block;
   position: relative;
   z-index: 2;
@@ -1457,6 +1487,7 @@ span.postfix {
   -webkit-border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
   border-top-left-radius: 3px; }
+
 .input-group.radius > *:last-child, .input-group.radius > *:last-child * {
   -moz-border-radius-topright: 3px;
   -moz-border-radius-bottomright: 3px;
@@ -1464,6 +1495,7 @@ span.postfix {
   -webkit-border-bottom-right-radius: 3px;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px; }
+
 .input-group.round > *:first-child, .input-group.round > *:first-child * {
   -moz-border-radius-bottomleft: 1000px;
   -moz-border-radius-topleft: 1000px;
@@ -1471,6 +1503,7 @@ span.postfix {
   -webkit-border-top-left-radius: 1000px;
   border-bottom-left-radius: 1000px;
   border-top-left-radius: 1000px; }
+
 .input-group.round > *:last-child, .input-group.round > *:last-child * {
   -moz-border-radius-topright: 1000px;
   -moz-border-radius-bottomright: 1000px;
@@ -1480,7 +1513,20 @@ span.postfix {
   border-bottom-right-radius: 1000px; }
 
 /* We use this to get basic styling on all basic form elements */
-input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea {
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea {
   background-color: #fff;
   font-family: inherit;
   border: 1px solid #cccccc;
@@ -1498,24 +1544,63 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   box-sizing: border-box;
   -webkit-transition: -webkit-box-shadow 0.45s, border-color 0.45s ease-in-out;
   -moz-transition: -moz-box-shadow 0.45s, border-color 0.45s ease-in-out;
-  transition: box-shadow 0.45s, border-color 0.45s ease-in-out;
-  -webkit-transition: all 0.15s linear;
-  -moz-transition: all 0.15s linear;
-  transition: all 0.15s linear; }
-  input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, textarea:focus {
+  transition: box-shadow 0.45s, border-color 0.45s ease-in-out; }
+  input[type="text"]:focus,
+  input[type="password"]:focus,
+  input[type="date"]:focus,
+  input[type="datetime"]:focus,
+  input[type="datetime-local"]:focus,
+  input[type="month"]:focus,
+  input[type="week"]:focus,
+  input[type="email"]:focus,
+  input[type="number"]:focus,
+  input[type="search"]:focus,
+  input[type="tel"]:focus,
+  input[type="time"]:focus,
+  input[type="url"]:focus,
+  textarea:focus {
     -webkit-box-shadow: 0 0 5px #999999;
     -moz-box-shadow: 0 0 5px #999999;
     box-shadow: 0 0 5px #999999;
     border-color: #999999; }
-  input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, textarea:focus {
+  input[type="text"]:focus,
+  input[type="password"]:focus,
+  input[type="date"]:focus,
+  input[type="datetime"]:focus,
+  input[type="datetime-local"]:focus,
+  input[type="month"]:focus,
+  input[type="week"]:focus,
+  input[type="email"]:focus,
+  input[type="number"]:focus,
+  input[type="search"]:focus,
+  input[type="tel"]:focus,
+  input[type="time"]:focus,
+  input[type="url"]:focus,
+  textarea:focus {
     background: #fafafa;
     border-color: #999999;
     outline: none; }
-  input[type="text"][disabled], input[type="password"][disabled], input[type="date"][disabled], input[type="datetime"][disabled], input[type="datetime-local"][disabled], input[type="month"][disabled], input[type="week"][disabled], input[type="email"][disabled], input[type="number"][disabled], input[type="search"][disabled], input[type="tel"][disabled], input[type="time"][disabled], input[type="url"][disabled], textarea[disabled] {
+  input[type="text"][disabled],
+  input[type="password"][disabled],
+  input[type="date"][disabled],
+  input[type="datetime"][disabled],
+  input[type="datetime-local"][disabled],
+  input[type="month"][disabled],
+  input[type="week"][disabled],
+  input[type="email"][disabled],
+  input[type="number"][disabled],
+  input[type="search"][disabled],
+  input[type="tel"][disabled],
+  input[type="time"][disabled],
+  input[type="url"][disabled],
+  textarea[disabled] {
     background-color: #ddd; }
 
 /* Adjust margin for form elements below */
-input[type="file"], input[type="checkbox"], input[type="radio"], select {
+input[type="file"],
+input[type="checkbox"],
+input[type="radio"],
+select {
   margin: 0 0 1em 0; }
 
 /* Normalize file input width */
@@ -1535,17 +1620,25 @@ fieldset {
     margin-left: -0.1875em; }
 
 /* Error Handling */
-.error input, input.error, .error textarea, textarea.error {
+.error input,
+input.error,
+.error textarea,
+textarea.error {
   border-color: #c60f13;
   background-color: rgba(198, 15, 19, 0.1); }
-  .error input:focus, input.error:focus, .error textarea:focus, textarea.error:focus {
+  .error input:focus,
+  input.error:focus,
+  .error textarea:focus,
+  textarea.error:focus {
     background: #fafafa;
     border-color: #999999; }
 
-.error label, label.error {
+.error label,
+label.error {
   color: #c60f13; }
 
-.error small, small.error {
+.error small,
+small.error {
   display: block;
   padding: 0.375em 0.25em;
   margin-top: -1.3125em;
@@ -1560,6 +1653,7 @@ form.custom .hidden-field {
   margin-left: -99999px;
   position: absolute;
   visibility: hidden; }
+
 form.custom .custom {
   display: inline-block;
   width: 16px;
@@ -1753,7 +1847,10 @@ form.custom {
     padding-bottom: 57.25%; }
   .flex-video.vimeo {
     padding-top: 0; }
-  .flex-video iframe, .flex-video object, .flex-video embed, .flex-video video {
+  .flex-video iframe,
+  .flex-video object,
+  .flex-video embed,
+  .flex-video video {
     position: absolute;
     top: 0;
     left: 0;
@@ -1767,79 +1864,117 @@ form.custom {
   margin-bottom: 1.25em;
   border: 1px solid #ccc;
   border-top: none; }
-  .section-container > section, .section-container > .section, .section-container.auto > section, .section-container.auto > .section {
+  .section-container > section,
+  .section-container > .section, .section-container.auto > section,
+  .section-container.auto > .section {
     position: relative; }
-    .section-container > section > .title, .section-container > .section > .title, .section-container.auto > section > .title, .section-container.auto > .section > .title {
+    .section-container > section > .title,
+    .section-container > .section > .title, .section-container.auto > section > .title,
+    .section-container.auto > .section > .title {
       background-color: #efefef;
       cursor: pointer;
       margin-bottom: 0; }
-      .section-container > section > .title a, .section-container > .section > .title a, .section-container.auto > section > .title a, .section-container.auto > .section > .title a {
+      .section-container > section > .title a,
+      .section-container > .section > .title a, .section-container.auto > section > .title a,
+      .section-container.auto > .section > .title a {
         padding: 0.9375em;
         display: inline-block;
         color: #333;
         font-size: 0.875em;
         white-space: nowrap; }
-      .section-container > section > .title:hover, .section-container > .section > .title:hover, .section-container.auto > section > .title:hover, .section-container.auto > .section > .title:hover {
+      .section-container > section > .title:hover,
+      .section-container > .section > .title:hover, .section-container.auto > section > .title:hover,
+      .section-container.auto > .section > .title:hover {
         background-color: #e2e2e2; }
-    .section-container > section .content, .section-container > .section .content, .section-container.auto > section .content, .section-container.auto > .section .content {
+    .section-container > section .content,
+    .section-container > .section .content, .section-container.auto > section .content,
+    .section-container.auto > .section .content {
       display: none;
       padding: 0.9375em;
       background-color: #fff; }
-      .section-container > section .content > *:last-child, .section-container > .section .content > *:last-child, .section-container.auto > section .content > *:last-child, .section-container.auto > .section .content > *:last-child {
+      .section-container > section .content > *:last-child,
+      .section-container > .section .content > *:last-child, .section-container.auto > section .content > *:last-child,
+      .section-container.auto > .section .content > *:last-child {
         margin-bottom: 0; }
-      .section-container > section .content > *:first-child, .section-container > .section .content > *:first-child, .section-container.auto > section .content > *:first-child, .section-container.auto > .section .content > *:first-child {
+      .section-container > section .content > *:first-child,
+      .section-container > .section .content > *:first-child, .section-container.auto > section .content > *:first-child,
+      .section-container.auto > .section .content > *:first-child {
         padding-top: 0; }
-      .section-container > section .content > *:last-child, .section-container > .section .content > *:last-child, .section-container.auto > section .content > *:last-child, .section-container.auto > .section .content > *:last-child {
+      .section-container > section .content > *:last-child,
+      .section-container > .section .content > *:last-child, .section-container.auto > section .content > *:last-child,
+      .section-container.auto > .section .content > *:last-child {
         padding-bottom: 0; }
-    .section-container > section.active > .content, .section-container > .section.active > .content, .section-container.auto > section.active > .content, .section-container.auto > .section.active > .content {
+    .section-container > section.active > .content,
+    .section-container > .section.active > .content, .section-container.auto > section.active > .content,
+    .section-container.auto > .section.active > .content {
       display: block; }
-    .section-container > section.active > .title, .section-container > .section.active > .title, .section-container.auto > section.active > .title, .section-container.auto > .section.active > .title {
+    .section-container > section.active > .title,
+    .section-container > .section.active > .title, .section-container.auto > section.active > .title,
+    .section-container.auto > .section.active > .title {
       background: #d5d5d5; }
-      .section-container > section.active > .title a, .section-container > .section.active > .title a, .section-container.auto > section.active > .title a, .section-container.auto > .section.active > .title a {
+      .section-container > section.active > .title a,
+      .section-container > .section.active > .title a, .section-container.auto > section.active > .title a,
+      .section-container.auto > .section.active > .title a {
         color: #333; }
-    .section-container > section > .title, .section-container > .section > .title, .section-container.auto > section > .title, .section-container.auto > .section > .title {
+    .section-container > section > .title,
+    .section-container > .section > .title, .section-container.auto > section > .title,
+    .section-container.auto > .section > .title {
       top: 0;
       width: 100%;
       margin: 0;
       border-top: solid 1px #ccc; }
-      .section-container > section > .title a, .section-container > .section > .title a, .section-container.auto > section > .title a, .section-container.auto > .section > .title a {
+      .section-container > section > .title a,
+      .section-container > .section > .title a, .section-container.auto > section > .title a,
+      .section-container.auto > .section > .title a {
         width: 100%; }
 
 .section-container.tabs {
   border: 0;
   position: relative; }
-  .section-container.tabs > section, .section-container.tabs > .section {
+  .section-container.tabs > section,
+  .section-container.tabs > .section {
     border: 0;
     position: static; }
-    .section-container.tabs > section > .title, .section-container.tabs > .section > .title {
+    .section-container.tabs > section > .title,
+    .section-container.tabs > .section > .title {
       background-color: #efefef;
       cursor: pointer;
       margin-bottom: 0; }
-      .section-container.tabs > section > .title a, .section-container.tabs > .section > .title a {
+      .section-container.tabs > section > .title a,
+      .section-container.tabs > .section > .title a {
         padding: 0.9375em;
         display: inline-block;
         color: #333;
         font-size: 0.875em;
         white-space: nowrap; }
-      .section-container.tabs > section > .title:hover, .section-container.tabs > .section > .title:hover {
+      .section-container.tabs > section > .title:hover,
+      .section-container.tabs > .section > .title:hover {
         background-color: #e2e2e2; }
-    .section-container.tabs > section .content, .section-container.tabs > .section .content {
+    .section-container.tabs > section .content,
+    .section-container.tabs > .section .content {
       display: none;
       padding: 0.9375em;
       background-color: #fff; }
-      .section-container.tabs > section .content > *:last-child, .section-container.tabs > .section .content > *:last-child {
+      .section-container.tabs > section .content > *:last-child,
+      .section-container.tabs > .section .content > *:last-child {
         margin-bottom: 0; }
-      .section-container.tabs > section .content > *:first-child, .section-container.tabs > .section .content > *:first-child {
+      .section-container.tabs > section .content > *:first-child,
+      .section-container.tabs > .section .content > *:first-child {
         padding-top: 0; }
-      .section-container.tabs > section .content > *:last-child, .section-container.tabs > .section .content > *:last-child {
+      .section-container.tabs > section .content > *:last-child,
+      .section-container.tabs > .section .content > *:last-child {
         padding-bottom: 0; }
-    .section-container.tabs > section.active > .content, .section-container.tabs > .section.active > .content {
+    .section-container.tabs > section.active > .content,
+    .section-container.tabs > .section.active > .content {
       display: block; }
-    .section-container.tabs > section.active > .title, .section-container.tabs > .section.active > .title {
+    .section-container.tabs > section.active > .title,
+    .section-container.tabs > .section.active > .title {
       background: #fff; }
-      .section-container.tabs > section.active > .title a, .section-container.tabs > .section.active > .title a {
+      .section-container.tabs > section.active > .title a,
+      .section-container.tabs > .section.active > .title a {
         color: #333; }
-    .section-container.tabs > section > .title, .section-container.tabs > .section > .title {
+    .section-container.tabs > section > .title,
+    .section-container.tabs > .section > .title {
       width: auto;
       border: solid 1px #ccc;
       border-right: 0;
@@ -1847,59 +1982,76 @@ form.custom {
       position: absolute;
       top: 0;
       z-index: 1; }
-      .section-container.tabs > section > .title a, .section-container.tabs > .section > .title a {
+      .section-container.tabs > section > .title a,
+      .section-container.tabs > .section > .title a {
         width: 100%; }
-    .section-container.tabs > section:last-child .title, .section-container.tabs > .section:last-child .title {
+    .section-container.tabs > section:last-child .title,
+    .section-container.tabs > .section:last-child .title {
       border-right: solid 1px #ccc; }
-    .section-container.tabs > section .content, .section-container.tabs > .section .content {
+    .section-container.tabs > section .content,
+    .section-container.tabs > .section .content {
       border: solid 1px #ccc;
       position: absolute;
       z-index: 10;
       display: none;
       top: -1px; }
-    .section-container.tabs > section.active > .title, .section-container.tabs > .section.active > .title {
+    .section-container.tabs > section.active > .title,
+    .section-container.tabs > .section.active > .title {
       z-index: 11;
       border-bottom: 0;
       background-color: #fff; }
-    .section-container.tabs > section.active > .content, .section-container.tabs > .section.active > .content {
+    .section-container.tabs > section.active > .content,
+    .section-container.tabs > .section.active > .content {
       position: relative; }
 
 @media only screen and (min-width: 768px) {
   .section-container.auto {
     border: 0;
     position: relative; }
-    .section-container.auto > section, .section-container.auto > .section {
+    .section-container.auto > section,
+    .section-container.auto > .section {
       border: 0;
       position: static; }
-      .section-container.auto > section > .title, .section-container.auto > .section > .title {
+      .section-container.auto > section > .title,
+      .section-container.auto > .section > .title {
         background-color: #efefef;
         cursor: pointer;
         margin-bottom: 0; }
-        .section-container.auto > section > .title a, .section-container.auto > .section > .title a {
+        .section-container.auto > section > .title a,
+        .section-container.auto > .section > .title a {
           padding: 0.9375em;
           display: inline-block;
           color: #333;
           font-size: 0.875em;
           white-space: nowrap; }
-        .section-container.auto > section > .title:hover, .section-container.auto > .section > .title:hover {
+        .section-container.auto > section > .title:hover,
+        .section-container.auto > .section > .title:hover {
           background-color: #e2e2e2; }
-      .section-container.auto > section .content, .section-container.auto > .section .content {
+      .section-container.auto > section .content,
+      .section-container.auto > .section .content {
         display: none;
         padding: 0.9375em;
         background-color: #fff; }
-        .section-container.auto > section .content > *:last-child, .section-container.auto > .section .content > *:last-child {
+        .section-container.auto > section .content > *:last-child,
+        .section-container.auto > .section .content > *:last-child {
           margin-bottom: 0; }
-        .section-container.auto > section .content > *:first-child, .section-container.auto > .section .content > *:first-child {
+        .section-container.auto > section .content > *:first-child,
+        .section-container.auto > .section .content > *:first-child {
           padding-top: 0; }
-        .section-container.auto > section .content > *:last-child, .section-container.auto > .section .content > *:last-child {
+        .section-container.auto > section .content > *:last-child,
+        .section-container.auto > .section .content > *:last-child {
           padding-bottom: 0; }
-      .section-container.auto > section.active > .content, .section-container.auto > .section.active > .content {
+      .section-container.auto > section.active > .content,
+      .section-container.auto > .section.active > .content {
         display: block; }
-      .section-container.auto > section.active > .title, .section-container.auto > .section.active > .title {
+      .section-container.auto > section.active > .title,
+      .section-container.auto > .section.active > .title {
         background: #fff; }
-        .section-container.auto > section.active > .title a, .section-container.auto > .section.active > .title a {
+        .section-container.auto > section.active > .title a,
+        .section-container.auto > .section.active > .title a {
           color: #333; }
-      .section-container.auto > section > .title, .section-container.auto > .section > .title {
+      .section-container.auto > section > .title,
+      .section-container.auto > .section > .title {
         width: auto;
         border: solid 1px #ccc;
         border-right: 0;
@@ -1907,126 +2059,160 @@ form.custom {
         position: absolute;
         top: 0;
         z-index: 1; }
-        .section-container.auto > section > .title a, .section-container.auto > .section > .title a {
+        .section-container.auto > section > .title a,
+        .section-container.auto > .section > .title a {
           width: 100%; }
-      .section-container.auto > section:last-child .title, .section-container.auto > .section:last-child .title {
+      .section-container.auto > section:last-child .title,
+      .section-container.auto > .section:last-child .title {
         border-right: solid 1px #ccc; }
-      .section-container.auto > section .content, .section-container.auto > .section .content {
+      .section-container.auto > section .content,
+      .section-container.auto > .section .content {
         border: solid 1px #ccc;
         position: absolute;
         z-index: 10;
         display: none;
         top: -1px; }
-      .section-container.auto > section.active > .title, .section-container.auto > .section.active > .title {
+      .section-container.auto > section.active > .title,
+      .section-container.auto > .section.active > .title {
         z-index: 11;
         border-bottom: 0;
         background-color: #fff; }
-      .section-container.auto > section.active > .content, .section-container.auto > .section.active > .content {
+      .section-container.auto > section.active > .content,
+      .section-container.auto > .section.active > .content {
         position: relative; }
-
   .section-container.accordion .section {
     padding-top: 0 !important; }
-
   .section-container.vertical-tabs {
     border: 1px solid #ccc;
     position: relative; }
-    .section-container.vertical-tabs section, .section-container.vertical-tabs .section {
+    .section-container.vertical-tabs section,
+    .section-container.vertical-tabs .section {
       padding-top: 0 !important;
       border: 0;
       position: static; }
-      .section-container.vertical-tabs section > .title, .section-container.vertical-tabs .section > .title {
+      .section-container.vertical-tabs section > .title,
+      .section-container.vertical-tabs .section > .title {
         background-color: #efefef;
         cursor: pointer;
         margin-bottom: 0; }
-        .section-container.vertical-tabs section > .title a, .section-container.vertical-tabs .section > .title a {
+        .section-container.vertical-tabs section > .title a,
+        .section-container.vertical-tabs .section > .title a {
           padding: 0.9375em;
           display: inline-block;
           color: #333;
           font-size: 0.875em;
           white-space: nowrap; }
-        .section-container.vertical-tabs section > .title:hover, .section-container.vertical-tabs .section > .title:hover {
+        .section-container.vertical-tabs section > .title:hover,
+        .section-container.vertical-tabs .section > .title:hover {
           background-color: #e2e2e2; }
-      .section-container.vertical-tabs section .content, .section-container.vertical-tabs .section .content {
+      .section-container.vertical-tabs section .content,
+      .section-container.vertical-tabs .section .content {
         display: none;
         padding: 0.9375em;
         background-color: #fff; }
-        .section-container.vertical-tabs section .content > *:last-child, .section-container.vertical-tabs .section .content > *:last-child {
+        .section-container.vertical-tabs section .content > *:last-child,
+        .section-container.vertical-tabs .section .content > *:last-child {
           margin-bottom: 0; }
-        .section-container.vertical-tabs section .content > *:first-child, .section-container.vertical-tabs .section .content > *:first-child {
+        .section-container.vertical-tabs section .content > *:first-child,
+        .section-container.vertical-tabs .section .content > *:first-child {
           padding-top: 0; }
-        .section-container.vertical-tabs section .content > *:last-child, .section-container.vertical-tabs .section .content > *:last-child {
+        .section-container.vertical-tabs section .content > *:last-child,
+        .section-container.vertical-tabs .section .content > *:last-child {
           padding-bottom: 0; }
-      .section-container.vertical-tabs section.active > .content, .section-container.vertical-tabs .section.active > .content {
+      .section-container.vertical-tabs section.active > .content,
+      .section-container.vertical-tabs .section.active > .content {
         display: block; }
-      .section-container.vertical-tabs section.active > .title, .section-container.vertical-tabs .section.active > .title {
+      .section-container.vertical-tabs section.active > .title,
+      .section-container.vertical-tabs .section.active > .title {
         background: #d5d5d5; }
-        .section-container.vertical-tabs section.active > .title a, .section-container.vertical-tabs .section.active > .title a {
+        .section-container.vertical-tabs section.active > .title a,
+        .section-container.vertical-tabs .section.active > .title a {
           color: #333; }
-      .section-container.vertical-tabs section > .title, .section-container.vertical-tabs .section > .title {
+      .section-container.vertical-tabs section > .title,
+      .section-container.vertical-tabs .section > .title {
         position: absolute;
         border-top: solid 1px #ccc;
         width: 12.5em; }
-      .section-container.vertical-tabs section:first-child .title, .section-container.vertical-tabs .section:first-child .title {
+      .section-container.vertical-tabs section:first-child .title,
+      .section-container.vertical-tabs .section:first-child .title {
         border-top: 0; }
-      .section-container.vertical-tabs section .content, .section-container.vertical-tabs .section .content {
+      .section-container.vertical-tabs section .content,
+      .section-container.vertical-tabs .section .content {
         display: block;
         position: relative;
         left: 12.5em;
         border-left: solid 1px #ccc;
         z-index: 10; }
-      .section-container.vertical-tabs section.active > .title, .section-container.vertical-tabs .section.active > .title {
+      .section-container.vertical-tabs section.active > .title,
+      .section-container.vertical-tabs .section.active > .title {
         background-color: #d5d5d5;
         width: 12.5625em;
         border-right: solid 0 transparent;
         z-index: 11; }
-      .section-container.vertical-tabs section.active:last-child .title, .section-container.vertical-tabs .section.active:last-child .title {
+      .section-container.vertical-tabs section.active:last-child .title,
+      .section-container.vertical-tabs .section.active:last-child .title {
         border-bottom: 0; }
-
   .section-container.vertical-nav {
     border: 0;
     position: relative; }
-    .section-container.vertical-nav > section, .section-container.vertical-nav > .section {
+    .section-container.vertical-nav > section,
+    .section-container.vertical-nav > .section {
       padding-top: 0 !important;
       position: relative; }
-      .section-container.vertical-nav > section > .title, .section-container.vertical-nav > .section > .title {
+      .section-container.vertical-nav > section > .title,
+      .section-container.vertical-nav > .section > .title {
         background-color: #efefef;
         cursor: pointer;
         margin-bottom: 0; }
-        .section-container.vertical-nav > section > .title a, .section-container.vertical-nav > .section > .title a {
+        .section-container.vertical-nav > section > .title a,
+        .section-container.vertical-nav > .section > .title a {
           padding: 0.9375em;
           display: inline-block;
           color: #333;
           font-size: 0.875em;
           white-space: nowrap; }
-        .section-container.vertical-nav > section > .title:hover, .section-container.vertical-nav > .section > .title:hover {
+        .section-container.vertical-nav > section > .title:hover,
+        .section-container.vertical-nav > .section > .title:hover {
           background-color: #e2e2e2; }
-      .section-container.vertical-nav > section .content, .section-container.vertical-nav > .section .content {
+      .section-container.vertical-nav > section .content,
+      .section-container.vertical-nav > .section .content {
         display: none;
         padding: 0.9375em;
         background-color: #fff; }
-        .section-container.vertical-nav > section .content > *:last-child, .section-container.vertical-nav > .section .content > *:last-child {
+        .section-container.vertical-nav > section .content > *:last-child,
+        .section-container.vertical-nav > .section .content > *:last-child {
           margin-bottom: 0; }
-        .section-container.vertical-nav > section .content > *:first-child, .section-container.vertical-nav > .section .content > *:first-child {
+        .section-container.vertical-nav > section .content > *:first-child,
+        .section-container.vertical-nav > .section .content > *:first-child {
           padding-top: 0; }
-        .section-container.vertical-nav > section .content > *:last-child, .section-container.vertical-nav > .section .content > *:last-child {
+        .section-container.vertical-nav > section .content > *:last-child,
+        .section-container.vertical-nav > .section .content > *:last-child {
           padding-bottom: 0; }
-      .section-container.vertical-nav > section.active > .content, .section-container.vertical-nav > .section.active > .content {
+      .section-container.vertical-nav > section.active > .content,
+      .section-container.vertical-nav > .section.active > .content {
         display: block; }
-      .section-container.vertical-nav > section.active > .title, .section-container.vertical-nav > .section.active > .title {
+      .section-container.vertical-nav > section.active > .title,
+      .section-container.vertical-nav > .section.active > .title {
         background: #d5d5d5; }
-        .section-container.vertical-nav > section.active > .title a, .section-container.vertical-nav > .section.active > .title a {
+        .section-container.vertical-nav > section.active > .title a,
+        .section-container.vertical-nav > .section.active > .title a {
           color: #333; }
-      .section-container.vertical-nav > section > .title, .section-container.vertical-nav > .section > .title {
+      .section-container.vertical-nav > section > .title,
+      .section-container.vertical-nav > .section > .title {
         border-top: none;
         border: solid 1px #ccc; }
-        .section-container.vertical-nav > section > .title a, .section-container.vertical-nav > .section > .title a {
+        .section-container.vertical-nav > section > .title a,
+        .section-container.vertical-nav > .section > .title a {
           display: block;
           width: 100%; }
-      .section-container.vertical-nav > section .content, .section-container.vertical-nav > .section .content {
+      .section-container.vertical-nav > section .content,
+      .section-container.vertical-nav > .section .content {
         display: none; }
-      .section-container.vertical-nav > section:first-child .title, .section-container.vertical-nav > .section:first-child .title {
+      .section-container.vertical-nav > section:first-child .title,
+      .section-container.vertical-nav > .section:first-child .title {
         border-bottom: none; }
-      .section-container.vertical-nav > section.active > .content, .section-container.vertical-nav > .section.active > .content {
+      .section-container.vertical-nav > section.active > .content,
+      .section-container.vertical-nav > .section.active > .content {
         display: block;
         position: absolute;
         left: 100%;
@@ -2034,113 +2220,296 @@ form.custom {
         z-index: 999;
         min-width: 12.5em;
         border: solid 1px #ccc; }
-
   .section-container.horizontal-nav {
     position: relative;
     background: #efefef;
     border: 1px solid #ccc; }
-    .section-container.horizontal-nav > section, .section-container.horizontal-nav > .section {
+    .section-container.horizontal-nav > section,
+    .section-container.horizontal-nav > .section {
       padding-top: 0;
       border: 0;
       position: static; }
-      .section-container.horizontal-nav > section > .title, .section-container.horizontal-nav > .section > .title {
+      .section-container.horizontal-nav > section > .title,
+      .section-container.horizontal-nav > .section > .title {
         background-color: #efefef;
         cursor: pointer;
         margin-bottom: 0; }
-        .section-container.horizontal-nav > section > .title a, .section-container.horizontal-nav > .section > .title a {
+        .section-container.horizontal-nav > section > .title a,
+        .section-container.horizontal-nav > .section > .title a {
           padding: 0.9375em;
           display: inline-block;
           color: #333;
           font-size: 0.875em;
           white-space: nowrap; }
-        .section-container.horizontal-nav > section > .title:hover, .section-container.horizontal-nav > .section > .title:hover {
+        .section-container.horizontal-nav > section > .title:hover,
+        .section-container.horizontal-nav > .section > .title:hover {
           background-color: #e2e2e2; }
-      .section-container.horizontal-nav > section .content, .section-container.horizontal-nav > .section .content {
+      .section-container.horizontal-nav > section .content,
+      .section-container.horizontal-nav > .section .content {
         display: none;
         padding: 0.9375em;
         background-color: #fff; }
-        .section-container.horizontal-nav > section .content > *:last-child, .section-container.horizontal-nav > .section .content > *:last-child {
+        .section-container.horizontal-nav > section .content > *:last-child,
+        .section-container.horizontal-nav > .section .content > *:last-child {
           margin-bottom: 0; }
-        .section-container.horizontal-nav > section .content > *:first-child, .section-container.horizontal-nav > .section .content > *:first-child {
+        .section-container.horizontal-nav > section .content > *:first-child,
+        .section-container.horizontal-nav > .section .content > *:first-child {
           padding-top: 0; }
-        .section-container.horizontal-nav > section .content > *:last-child, .section-container.horizontal-nav > .section .content > *:last-child {
+        .section-container.horizontal-nav > section .content > *:last-child,
+        .section-container.horizontal-nav > .section .content > *:last-child {
           padding-bottom: 0; }
-      .section-container.horizontal-nav > section.active > .content, .section-container.horizontal-nav > .section.active > .content {
+      .section-container.horizontal-nav > section.active > .content,
+      .section-container.horizontal-nav > .section.active > .content {
         display: block; }
-      .section-container.horizontal-nav > section.active > .title, .section-container.horizontal-nav > .section.active > .title {
+      .section-container.horizontal-nav > section.active > .title,
+      .section-container.horizontal-nav > .section.active > .title {
         background: #d5d5d5; }
-        .section-container.horizontal-nav > section.active > .title a, .section-container.horizontal-nav > .section.active > .title a {
+        .section-container.horizontal-nav > section.active > .title a,
+        .section-container.horizontal-nav > .section.active > .title a {
           color: #333; }
-      .section-container.horizontal-nav > section > .title, .section-container.horizontal-nav > .section > .title {
+      .section-container.horizontal-nav > section > .title,
+      .section-container.horizontal-nav > .section > .title {
         width: auto;
         border: solid 1px #ccc;
         border-left: 0;
         top: -1px;
         position: absolute;
         z-index: 1; }
-        .section-container.horizontal-nav > section > .title a, .section-container.horizontal-nav > .section > .title a {
+        .section-container.horizontal-nav > section > .title a,
+        .section-container.horizontal-nav > .section > .title a {
           width: 100%; }
-      .section-container.horizontal-nav > section .content, .section-container.horizontal-nav > .section .content {
+      .section-container.horizontal-nav > section .content,
+      .section-container.horizontal-nav > .section .content {
         display: none; }
-      .section-container.horizontal-nav > section.active > .content, .section-container.horizontal-nav > .section.active > .content {
+      .section-container.horizontal-nav > section.active > .content,
+      .section-container.horizontal-nav > .section.active > .content {
         display: block;
         position: absolute;
         z-index: 999;
         left: 0;
         top: -2px;
         min-width: 12.5em;
-        border: solid 1px #ccc; }
- }
+        border: solid 1px #ccc; } }
 
-.no-js .section-container.auto, .no-js .section-container.accordion, .no-js .section-container.tabs, .no-js .section-container.vertical-tabs, .no-js .section-container.vertical-nav, .no-js .section-container.horizontal-nav {
+.no-js .section-container.auto,
+.no-js .section-container.accordion,
+.no-js .section-container.tabs,
+.no-js .section-container.vertical-tabs,
+.no-js .section-container.vertical-nav,
+.no-js .section-container.horizontal-nav {
   width: 100%;
   display: block;
   margin-bottom: 1.25em;
   border: 1px solid #ccc;
   border-top: none; }
-  .no-js .section-container.auto > section, .no-js .section-container.auto > .section, .no-js .section-container.accordion > section, .no-js .section-container.accordion > .section, .no-js .section-container.tabs > section, .no-js .section-container.tabs > .section, .no-js .section-container.vertical-tabs > section, .no-js .section-container.vertical-tabs > .section, .no-js .section-container.vertical-nav > section, .no-js .section-container.vertical-nav > .section, .no-js .section-container.horizontal-nav > section, .no-js .section-container.horizontal-nav > .section {
+  .no-js .section-container.auto > section,
+  .no-js .section-container.auto > .section,
+  .no-js .section-container.accordion > section,
+  .no-js .section-container.accordion > .section,
+  .no-js .section-container.tabs > section,
+  .no-js .section-container.tabs > .section,
+  .no-js .section-container.vertical-tabs > section,
+  .no-js .section-container.vertical-tabs > .section,
+  .no-js .section-container.vertical-nav > section,
+  .no-js .section-container.vertical-nav > .section,
+  .no-js .section-container.horizontal-nav > section,
+  .no-js .section-container.horizontal-nav > .section {
     position: relative; }
-    .no-js .section-container.auto > section > .title, .no-js .section-container.auto > .section > .title, .no-js .section-container.accordion > section > .title, .no-js .section-container.accordion > .section > .title, .no-js .section-container.tabs > section > .title, .no-js .section-container.tabs > .section > .title, .no-js .section-container.vertical-tabs > section > .title, .no-js .section-container.vertical-tabs > .section > .title, .no-js .section-container.vertical-nav > section > .title, .no-js .section-container.vertical-nav > .section > .title, .no-js .section-container.horizontal-nav > section > .title, .no-js .section-container.horizontal-nav > .section > .title {
+    .no-js .section-container.auto > section > .title,
+    .no-js .section-container.auto > .section > .title,
+    .no-js .section-container.accordion > section > .title,
+    .no-js .section-container.accordion > .section > .title,
+    .no-js .section-container.tabs > section > .title,
+    .no-js .section-container.tabs > .section > .title,
+    .no-js .section-container.vertical-tabs > section > .title,
+    .no-js .section-container.vertical-tabs > .section > .title,
+    .no-js .section-container.vertical-nav > section > .title,
+    .no-js .section-container.vertical-nav > .section > .title,
+    .no-js .section-container.horizontal-nav > section > .title,
+    .no-js .section-container.horizontal-nav > .section > .title {
       background-color: #efefef;
       cursor: pointer;
       margin-bottom: 0; }
-      .no-js .section-container.auto > section > .title a, .no-js .section-container.auto > .section > .title a, .no-js .section-container.accordion > section > .title a, .no-js .section-container.accordion > .section > .title a, .no-js .section-container.tabs > section > .title a, .no-js .section-container.tabs > .section > .title a, .no-js .section-container.vertical-tabs > section > .title a, .no-js .section-container.vertical-tabs > .section > .title a, .no-js .section-container.vertical-nav > section > .title a, .no-js .section-container.vertical-nav > .section > .title a, .no-js .section-container.horizontal-nav > section > .title a, .no-js .section-container.horizontal-nav > .section > .title a {
+      .no-js .section-container.auto > section > .title a,
+      .no-js .section-container.auto > .section > .title a,
+      .no-js .section-container.accordion > section > .title a,
+      .no-js .section-container.accordion > .section > .title a,
+      .no-js .section-container.tabs > section > .title a,
+      .no-js .section-container.tabs > .section > .title a,
+      .no-js .section-container.vertical-tabs > section > .title a,
+      .no-js .section-container.vertical-tabs > .section > .title a,
+      .no-js .section-container.vertical-nav > section > .title a,
+      .no-js .section-container.vertical-nav > .section > .title a,
+      .no-js .section-container.horizontal-nav > section > .title a,
+      .no-js .section-container.horizontal-nav > .section > .title a {
         padding: 0.9375em;
         display: inline-block;
         color: #333;
         font-size: 0.875em;
         white-space: nowrap; }
-      .no-js .section-container.auto > section > .title:hover, .no-js .section-container.auto > .section > .title:hover, .no-js .section-container.accordion > section > .title:hover, .no-js .section-container.accordion > .section > .title:hover, .no-js .section-container.tabs > section > .title:hover, .no-js .section-container.tabs > .section > .title:hover, .no-js .section-container.vertical-tabs > section > .title:hover, .no-js .section-container.vertical-tabs > .section > .title:hover, .no-js .section-container.vertical-nav > section > .title:hover, .no-js .section-container.vertical-nav > .section > .title:hover, .no-js .section-container.horizontal-nav > section > .title:hover, .no-js .section-container.horizontal-nav > .section > .title:hover {
+      .no-js .section-container.auto > section > .title:hover,
+      .no-js .section-container.auto > .section > .title:hover,
+      .no-js .section-container.accordion > section > .title:hover,
+      .no-js .section-container.accordion > .section > .title:hover,
+      .no-js .section-container.tabs > section > .title:hover,
+      .no-js .section-container.tabs > .section > .title:hover,
+      .no-js .section-container.vertical-tabs > section > .title:hover,
+      .no-js .section-container.vertical-tabs > .section > .title:hover,
+      .no-js .section-container.vertical-nav > section > .title:hover,
+      .no-js .section-container.vertical-nav > .section > .title:hover,
+      .no-js .section-container.horizontal-nav > section > .title:hover,
+      .no-js .section-container.horizontal-nav > .section > .title:hover {
         background-color: #e2e2e2; }
-    .no-js .section-container.auto > section .content, .no-js .section-container.auto > .section .content, .no-js .section-container.accordion > section .content, .no-js .section-container.accordion > .section .content, .no-js .section-container.tabs > section .content, .no-js .section-container.tabs > .section .content, .no-js .section-container.vertical-tabs > section .content, .no-js .section-container.vertical-tabs > .section .content, .no-js .section-container.vertical-nav > section .content, .no-js .section-container.vertical-nav > .section .content, .no-js .section-container.horizontal-nav > section .content, .no-js .section-container.horizontal-nav > .section .content {
+    .no-js .section-container.auto > section .content,
+    .no-js .section-container.auto > .section .content,
+    .no-js .section-container.accordion > section .content,
+    .no-js .section-container.accordion > .section .content,
+    .no-js .section-container.tabs > section .content,
+    .no-js .section-container.tabs > .section .content,
+    .no-js .section-container.vertical-tabs > section .content,
+    .no-js .section-container.vertical-tabs > .section .content,
+    .no-js .section-container.vertical-nav > section .content,
+    .no-js .section-container.vertical-nav > .section .content,
+    .no-js .section-container.horizontal-nav > section .content,
+    .no-js .section-container.horizontal-nav > .section .content {
       display: none;
       padding: 0.9375em;
       background-color: #fff; }
-      .no-js .section-container.auto > section .content > *:last-child, .no-js .section-container.auto > .section .content > *:last-child, .no-js .section-container.accordion > section .content > *:last-child, .no-js .section-container.accordion > .section .content > *:last-child, .no-js .section-container.tabs > section .content > *:last-child, .no-js .section-container.tabs > .section .content > *:last-child, .no-js .section-container.vertical-tabs > section .content > *:last-child, .no-js .section-container.vertical-tabs > .section .content > *:last-child, .no-js .section-container.vertical-nav > section .content > *:last-child, .no-js .section-container.vertical-nav > .section .content > *:last-child, .no-js .section-container.horizontal-nav > section .content > *:last-child, .no-js .section-container.horizontal-nav > .section .content > *:last-child {
+      .no-js .section-container.auto > section .content > *:last-child,
+      .no-js .section-container.auto > .section .content > *:last-child,
+      .no-js .section-container.accordion > section .content > *:last-child,
+      .no-js .section-container.accordion > .section .content > *:last-child,
+      .no-js .section-container.tabs > section .content > *:last-child,
+      .no-js .section-container.tabs > .section .content > *:last-child,
+      .no-js .section-container.vertical-tabs > section .content > *:last-child,
+      .no-js .section-container.vertical-tabs > .section .content > *:last-child,
+      .no-js .section-container.vertical-nav > section .content > *:last-child,
+      .no-js .section-container.vertical-nav > .section .content > *:last-child,
+      .no-js .section-container.horizontal-nav > section .content > *:last-child,
+      .no-js .section-container.horizontal-nav > .section .content > *:last-child {
         margin-bottom: 0; }
-      .no-js .section-container.auto > section .content > *:first-child, .no-js .section-container.auto > .section .content > *:first-child, .no-js .section-container.accordion > section .content > *:first-child, .no-js .section-container.accordion > .section .content > *:first-child, .no-js .section-container.tabs > section .content > *:first-child, .no-js .section-container.tabs > .section .content > *:first-child, .no-js .section-container.vertical-tabs > section .content > *:first-child, .no-js .section-container.vertical-tabs > .section .content > *:first-child, .no-js .section-container.vertical-nav > section .content > *:first-child, .no-js .section-container.vertical-nav > .section .content > *:first-child, .no-js .section-container.horizontal-nav > section .content > *:first-child, .no-js .section-container.horizontal-nav > .section .content > *:first-child {
+      .no-js .section-container.auto > section .content > *:first-child,
+      .no-js .section-container.auto > .section .content > *:first-child,
+      .no-js .section-container.accordion > section .content > *:first-child,
+      .no-js .section-container.accordion > .section .content > *:first-child,
+      .no-js .section-container.tabs > section .content > *:first-child,
+      .no-js .section-container.tabs > .section .content > *:first-child,
+      .no-js .section-container.vertical-tabs > section .content > *:first-child,
+      .no-js .section-container.vertical-tabs > .section .content > *:first-child,
+      .no-js .section-container.vertical-nav > section .content > *:first-child,
+      .no-js .section-container.vertical-nav > .section .content > *:first-child,
+      .no-js .section-container.horizontal-nav > section .content > *:first-child,
+      .no-js .section-container.horizontal-nav > .section .content > *:first-child {
         padding-top: 0; }
-      .no-js .section-container.auto > section .content > *:last-child, .no-js .section-container.auto > .section .content > *:last-child, .no-js .section-container.accordion > section .content > *:last-child, .no-js .section-container.accordion > .section .content > *:last-child, .no-js .section-container.tabs > section .content > *:last-child, .no-js .section-container.tabs > .section .content > *:last-child, .no-js .section-container.vertical-tabs > section .content > *:last-child, .no-js .section-container.vertical-tabs > .section .content > *:last-child, .no-js .section-container.vertical-nav > section .content > *:last-child, .no-js .section-container.vertical-nav > .section .content > *:last-child, .no-js .section-container.horizontal-nav > section .content > *:last-child, .no-js .section-container.horizontal-nav > .section .content > *:last-child {
+      .no-js .section-container.auto > section .content > *:last-child,
+      .no-js .section-container.auto > .section .content > *:last-child,
+      .no-js .section-container.accordion > section .content > *:last-child,
+      .no-js .section-container.accordion > .section .content > *:last-child,
+      .no-js .section-container.tabs > section .content > *:last-child,
+      .no-js .section-container.tabs > .section .content > *:last-child,
+      .no-js .section-container.vertical-tabs > section .content > *:last-child,
+      .no-js .section-container.vertical-tabs > .section .content > *:last-child,
+      .no-js .section-container.vertical-nav > section .content > *:last-child,
+      .no-js .section-container.vertical-nav > .section .content > *:last-child,
+      .no-js .section-container.horizontal-nav > section .content > *:last-child,
+      .no-js .section-container.horizontal-nav > .section .content > *:last-child {
         padding-bottom: 0; }
-    .no-js .section-container.auto > section.active > .content, .no-js .section-container.auto > .section.active > .content, .no-js .section-container.accordion > section.active > .content, .no-js .section-container.accordion > .section.active > .content, .no-js .section-container.tabs > section.active > .content, .no-js .section-container.tabs > .section.active > .content, .no-js .section-container.vertical-tabs > section.active > .content, .no-js .section-container.vertical-tabs > .section.active > .content, .no-js .section-container.vertical-nav > section.active > .content, .no-js .section-container.vertical-nav > .section.active > .content, .no-js .section-container.horizontal-nav > section.active > .content, .no-js .section-container.horizontal-nav > .section.active > .content {
+    .no-js .section-container.auto > section.active > .content,
+    .no-js .section-container.auto > .section.active > .content,
+    .no-js .section-container.accordion > section.active > .content,
+    .no-js .section-container.accordion > .section.active > .content,
+    .no-js .section-container.tabs > section.active > .content,
+    .no-js .section-container.tabs > .section.active > .content,
+    .no-js .section-container.vertical-tabs > section.active > .content,
+    .no-js .section-container.vertical-tabs > .section.active > .content,
+    .no-js .section-container.vertical-nav > section.active > .content,
+    .no-js .section-container.vertical-nav > .section.active > .content,
+    .no-js .section-container.horizontal-nav > section.active > .content,
+    .no-js .section-container.horizontal-nav > .section.active > .content {
       display: block; }
-    .no-js .section-container.auto > section.active > .title, .no-js .section-container.auto > .section.active > .title, .no-js .section-container.accordion > section.active > .title, .no-js .section-container.accordion > .section.active > .title, .no-js .section-container.tabs > section.active > .title, .no-js .section-container.tabs > .section.active > .title, .no-js .section-container.vertical-tabs > section.active > .title, .no-js .section-container.vertical-tabs > .section.active > .title, .no-js .section-container.vertical-nav > section.active > .title, .no-js .section-container.vertical-nav > .section.active > .title, .no-js .section-container.horizontal-nav > section.active > .title, .no-js .section-container.horizontal-nav > .section.active > .title {
+    .no-js .section-container.auto > section.active > .title,
+    .no-js .section-container.auto > .section.active > .title,
+    .no-js .section-container.accordion > section.active > .title,
+    .no-js .section-container.accordion > .section.active > .title,
+    .no-js .section-container.tabs > section.active > .title,
+    .no-js .section-container.tabs > .section.active > .title,
+    .no-js .section-container.vertical-tabs > section.active > .title,
+    .no-js .section-container.vertical-tabs > .section.active > .title,
+    .no-js .section-container.vertical-nav > section.active > .title,
+    .no-js .section-container.vertical-nav > .section.active > .title,
+    .no-js .section-container.horizontal-nav > section.active > .title,
+    .no-js .section-container.horizontal-nav > .section.active > .title {
       background: #d5d5d5; }
-      .no-js .section-container.auto > section.active > .title a, .no-js .section-container.auto > .section.active > .title a, .no-js .section-container.accordion > section.active > .title a, .no-js .section-container.accordion > .section.active > .title a, .no-js .section-container.tabs > section.active > .title a, .no-js .section-container.tabs > .section.active > .title a, .no-js .section-container.vertical-tabs > section.active > .title a, .no-js .section-container.vertical-tabs > .section.active > .title a, .no-js .section-container.vertical-nav > section.active > .title a, .no-js .section-container.vertical-nav > .section.active > .title a, .no-js .section-container.horizontal-nav > section.active > .title a, .no-js .section-container.horizontal-nav > .section.active > .title a {
+      .no-js .section-container.auto > section.active > .title a,
+      .no-js .section-container.auto > .section.active > .title a,
+      .no-js .section-container.accordion > section.active > .title a,
+      .no-js .section-container.accordion > .section.active > .title a,
+      .no-js .section-container.tabs > section.active > .title a,
+      .no-js .section-container.tabs > .section.active > .title a,
+      .no-js .section-container.vertical-tabs > section.active > .title a,
+      .no-js .section-container.vertical-tabs > .section.active > .title a,
+      .no-js .section-container.vertical-nav > section.active > .title a,
+      .no-js .section-container.vertical-nav > .section.active > .title a,
+      .no-js .section-container.horizontal-nav > section.active > .title a,
+      .no-js .section-container.horizontal-nav > .section.active > .title a {
         color: #333; }
-    .no-js .section-container.auto > section > .title, .no-js .section-container.auto > .section > .title, .no-js .section-container.accordion > section > .title, .no-js .section-container.accordion > .section > .title, .no-js .section-container.tabs > section > .title, .no-js .section-container.tabs > .section > .title, .no-js .section-container.vertical-tabs > section > .title, .no-js .section-container.vertical-tabs > .section > .title, .no-js .section-container.vertical-nav > section > .title, .no-js .section-container.vertical-nav > .section > .title, .no-js .section-container.horizontal-nav > section > .title, .no-js .section-container.horizontal-nav > .section > .title {
+    .no-js .section-container.auto > section > .title,
+    .no-js .section-container.auto > .section > .title,
+    .no-js .section-container.accordion > section > .title,
+    .no-js .section-container.accordion > .section > .title,
+    .no-js .section-container.tabs > section > .title,
+    .no-js .section-container.tabs > .section > .title,
+    .no-js .section-container.vertical-tabs > section > .title,
+    .no-js .section-container.vertical-tabs > .section > .title,
+    .no-js .section-container.vertical-nav > section > .title,
+    .no-js .section-container.vertical-nav > .section > .title,
+    .no-js .section-container.horizontal-nav > section > .title,
+    .no-js .section-container.horizontal-nav > .section > .title {
       top: 0;
       width: 100%;
       margin: 0;
       border-top: solid 1px #ccc; }
-      .no-js .section-container.auto > section > .title a, .no-js .section-container.auto > .section > .title a, .no-js .section-container.accordion > section > .title a, .no-js .section-container.accordion > .section > .title a, .no-js .section-container.tabs > section > .title a, .no-js .section-container.tabs > .section > .title a, .no-js .section-container.vertical-tabs > section > .title a, .no-js .section-container.vertical-tabs > .section > .title a, .no-js .section-container.vertical-nav > section > .title a, .no-js .section-container.vertical-nav > .section > .title a, .no-js .section-container.horizontal-nav > section > .title a, .no-js .section-container.horizontal-nav > .section > .title a {
+      .no-js .section-container.auto > section > .title a,
+      .no-js .section-container.auto > .section > .title a,
+      .no-js .section-container.accordion > section > .title a,
+      .no-js .section-container.accordion > .section > .title a,
+      .no-js .section-container.tabs > section > .title a,
+      .no-js .section-container.tabs > .section > .title a,
+      .no-js .section-container.vertical-tabs > section > .title a,
+      .no-js .section-container.vertical-tabs > .section > .title a,
+      .no-js .section-container.vertical-nav > section > .title a,
+      .no-js .section-container.vertical-nav > .section > .title a,
+      .no-js .section-container.horizontal-nav > section > .title a,
+      .no-js .section-container.horizontal-nav > .section > .title a {
         width: 100%; }
-    .no-js .section-container.auto > section .title, .no-js .section-container.auto > .section .title, .no-js .section-container.accordion > section .title, .no-js .section-container.accordion > .section .title, .no-js .section-container.tabs > section .title, .no-js .section-container.tabs > .section .title, .no-js .section-container.vertical-tabs > section .title, .no-js .section-container.vertical-tabs > .section .title, .no-js .section-container.vertical-nav > section .title, .no-js .section-container.vertical-nav > .section .title, .no-js .section-container.horizontal-nav > section .title, .no-js .section-container.horizontal-nav > .section .title {
+    .no-js .section-container.auto > section .title,
+    .no-js .section-container.auto > .section .title,
+    .no-js .section-container.accordion > section .title,
+    .no-js .section-container.accordion > .section .title,
+    .no-js .section-container.tabs > section .title,
+    .no-js .section-container.tabs > .section .title,
+    .no-js .section-container.vertical-tabs > section .title,
+    .no-js .section-container.vertical-tabs > .section .title,
+    .no-js .section-container.vertical-nav > section .title,
+    .no-js .section-container.vertical-nav > .section .title,
+    .no-js .section-container.horizontal-nav > section .title,
+    .no-js .section-container.horizontal-nav > .section .title {
       position: static;
       width: 100%;
       border-left: 0;
       border-right: 0; }
-    .no-js .section-container.auto > section .content, .no-js .section-container.auto > .section .content, .no-js .section-container.accordion > section .content, .no-js .section-container.accordion > .section .content, .no-js .section-container.tabs > section .content, .no-js .section-container.tabs > .section .content, .no-js .section-container.vertical-tabs > section .content, .no-js .section-container.vertical-tabs > .section .content, .no-js .section-container.vertical-nav > section .content, .no-js .section-container.vertical-nav > .section .content, .no-js .section-container.horizontal-nav > section .content, .no-js .section-container.horizontal-nav > .section .content {
+    .no-js .section-container.auto > section .content,
+    .no-js .section-container.auto > .section .content,
+    .no-js .section-container.accordion > section .content,
+    .no-js .section-container.accordion > .section .content,
+    .no-js .section-container.tabs > section .content,
+    .no-js .section-container.tabs > .section .content,
+    .no-js .section-container.vertical-tabs > section .content,
+    .no-js .section-container.vertical-tabs > .section .content,
+    .no-js .section-container.vertical-nav > section .content,
+    .no-js .section-container.vertical-nav > .section .content,
+    .no-js .section-container.horizontal-nav > section .content,
+    .no-js .section-container.horizontal-nav > .section .content {
       position: static;
       display: block;
       width: 100%;
@@ -2174,13 +2543,14 @@ form.custom {
     list-style: none; }
   .top-bar .row {
     max-width: none; }
-  .top-bar form, .top-bar input {
+  .top-bar form,
+  .top-bar input {
     margin-bottom: 0; }
   .top-bar input {
     height: 2.45em; }
   .top-bar .button {
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+    padding-top: .5em;
+    padding-bottom: .5em;
     margin-bottom: 0; }
   .top-bar .title-area {
     position: relative;
@@ -2258,7 +2628,8 @@ form.custom {
     background: #222;
     font-size: 16px;
     margin: 0; }
-  .top-bar-section .divider, .top-bar-section [role="separator"] {
+  .top-bar-section .divider,
+  .top-bar-section [role="separator"] {
     border-bottom: solid 1px #2b2b2b;
     border-top: solid 1px black;
     clear: both;
@@ -2366,7 +2737,8 @@ form.custom {
       float: left; }
     .top-bar .name h1 a {
       width: auto; }
-    .top-bar input, .top-bar .button {
+    .top-bar input,
+    .top-bar .button {
       line-height: 2em;
       font-size: 0.875em;
       height: 2em;
@@ -2375,11 +2747,9 @@ form.custom {
       top: 8px; }
     .top-bar.expanded {
       background: #111; }
-
   .contain-to-grid .top-bar {
     max-width: 62.5em;
     margin: 0 auto; }
-
   .top-bar-section {
     -webkit-transition: none 0 0;
     -moz-transition: none 0 0;
@@ -2439,7 +2809,8 @@ form.custom {
       .top-bar-section .dropdown li .dropdown {
         left: 100%;
         top: 0; }
-    .top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
+    .top-bar-section > ul > .divider,
+    .top-bar-section > ul > [role="separator"] {
       border-bottom: none;
       border-top: none;
       border-right: solid 1px #2b2b2b;
@@ -2455,34 +2826,29 @@ form.custom {
       left: auto;
       right: 0; }
       .top-bar-section ul.right li .dropdown li .dropdown {
-        right: 100%; }
- }
+        right: 100%; } }
 
 @-webkit-keyframes rotate {
   from {
     -webkit-transform: rotate(0deg); }
-
   to {
     -webkit-transform: rotate(360deg); } }
 
 @-moz-keyframes rotate {
   from {
     -webkit-transform: rotate(0deg); }
-
   to {
     -webkit-transform: rotate(360deg); } }
 
 @-o-keyframes rotate {
   from {
     -webkit-transform: rotate(0deg); }
-
   to {
     -webkit-transform: rotate(360deg); } }
 
 @keyframes rotate {
   from {
     -webkit-transform: rotate(0deg); }
-
   to {
     -webkit-transform: rotate(360deg); } }
 
@@ -2492,7 +2858,8 @@ form.custom {
   .slideshow-wrapper ul {
     list-style-type: none;
     margin: 0; }
-    .slideshow-wrapper ul li, .slideshow-wrapper ul li .orbit-caption {
+    .slideshow-wrapper ul li,
+    .slideshow-wrapper ul li .orbit-caption {
       display: none; }
     .slideshow-wrapper ul li:first-child {
       display: block; }
@@ -2564,7 +2931,7 @@ form.custom {
     left: 10px;
     font-size: 12px;
     color: #fff;
-    background: rgba(0, 0, 0, 0); }
+    background: transparent; }
     .orbit-container .orbit-slide-number span {
       font-weight: 700;
       padding: 0.3125em; }
@@ -2600,7 +2967,8 @@ form.custom {
       border-color: transparent transparent transparent #000; }
   .orbit-container:hover .orbit-timer > span {
     display: block; }
-  .orbit-container .orbit-prev, .orbit-container .orbit-next {
+  .orbit-container .orbit-prev,
+  .orbit-container .orbit-next {
     position: absolute;
     top: 50%;
     margin-top: -25px;
@@ -2611,7 +2979,8 @@ form.custom {
     line-height: 50px;
     color: white;
     text-indent: -9999px !important; }
-    .orbit-container .orbit-prev > span, .orbit-container .orbit-next > span {
+    .orbit-container .orbit-prev > span,
+    .orbit-container .orbit-next > span {
       position: absolute;
       top: 50%;
       margin-top: -16px;
@@ -2658,17 +3027,19 @@ form.custom {
     .orbit-bullets li:last-child {
       margin-right: 0; }
 
-.touch .orbit-container .orbit-prev, .touch .orbit-container .orbit-next {
+.touch .orbit-container .orbit-prev,
+.touch .orbit-container .orbit-next {
   display: none; }
+
 .touch .orbit-bullets {
   display: none; }
 
 @media only screen and (min-width: 768px) {
-  .touch .orbit-container .orbit-prev, .touch .orbit-container .orbit-next {
+  .touch .orbit-container .orbit-prev,
+  .touch .orbit-container .orbit-next {
     display: inherit; }
   .touch .orbit-bullets {
-    display: block; }
- }
+    display: block; } }
 
 .reveal-modal-bg {
   position: fixed;
@@ -2696,7 +3067,8 @@ form.custom {
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   top: 50px; }
-  .reveal-modal .column, .reveal-modal .columns {
+  .reveal-modal .column,
+  .reveal-modal .columns {
     min-width: 0; }
   .reveal-modal > :first-child {
     margin-top: 0; }
@@ -2730,13 +3102,11 @@ form.custom {
       width: 70%; }
     .reveal-modal.xlarge {
       margin-left: -47.5%;
-      width: 95%; }
- }
+      width: 95%; } }
 
 @media print {
   .reveal-modal {
-    background: #fff !important; }
- }
+    background: #fff !important; } }
 
 /* Foundation Joyride */
 .joyride-list {
@@ -2794,7 +3164,12 @@ form.custom {
     left: -28px; }
 
 /* Typography */
-.joyride-tip-guide h1, .joyride-tip-guide h2, .joyride-tip-guide h3, .joyride-tip-guide h4, .joyride-tip-guide h5, .joyride-tip-guide h6 {
+.joyride-tip-guide h1,
+.joyride-tip-guide h2,
+.joyride-tip-guide h3,
+.joyride-tip-guide h4,
+.joyride-tip-guide h5,
+.joyride-tip-guide h6 {
   line-height: 1.25;
   margin: 0;
   font-weight: bold;
@@ -2827,8 +3202,9 @@ form.custom {
   text-decoration: none;
   font-size: 30px;
   font-weight: normal;
-  line-height: 0.5 !important; }
-  .joyride-close-tip:hover, .joyride-close-tip:focus {
+  line-height: .5 !important; }
+  .joyride-close-tip:hover,
+  .joyride-close-tip:focus {
     color: #eee !important; }
 
 .joyride-modal-bg {
@@ -2886,8 +3262,7 @@ form.custom {
       border-bottom-color: transparent !important;
       top: 22px;
       left: -28px;
-      right: auto; }
- }
+      right: auto; } }
 
 /* Clearing Styles */
 [data-clearing] {
@@ -2952,7 +3327,8 @@ form.custom {
   line-height: 1;
   color: #fff;
   display: none; }
-  .clearing-close:hover, .clearing-close:focus {
+  .clearing-close:hover,
+  .clearing-close:focus {
     color: #ccc; }
 
 .clearing-assembled .clearing-container {
@@ -2966,35 +3342,34 @@ form.custom {
     display: block; }
 
 @media only screen and (min-width: 768px) {
-  .clearing-main-prev, .clearing-main-next {
+  .clearing-main-prev,
+  .clearing-main-next {
     position: absolute;
     height: 100%;
     width: 40px;
     top: 0; }
-    .clearing-main-prev > span, .clearing-main-next > span {
+    .clearing-main-prev > span,
+    .clearing-main-next > span {
       position: absolute;
       top: 50%;
       display: block;
       width: 0;
       height: 0;
       border: solid 16px; }
-
   .clearing-main-prev {
     left: 0; }
     .clearing-main-prev > span {
       left: 5px;
       border-color: transparent;
       border-right-color: #fff; }
-
   .clearing-main-next {
     right: 0; }
     .clearing-main-next > span {
       border-color: transparent;
       border-left-color: #fff; }
-
-  .clearing-main-prev.disabled, .clearing-main-next.disabled {
+  .clearing-main-prev.disabled,
+  .clearing-main-next.disabled {
     opacity: 0.5; }
-
   .clearing-assembled .clearing-container .carousel {
     background: #111;
     height: 150px;
@@ -3036,14 +3411,12 @@ form.custom {
     background: #111;
     overflow: hidden;
     height: 75%; }
-
   .clearing-close {
     position: absolute;
     top: 10px;
     right: 20px;
     padding-left: 0;
-    padding-top: 0; }
- }
+    padding-top: 0; } }
 
 /* Foundation Alerts */
 .alert-box {
@@ -3067,7 +3440,8 @@ form.custom {
     right: 0.3125em;
     color: #333;
     opacity: 0.3; }
-    .alert-box .close:hover, .alert-box .close:focus {
+    .alert-box .close:hover,
+    .alert-box .close:focus {
       opacity: 0.5; }
   .alert-box.radius {
     -webkit-border-radius: 3px;
@@ -3109,7 +3483,8 @@ form.custom {
     color: #2ba6cb; }
     .breadcrumbs > *:hover a, .breadcrumbs > *:focus a {
       text-decoration: underline; }
-    .breadcrumbs > * a, .breadcrumbs > * span {
+    .breadcrumbs > * a,
+    .breadcrumbs > * span {
       text-transform: uppercase;
       color: #2ba6cb; }
     .breadcrumbs > *.current {
@@ -3118,13 +3493,17 @@ form.custom {
       .breadcrumbs > *.current a {
         cursor: default;
         color: #333; }
-      .breadcrumbs > *.current:hover, .breadcrumbs > *.current:hover a, .breadcrumbs > *.current:focus, .breadcrumbs > *.current:focus a {
+      .breadcrumbs > *.current:hover, .breadcrumbs > *.current:hover a,
+      .breadcrumbs > *.current:focus, .breadcrumbs > *.current:focus a {
         text-decoration: none; }
     .breadcrumbs > *.unavailable {
       color: #999; }
       .breadcrumbs > *.unavailable a {
         color: #999; }
-      .breadcrumbs > *.unavailable:hover, .breadcrumbs > *.unavailable:hover a, .breadcrumbs > *.unavailable:focus, .breadcrumbs > *.unavailable a:focus {
+      .breadcrumbs > *.unavailable:hover,
+      .breadcrumbs > *.unavailable:hover a,
+      .breadcrumbs > *.unavailable:focus,
+      .breadcrumbs > *.unavailable a:focus {
         text-decoration: none;
         color: #999;
         cursor: default; }
@@ -3139,7 +3518,8 @@ form.custom {
       margin: 0; }
 
 /* Keystroke Characters */
-.keystroke, kbd {
+.keystroke,
+kbd {
   background-color: #ededed;
   border-color: #dbdbdb;
   color: #222;
@@ -3213,7 +3593,8 @@ form.custom {
       display: block;
       padding: 0.0625em 0.4375em 0.0625em;
       color: #999; }
-    .pagination li:hover a, .pagination li a:focus {
+    .pagination li:hover a,
+    .pagination li a:focus {
       background: #e6e6e6; }
     .pagination li.unavailable a {
       cursor: default;
@@ -3225,7 +3606,8 @@ form.custom {
       color: #fff;
       font-weight: bold;
       cursor: default; }
-      .pagination li.current a:hover, .pagination li.current a:focus {
+      .pagination li.current a:hover,
+      .pagination li.current a:focus {
         background: #2ba6cb; }
 
 .pagination-centered {
@@ -3389,17 +3771,20 @@ form.custom {
   padding-top: 0.25em;
   margin-right: 0;
   margin-left: -0.5625em; }
-  .sub-nav dt, .sub-nav dd {
+  .sub-nav dt,
+  .sub-nav dd {
     float: left;
     display: inline;
     margin-left: 0.5625em;
     margin-bottom: 0.625em;
     font-weight: normal;
     font-size: 0.875em; }
-    .sub-nav dt a, .sub-nav dd a {
+    .sub-nav dt a,
+    .sub-nav dd a {
       color: #999;
       text-decoration: none; }
-    .sub-nav dt.active a, .sub-nav dd.active a {
+    .sub-nav dt.active a,
+    .sub-nav dd.active a {
       -webkit-border-radius: 1000px;
       border-radius: 1000px;
       font-weight: bold;
@@ -3443,7 +3828,8 @@ form.custom {
       width: 100%;
       height: 100%;
       -moz-appearance: none; }
-      div.switch input:hover, div.switch input:focus {
+      div.switch input:hover,
+      div.switch input:focus {
         cursor: pointer; }
     div.switch > span {
       position: absolute;
@@ -3464,15 +3850,19 @@ form.custom {
     div.switch input {
       left: 0;
       display: block !important; }
-    div.switch input:first-of-type + label, div.switch input:first-of-type + span + label {
+    div.switch input:first-of-type + label,
+    div.switch input:first-of-type + span + label {
       left: -50%; }
-    div.switch input:first-of-type:checked + label, div.switch input:first-of-type:checked + span + label {
+    div.switch input:first-of-type:checked + label,
+    div.switch input:first-of-type:checked + span + label {
       left: 0%; }
-    div.switch input:last-of-type + label, div.switch input:last-of-type + span + label {
+    div.switch input:last-of-type + label,
+    div.switch input:last-of-type + span + label {
       right: -50%;
       left: auto;
       text-align: right; }
-    div.switch input:last-of-type:checked + label, div.switch input:last-of-type:checked + span + label {
+    div.switch input:last-of-type:checked + label,
+    div.switch input:last-of-type:checked + span + label {
       right: 0%;
       left: auto; }
     div.switch span.custom {
@@ -3495,7 +3885,8 @@ form.custom {
       background: linear-gradient(to bottom, #fff 0%, #f2f2f2 100%);
       -webkit-box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.07), 1000px 0 0 1000px #e1f5d1, -2px 0 10px 0 rgba(0, 0, 0, 0.07), -1000px 0 0 1000px #f5f5f5;
       box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.07), 1000px 0 0 980px #e1f5d1, -2px 0 10px 0 rgba(0, 0, 0, 0.07), -1000px 0 0 1000px #f5f5f5; }
-    div.switch:hover > span, div.switch:focus > span {
+    div.switch:hover > span,
+    div.switch:focus > span {
       background: #fff;
       background: -moz-linear-gradient(top, #fff 0%, #e6e6e6 100%);
       background: -webkit-linear-gradient(top, #fff 0%, #e6e6e6 100%);
@@ -3552,14 +3943,11 @@ form.custom {
         border-radius: 999px; }
       div.switch.round label {
         padding: 0 0.5625em; }
-
   @-webkit-keyframes webkitSiblingBugfix {
     from {
       position: relative; }
-
     to {
-      position: relative; } }
- }
+      position: relative; } } }
 
 [data-magellan-expedition] {
   background: #fff;
@@ -3576,21 +3964,32 @@ table {
   background: #fff;
   margin-bottom: 1.25em;
   border: solid 1px #ddd; }
-  table thead, table tfoot {
+  table thead,
+  table tfoot {
     background: #f5f5f5;
     font-weight: bold; }
-    table thead tr th, table thead tr td, table tfoot tr th, table tfoot tr td {
+    table thead tr th,
+    table thead tr td,
+    table tfoot tr th,
+    table tfoot tr td {
       padding: 0.5em 0.625em 0.625em;
       font-size: 0.875em;
       color: #222;
       text-align: left; }
-  table tr th, table tr td {
+  table tr th,
+  table tr td {
     padding: 0.5625em 0.625em;
     font-size: 0.875em;
     color: #222; }
-  table tr.even, table tr.alt, table tr:nth-of-type(even) {
+  table tr.even,
+  table tr.alt,
+  table tr:nth-of-type(even) {
     background: #f9f9f9; }
-  table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoot tr td {
+  table thead tr th,
+  table tfoot tr th,
+  table tbody tr td,
+  table tr td,
+  table tfoot tr td {
     display: table-cell;
     line-height: 1.125em; }
 
@@ -3604,7 +4003,8 @@ table {
   -webkit-transition: all 200ms ease-out;
   -moz-transition: all 200ms ease-out;
   transition: all 200ms ease-out; }
-  .th:hover, .th:focus {
+  .th:hover,
+  .th:focus {
     -webkit-box-shadow: 0 0 6px 1px rgba(43, 166, 203, 0.5);
     box-shadow: 0 0 6px 1px rgba(43, 166, 203, 0.5); }
   .th.radius {
@@ -3620,10 +4020,12 @@ a.th {
   cursor: help;
   font-weight: bold;
   color: #333; }
-  .has-tip:hover, .has-tip:focus {
+  .has-tip:hover,
+  .has-tip:focus {
     border-bottom: dotted 1px #196177;
     color: #2ba6cb; }
-  .has-tip.tip-left, .has-tip.tip-right {
+  .has-tip.tip-left,
+  .has-tip.tip-right {
     float: none !important; }
 
 .tooltip {
@@ -3668,7 +4070,8 @@ a.th {
     border-color: #000 transparent transparent transparent;
     top: auto;
     bottom: -10px; }
-  .tooltip.tip-left, .tooltip.tip-right {
+  .tooltip.tip-left,
+  .tooltip.tip-right {
     float: none !important; }
   .tooltip.tip-left > .nub {
     border-color: transparent transparent transparent #000;
@@ -3681,8 +4084,7 @@ a.th {
     right: auto;
     left: -10px;
     top: 50%;
-    margin-top: -5px; }
- }
+    margin-top: -5px; } }
 
 .no-style-btn {
   border: none;
@@ -3691,9 +4093,9 @@ a.th {
 html, body {
   height: 100%;
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 28px;
-  background-image: url('/images/bg.jpeg'); }
+  background-image: url("/images/bg.jpeg"); }
 
 .header {
   color: white;
@@ -3724,8 +4126,10 @@ html, body {
 .edit .top {
   background-color: rgba(255, 255, 255, 0.7);
   padding-bottom: 30px; }
+
 .edit .bottom {
   padding-top: 30px; }
+
 .edit input {
   width: 100%;
   background: none;
@@ -3733,9 +4137,11 @@ html, body {
   border-bottom: solid 1px rgba(0, 0, 0, 0.1);
   font-size: 1.5em;
   padding: 10px; }
+
 .edit p {
   padding: 10px;
   font-size: 1.1em; }
+
 .edit button {
   background: none;
   border: 1px solid black;
@@ -3744,11 +4150,14 @@ html, body {
   padding-left: 30px;
   padding-right: 30px;
   font-size: 20px; }
+
 .edit ul {
   margin-left: 30px;
   margin-right: 30px; }
+
 .edit li {
   padding: 0; }
+
 .edit .box {
   height: 75px;
   width: 100%; }
@@ -3761,6 +4170,7 @@ html, body {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: rgba(0, 0, 0, 0.5); }
+
 .leaderboard .team {
   padding-top: 20px;
   padding-bottom: 20px; }
