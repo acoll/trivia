@@ -26,8 +26,13 @@
         </div>
       </div>
       <div ng-show="round.points" class="playing">
-        <div class="row columns small-12 text-left">Round {{ round.roundNum }}, Question 1</div>
-        <div class="row columns small-12">{{ round.question }}
+        <div class="row columns small-12 text-left roundquestion">
+          <h2>Round {{ round.roundNum }} | Question 1 | {{round.points}}pts</h2>
+        </div>
+        <div class="row columns small-12">
+          <h3>{{ round.question }}</h3>
+        </div>
+        <div class="row columns small-12 buzzcontainer">
           <button ng-click="buzz()" ng-class="color">BUZZ IN</button>
         </div>
       </div>
@@ -126,7 +131,7 @@
       </div>
     </div>
     <div ng-show="showLeaderboard" class="leaderboard">
-      <div class="row leaderboard-header text-center">STATS TRIVIA SCOREBOARD</div>
+      <div class="row leaderboard-header text-center">REPLACE ME W/ GAME TITLE</div>
       <div ng-repeat="team in teams" ng-class="team.color" class="row team">
         <div class="text-center">{{ team.name }} - {{team.score}}PTS</div>
       </div>
@@ -134,7 +139,7 @@
     <div ng-class="color" class="footer small-12 columns">
       <div class="row">
         <div ng-click="showLeaderboard = !showLeaderboard" ng-class="{active: !showLeaderboard}" class="leaderboard-tab columns small-6 text-center"> <img src="/images/trophy-dark.png"><span>LEADERBOARD</span></div>
-        <div ng-click="showLeaderboard = false" ng-class="{active: showLeaderboard}" class="myteam-tab columns small-6 text-center"> <img src="/images/group.png"><span>MY TEAM</span></div>
+        <div ng-click="showLeaderboard = false" ng-class="{active: showLeaderboard}" class="myteam-tab columns small-6 text-center"> <img src="/images/group-dark.png"><span>MY TEAM</span></div>
       </div>
     </div>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>

@@ -8,17 +8,15 @@ html(ng-app='scoreboard')
 		.header.row
 			span.text-center.columns.small-12 {{title}}
 		.container
-			.row
-				p.columns.small-2(ng-show='round.points') Question:
-				p.columns.small-2(ng-show='round.points') {{round.points}}pts
-			.row
-				p.columns.small-12 {{round.question}}
-			.row(ng-show='currentBuzzer')
-				.columns.small-12.text-center
-					span.buzz-alert {{ currentBuzzer }}
+			.row.columns.small-12.text-left.roundquestion
+				h3 Round {{ round.roundNum }} | Question 1 | {{round.points}}pts
+			.row.columns.small-12.text-left.questiontext {{round.question}}
+			.row.columns.small-12.text-center.currentbuzzer-container(ng-show='currentBuzzer')
+					span.buzz-alert {{ currentBuzzer }} has buzzed in first!
 		.footer
 			.row
 				.columns.small-12
 					include teamBlockGrid
 		script(src='http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js')
 		script(src='/js/scoreboard.js')
+

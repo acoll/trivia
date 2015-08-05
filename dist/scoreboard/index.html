@@ -8,16 +8,11 @@
   <body ng-controller="ScoreboardController">
     <div class="header row"><span class="text-center columns small-12">{{title}}</span></div>
     <div class="container">
-      <div class="row">
-        <p ng-show="round.points" class="columns small-2">Question:</p>
-        <p ng-show="round.points" class="columns small-2">{{round.points}}pts</p>
+      <div class="row columns small-12 text-left roundquestion">
+        <h3>Round {{ round.roundNum }} | Question 1 | {{round.points}}pts</h3>
       </div>
-      <div class="row">
-        <p class="columns small-12">{{round.question}}</p>
-      </div>
-      <div ng-show="currentBuzzer" class="row">
-        <div class="columns small-12 text-center"><span class="buzz-alert">{{ currentBuzzer }}</span></div>
-      </div>
+      <div class="row columns small-12 text-left questiontext">{{round.question}}</div>
+      <div ng-show="currentBuzzer" class="row columns small-12 text-center currentbuzzer-container"><span class="buzz-alert">{{ currentBuzzer }} has buzzed in first!</span></div>
     </div>
     <div class="footer">
       <div class="row">

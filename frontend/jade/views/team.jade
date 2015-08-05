@@ -19,8 +19,11 @@ html(ng-app='team')
 							li TOP TEAMS
 							li(ng-repeat='team in teams') {{ team.name }} - {{ team.score }}PTS
 			.playing(ng-show='round.points')
-				.row.columns.small-12.text-left Round {{ round.roundNum }}, Question 1
-				.row.columns.small-12 {{ round.question }}
+				.row.columns.small-12.text-left.roundquestion
+					h2 Round {{ round.roundNum }} | Question 1 | {{round.points}}pts
+				.row.columns.small-12
+					h3 {{ round.question }}
+				.row.columns.small-12.buzzcontainer
 					button(ng-click='buzz()' ng-class='color') BUZZ IN
 		.edit(ng-show='showEdit')
 			.top
@@ -39,7 +42,7 @@ html(ng-app='team')
 					.columns.small-12.text-center
 						button(ng-click='save()') SAVE CHANGES
 		.leaderboard(ng-show='showLeaderboard')
-			.row.leaderboard-header.text-center STATS TRIVIA SCOREBOARD
+			.row.leaderboard-header.text-center REPLACE ME W/ GAME TITLE
 			.row.team(ng-repeat='team in teams' ng-class='team.color')
 				.text-center {{ team.name }} - {{team.score}}PTS
 		.footer.small-12.columns(ng-class='color')
@@ -48,7 +51,7 @@ html(ng-app='team')
 					img(src='/images/trophy-dark.png')
 					span LEADERBOARD
 				.myteam-tab.columns.small-6.text-center(ng-click='showLeaderboard = false', ng-class='{active: showLeaderboard}') 
-					img(src='/images/group.png')
+					img(src='/images/group-dark.png')
 					span MY TEAM
 		script(src='http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js')
 		script(src='/js/team.js')

@@ -47,11 +47,6 @@
 		socket.on('buzz', function (data) {
 			console.log('Buzz', data);
 			$scope.currentBuzzer = data.name;
-			setTimeout(function () {
-				$scope.$apply(function () {
-					$scope.currentBuzzer = null;
-				});
-			}, 3000);
 		});
 	});
 })();

@@ -9,13 +9,14 @@ h1 {
 
 h2 {
   font-size: 48px;
-  font-weight: 100; }
+  font-weight: 100;
+  text-align: center; }
 
 h3 {
   font-size: 36px; }
 
 button {
-  font-size: 28px; }
+  font-size: 36px; }
 
 .color-1 {
   background-color: #FDAD46; }
@@ -4638,10 +4639,10 @@ a.th {
     max-width: 800px; }
 
 html, body {
-  height: 100%;
   margin: 0;
   font-family: "Open Sans", sans-serif;
   font-size: 28px;
+  text-align: center;
   background-image: url("/images/bg.jpeg"); }
 
 .header {
@@ -4654,24 +4655,39 @@ html, body {
 .container {
   padding-top: 30px;
   padding-bottom: 100px; }
+  .container .questiontext {
+    color: black;
+    padding-bottom: 20px; }
   .container .buzz-alert {
-    border: 1px solid black;
+    border: 2px solid black;
+    background-color: #fff;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
     padding-right: 30px; }
+  .container .currentbuzzer-container {
+    margin-top: 20px; }
+  .container .currentBuzzer {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+
+.container h3 {
+  text-align: center; }
 
 .footer {
-  height: 40%; }
+  position: fixed;
+  bottom: 10px; }
   .footer li {
-    text-align: center;
-    color: white; }
+    color: white;
+    font-size: 16px;
+    width: 200px;
+    margin-right: 10px; }
     .footer li .name {
-      font-size: 12px;
-      padding-top: 35px;
-      margin-bottom: -20px; }
+      float: left; }
     .footer li .score {
-      font-size: 2em; }
+      float: right; }
     .footer li .box {
-      height: 150px;
-      width: 150px; }
+      height: 40px;
+      padding: 9px 10px 12px 10px;
+      width: 200px;
+      margin-right: 10px; }

@@ -9,13 +9,14 @@ h1 {
 
 h2 {
   font-size: 48px;
-  font-weight: 100; }
+  font-weight: 100;
+  text-align: center; }
 
 h3 {
   font-size: 36px; }
 
 button {
-  font-size: 28px; }
+  font-size: 36px; }
 
 .color-1 {
   background-color: #FDAD46; }
@@ -4140,14 +4141,16 @@ html, body {
   .footer .teams {
     padding-top: 50px; }
     .footer .teams li {
-      text-align: center;
-      color: white; }
+      color: white;
+      font-size: 16px;
+      width: 200px;
+      margin-right: 10px; }
       .footer .teams li .name {
-        font-size: 12px;
-        padding-top: 35px;
-        margin-bottom: -20px; }
+        float: left; }
       .footer .teams li .score {
-        font-size: 2em; }
+        float: right; }
       .footer .teams li .box {
-        height: 150px;
-        width: 150px; }
+        height: 40px;
+        padding: 9px 10px 12px 10px;
+        width: 200px;
+        margin-right: 10px; }

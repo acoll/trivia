@@ -9,13 +9,14 @@ h1 {
 
 h2 {
   font-size: 48px;
-  font-weight: 100; }
+  font-weight: 100;
+  text-align: center; }
 
 h3 {
   font-size: 36px; }
 
 button {
-  font-size: 28px; }
+  font-size: 36px; }
 
 .color-1 {
   background-color: #FDAD46; }
@@ -4117,11 +4118,15 @@ html, body {
       padding-top: 30px; }
       .container .waiting .teams li {
         list-style-type: none; }
-  .container .playing button {
-    margin-top: 100px;
-    width: 100%;
-    height: 200px;
-    border: 1px solid black; }
+  .container .playing .roundquestion {
+    margin-bottom: 10px; }
+  .container .playing .buzzcontainer {
+    margin-top: 20px; }
+    .container .playing .buzzcontainer button {
+      padding-top: 200px;
+      padding-bottom: 200px;
+      width: 100%;
+      border: none; }
 
 .edit .top {
   background-color: rgba(255, 255, 255, 0.7);
@@ -4185,6 +4190,6 @@ html, body {
     padding-top: 20px;
     padding-bottom: 20px; }
     .footer .columns.active {
-      background-color: white; }
+      background-color: rgba(255, 255, 255, 0.75); }
   .footer span {
     padding-left: 10px; }
