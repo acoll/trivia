@@ -4099,15 +4099,28 @@ html, body {
   background-image: url("/images/bg.jpeg"); }
 
 .header {
-  color: white;
-  text-transform: uppercase; }
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 48px;
+  color: #ffffff;
+  font-weight: 400;
+  margin: 0px; }
   .header .menu {
     opacity: 0; }
   .header .row {
     padding-top: 30px;
     padding-bottom: 30px; }
   .header button {
-    color: white; }
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: 400;
+    margin: 0px; }
+
+.leaderboard h2 {
+  font-size: 48px;
+  color: #000000;
+  font-weight: 400;
+  margin: 0px; }
 
 .container {
   padding-top: 30px; }
@@ -4172,11 +4185,16 @@ html, body {
     background-position: center; }
 
 .leaderboard .leaderboard-header {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: rgba(0, 0, 0, 0.5); }
+  padding-top: 50px;
+  padding-bottom: 50px; }
 
 .leaderboard .team {
+  font-size: 36px;
+  color: #000000;
+  font-weight: 400;
+  margin: auto;
+  width: 80%;
+  margin-bottom: 10px;
   padding-top: 20px;
   padding-bottom: 20px; }
 
@@ -4184,10 +4202,10 @@ html, body {
   position: absolute;
   bottom: 0px;
   padding: 0;
-  font-size: 0.5em; }
+  font-size: 1.5em; }
   .footer .columns {
-    height: 65px;
-    padding-top: 20px;
+    height: 120px;
+    padding-top: 40px;
     padding-bottom: 20px; }
     .footer .columns.active {
       background-color: rgba(255, 255, 255, 0.75); }

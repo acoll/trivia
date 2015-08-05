@@ -13,8 +13,12 @@ html, body {
 }
 
 .header {
-	color: white;
-	text-transform: uppercase;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 48px;
+	color: #ffffff;
+	font-weight: 400;
+	margin: 0px;
 
 	.menu {
 		opacity: 0;
@@ -26,10 +30,19 @@ html, body {
 	}
 
 	button {
-		color: white;
+	font-size: 48px;
+	color: #ffffff;
+	font-weight: 400;
+	margin: 0px;
 	}
 }
 
+.leaderboard h2 {
+	font-size: 48px;
+	color: #000000;
+	font-weight: 400;
+	margin: 0px;
+}
 .container {
 	padding-top: 30px;
 
@@ -117,12 +130,18 @@ html, body {
 
 .leaderboard {
 	.leaderboard-header {
-		padding-top: 30px;
-		padding-bottom: 30px;
-		background-color: rgba(0, 0, 0, 0.5);
+	padding-top: 50px;
+	padding-bottom: 50px;
+
 	}
 
 	.team {
+	font-size: 36px;
+	color: #000000;
+	font-weight: 400;
+	margin: auto;
+	width:80%;
+	margin-bottom: 10px;
 		padding-top: 20px;
 		padding-bottom: 20px;
 	}
@@ -134,11 +153,11 @@ html, body {
 
 	padding: 0;
 
-	font-size: 0.5em;
+	font-size: 1.5em;
 
 	.columns {
-		height: 65px;
-		padding-top: 20px;
+		height: 120px;
+		padding-top: 40px;
 		padding-bottom: 20px;
 
 		&.active {
