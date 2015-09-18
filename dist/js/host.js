@@ -11,7 +11,7 @@
 
 		return {
 			on: function (eventName, callback) {
-				socket.on(eventName, function () {  
+				socket.on(eventName, function () {
 					var args = arguments;
 					$rootScope.$apply(function () {
 						callback.apply(socket, args);
@@ -45,11 +45,13 @@
 		$scope.wrongClick = function () {
 			console.log('Wrong Click');
 			socket.emit('wrong');
+			$scope.currentBuzzer = null;
 		};
 
 		$scope.correctClick = function () {
 			console.log('Correct Click');
 			socket.emit('correct');
+			$scope.currentBuzzer = null;
 		};
 
 		socket.on('teams', function (data) {

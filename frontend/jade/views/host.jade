@@ -7,10 +7,10 @@ html(ng-app='host')
 	body(ng-controller='HostController')
 		.header
 			.row
-				.columns.small-2.text-left 
+				.columns.small-2.text-left
 					button.no-style-btn MENU
 				.columns.small-8.text-center {{title}}
-				.columns.small-2.text-right 
+				.columns.small-2.text-right
 					button.no-style-btn  EDIT
 		.container
 			.row.question
@@ -31,7 +31,7 @@ html(ng-app='host')
 			.row
 				.columns.small-4.text-left
 					button.wrong(ng-click='wrongClick()') WRONG
-				.columns.small-4.text-center(ng-show='currentBuzzer') {{ currentBuzzer }}
+				.columns.small-4.text-center(ng-show='currentBuzzer') CURRENT BUZZER: {{ currentBuzzer }}
 				.columns.small-4.text-right
 					button.correct(ng-click='correctClick()') CORRECT
 			.row.teams

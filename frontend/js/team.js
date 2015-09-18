@@ -6,11 +6,11 @@
 	app.factory('socket', function ($rootScope) {
 
 		var socket = io.connect();
-		console.log('New Socket Connection');
+		console.log('New Socket Connection', socket);
 
 		return {
 			on: function (eventName, callback) {
-				socket.on(eventName, function () {  
+				socket.on(eventName, function () {
 					var args = arguments;
 					$rootScope.$apply(function () {
 						callback.apply(socket, args);
@@ -70,6 +70,25 @@
 
 		socket.on('buzz', function (data) {
 			console.log('Buzz:', data);
+			/* Disabled the buzz button when a buzz event is received */
+			$scope.buzzDisabled = true;
+			$scope.showAnswering = true;
+			$scope.currentBuzzer = data;
+		});
+
+		socket.on('correct', function ( data ) {
+			console.log('correct', data);
+			/* Enable the buzz button */
+			$scope.buzzDisabled = false;
+			$scope.showAnswering = false;
+			$scope.currentBuzzer = null;
+		});
+		socket.on('wrong', function ( data ) {
+			console.log('Wrong:', data);
+			/* Enable the buzz button */
+			$scope.buzzDisabled = false;
+			$scope.showAnswering = false;
+			$scope.currentBuzzer = null;
 		});
 
 		socket.emit('new-team');
