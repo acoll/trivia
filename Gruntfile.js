@@ -17,7 +17,7 @@ module.exports = function (grunt) {
 		},
 		jade: {
 			views: {
-				files: { 
+				files: {
 					'dist/team/index.html': ['frontend/jade/views/team.jade'],
 					'dist/scoreboard/index.html': ['frontend/jade/views/scoreboard.jade'],
 					'dist/host/index.html': ['frontend/jade/views/host.jade']

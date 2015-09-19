@@ -1,6 +1,6 @@
 (function () {
 
-	var app = angular.module('scoreboard', []);	
+	var app = angular.module('scoreboard', []);
 
 	app.factory('socket', function ($rootScope) {
 
@@ -9,7 +9,7 @@
 
 		return {
 			on: function (eventName, callback) {
-				socket.on(eventName, function () {  
+				socket.on(eventName, function () {
 					var args = arguments;
 					$rootScope.$apply(function () {
 						callback.apply(socket, args);
@@ -24,7 +24,7 @@
 							callback.apply(socket, args);
 						}
 					});
-				})
+				});
 			}
 		};
 	});

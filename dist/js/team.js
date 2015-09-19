@@ -3,10 +3,19 @@
 	console.log('TEAM');
 	var app = angular.module('team', []);
 
+	function generateTID() {
+		return Math.random().toString(36).substring(3,16) + +new Date;
+	}
+
 	app.factory('socket', function ($rootScope) {
+		var tid = localStorage.getItem('tid') || generateTID();
+		localStorage.setItem('tid', tid);
 
 		var socket = io.connect();
 		console.log('New Socket Connection', socket);
+
+		/* Emit a register event to try to reestablish prior meta */
+		socket.emit('register', tid);
 
 		return {
 			on: function (eventName, callback) {

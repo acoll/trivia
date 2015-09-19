@@ -1,37 +1,19 @@
 (function () {
+	'use strict';
 
-	console.log('HOST');
+	var angular = require('angular');
 
-	var app = angular.module('host', []);
+	require('angular-socket-io');
 
-	app.factory('socket', function ($rootScope) {
+	angular.module('host', [
+		'btford.socket-io'
+	])
+	.factory('mySocket', function ( socketFactory ) {
+		return socketFactory();
+	})
+	.controller('HostController', function ($scope, mySocket) {
+		console.log('HOST SOCKET', mySocket);
 
-		var socket = io.connect();
-		console.log('New Socket Connection');
-
-		return {
-			on: function (eventName, callback) {
-				socket.on(eventName, function () {
-					var args = arguments;
-					$rootScope.$apply(function () {
-						callback.apply(socket, args);
-					});
-				});
-			},
-			emit: function (eventName, data, callback) {
-				socket.emit(eventName, data, function () {
-					var args = arguments;
-					$rootScope.$apply(function () {
-						if (callback) {
-							callback.apply(socket, args);
-						}
-					});
-				})
-			}
-		};
-	});
-
-	app.controller('HostController', function ($scope, socket) {
 		$scope.title = 'Trivia';
 		$scope.teams = [];
 		$scope.round = { points: 100 };
@@ -39,32 +21,32 @@
 
 		$scope.updateRound = function () {
 			console.log('Update Round', $scope.round);
-			socket.emit('update-round', $scope.round);
+			mySocket.emit('update-round', $scope.round);
 		};
 
 		$scope.wrongClick = function () {
 			console.log('Wrong Click');
-			socket.emit('wrong');
+			mySocket.emit('wrong');
 			$scope.currentBuzzer = null;
 		};
 
 		$scope.correctClick = function () {
 			console.log('Correct Click');
-			socket.emit('correct');
+			mySocket.emit('correct');
 			$scope.currentBuzzer = null;
 		};
 
-		socket.on('teams', function (data) {
+		mySocket.on('teams', function (data) {
 			console.log('Teams:', data);
 			$scope.teams = data;
 		});
 
-		socket.on('round', function (data) {
+		mySocket.on('round', function (data) {
 			console.log('Round:', data);
 			$scope.round = data;
 		});
 
-		socket.on('buzz', function (data) {
+		mySocket.on('buzz', function (data) {
 			console.log('Buzz:', data);
 			$scope.currentBuzzer = data.name;
 		});

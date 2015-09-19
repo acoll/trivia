@@ -1,74 +1,67 @@
 (function () {
+	'use strict';
 
-	console.log('TEAM');
-	var app = angular.module('team', []);
+	var angular = require('angular');
 
-	app.factory('socket', function ($rootScope) {
+	require('angular-socket-io');
 
-		var socket = io.connect();
-		console.log('New Socket Connection', socket);
-
-		return {
-			on: function (eventName, callback) {
-				socket.on(eventName, function () {
-					var args = arguments;
-					$rootScope.$apply(function () {
-						callback.apply(socket, args);
-					});
-				});
-			},
-			emit: function (eventName, data, callback) {
-				socket.emit(eventName, data, function () {
-					var args = arguments;
-					$rootScope.$apply(function () {
-						if (callback) {
-							callback.apply(socket, args);
-						}
-					});
-				})
-			}
-		};
-	});
-
-	app.controller('TeamController', function ($scope, socket) {
+	angular.module('team', [
+		'btford.socket-io'
+	])
+	.factory('mySocket', function ( socketFactory ) {
+		return socketFactory();
+	})
+	.controller('TeamController', function ( $scope, mySocket ) {
 		$scope.name = 'NEW TEAM';
 		$scope.teams = [];
 		$scope.round = { points: 0 };
 		$scope.showEdit = false;
 		$scope.showLeaderboard = false;
 
+		/* Handle teamID */
+		function generateTeamID() {
+			return Math.random().toString(36).substring(3,16) + (1 * new Date());
+		}
+		var teamID = localStorage.getItem('teamID') || generateTeamID();
+		localStorage.setItem('teamID', teamID);
+
+		/* Emit a register event to try to reestablish prior meta */
+		mySocket.emit('register-team', teamID);
+
+		// mySocket.emit('new-team');
+
 		$scope.buzz = function () {
 			console.log('BUZZ');
-			socket.emit('buzz');
+			mySocket.emit('buzz');
 		};
 
 		$scope.save = function () {
 			console.log('Save Changes');
-			socket.emit('update-team', {
+			mySocket.emit('update-team', {
 				name: $scope.name,
 				color: $scope.color
 			});
 			$scope.showEdit = false;
 		};
 
-		socket.on('teams', function (data) {
+		mySocket.on('teams', function (data) {
 			console.log('Teams:', data);
 			$scope.teams = data;
 		});
 
-		socket.on('round', function (data) {
+		mySocket.on('round', function (data) {
 			console.log('Round:', data);
 			$scope.round = data;
 		});
 
-		socket.on('welcome', function (data) {
+		mySocket.on('welcome', function (data) {
 			console.log('Welcome:', data);
 			$scope.name = data.name;
 			$scope.score = data.score;
 			$scope.color = data.color;
 		});
 
-		socket.on('buzz', function (data) {
+		mySocket.on('buzz', function (data) {
 			console.log('Buzz:', data);
 			/* Disabled the buzz button when a buzz event is received */
 			$scope.buzzDisabled = true;
@@ -76,22 +69,20 @@
 			$scope.currentBuzzer = data;
 		});
 
-		socket.on('correct', function ( data ) {
+		mySocket.on('correct', function ( data ) {
 			console.log('correct', data);
 			/* Enable the buzz button */
 			$scope.buzzDisabled = false;
 			$scope.showAnswering = false;
 			$scope.currentBuzzer = null;
 		});
-		socket.on('wrong', function ( data ) {
+		mySocket.on('wrong', function ( data ) {
 			console.log('Wrong:', data);
 			/* Enable the buzz button */
 			$scope.buzzDisabled = false;
 			$scope.showAnswering = false;
 			$scope.currentBuzzer = null;
 		});
-
-		socket.emit('new-team');
 	});
 
 })();
