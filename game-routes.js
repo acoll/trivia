@@ -34,6 +34,9 @@ module.exports = function (io) {
 	io.on('connection', function (socket) {
 		console.log('A new connection has been made', socket.id);
 
+		socket.emit('teams', getTeams());
+		socket.emit('round', rounds[rounds.length - 1]);
+
 		/* Team registering */
 		socket.on('register-team', function ( teamID ) {
 			console.log('register-team', teamID);
@@ -136,8 +139,5 @@ module.exports = function (io) {
 			rounds[rounds.length - 1].buzzes = [];
 			io.emit('round', rounds[rounds.length - 1]);
 		});
-
-
-
 	});
 };
