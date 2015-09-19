@@ -72,16 +72,23 @@
 		mySocket.on('correct', function ( data ) {
 			console.log('correct', data);
 			/* Enable the buzz button */
-			$scope.buzzDisabled = false;
+			// $scope.buzzDisabled = false;
 			$scope.showAnswering = false;
 			$scope.currentBuzzer = null;
 		});
 		mySocket.on('wrong', function ( data ) {
 			console.log('Wrong:', data);
 			/* Enable the buzz button */
-			$scope.buzzDisabled = false;
+			// $scope.buzzDisabled = false;
 			$scope.showAnswering = false;
 			$scope.currentBuzzer = null;
+		});
+
+		mySocket.on('show-buzzer', function () {
+			$scope.showBuzzer = true;
+		});
+		mySocket.on('hide-buzzer', function () {
+			$scope.showBuzzer = false;
 		});
 	});
 

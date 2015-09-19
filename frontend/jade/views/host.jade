@@ -31,7 +31,7 @@ html(ng-app='host')
 			.row
 				.columns.small-4.text-left
 					button.wrong(ng-click='wrongClick()') WRONG
-				.columns.small-4.text-center(ng-show='currentBuzzer') CURRENT BUZZER: {{ currentBuzzer }}
+				.columns.small-4.text-center(ng-show='currentBuzzer') CURRENT BUZZER: {{ currentBuzzer.name }}
 				.columns.small-4.text-right
 					button.correct(ng-click='correctClick()') CORRECT
 			.row.teams

@@ -118,22 +118,30 @@ module.exports = function (io) {
 		});
 
 		socket.on('buzz', function (data) {
-			console.log('Buzz:', teams[socket.id].name);
-			io.emit('buzz', teams[socket.id]);
-			rounds[rounds.length - 1].buzzes.push(socket.id);
+			io.emit('hide-buzzer');
+
+			var team = getTeamBySocket(socket.id);
+			console.log('Buzz:', team.name);
+			io.emit('buzz', team);
+			rounds[rounds.length - 1].buzzes.push(team);
 		});
 
-		socket.on('correct', function (data) {
-			console.log('Correct:', rounds[rounds.length - 1].buzzes[0]);
-			var id = rounds[rounds.length - 1].buzzes[0];
-			if(id && teams[id]) teams[id].score += rounds[rounds.length - 1].points;
+		socket.on('correct', function ( data ) {
+			var team = getTeamBySocket(data.id);
+
+			console.log(team.name, 'answered correctly');
+
+			team.score += rounds[rounds.length - 1].points;
+
 			io.emit('teams', getTeams());
 		});
 
-		socket.on('wrong', function (data) {
-			console.log('wrong:', rounds[rounds.length - 1].buzzes[0]);
-			rounds[rounds.length - 1].buzzes.pop();
-			io.emit('teams', getTeams());
+		socket.on('wrong', function ( data ) {
+			var team = getTeamBySocket(data.id);
+
+			console.log(team.name, 'answered wrongly');
+
+			io.emit('show-buzzer');
 		});
 
 		socket.on('new-round', function (data) {
@@ -152,6 +160,7 @@ module.exports = function (io) {
 			round.buzzes 	= [];
 
 			io.emit('round', round);
+			io.emit('show-buzzer');
 		});
 	});
 };

@@ -11,7 +11,8 @@ module.exports = {
 			target: 'localhost:9090',
 			ws: true
 		},
-		open: false
+		open: false,
+		ghostMode: false
 	},
 	sass: {
 		src: [

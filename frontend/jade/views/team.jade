@@ -24,7 +24,7 @@ html(ng-app='team')
 				.row.columns.small-12
 					h3 {{ round.question }}
 				.row.columns.small-12.buzzcontainer
-					button(ng-click='buzz()', ng-class='color', ng-disabled='buzzDisabled', ng-hide="showAnswering") BUZZ IN
+					button(ng-click='buzz()', ng-class='color', ng-show="showBuzzer") BUZZ IN
 			.answering(ng-show='showAnswering') {{ currentBuzzer.name }} HAS BUZZED IN
 		.edit(ng-show='showEdit')
 			.top
@@ -45,7 +45,7 @@ html(ng-app='team')
 		.leaderboard(ng-show='showLeaderboard')
 			.row.leaderboard-header.text-center
 				h2 STANDINGS
-			.row.team(ng-repeat='team in teams' ng-class='team.color')
+			.row.team(ng-repeat='team in teams | orderBy : team.points : true' ng-class='team.color')
 				.text-center {{ team.name }} - {{team.score}}PTS
 		.footer.small-12.columns(ng-class='color')
 			.row

@@ -1,5 +1,5 @@
 ul.small-block-grid-6
-	li(ng-repeat='team in teams')
+	li(ng-repeat='team in teams | orderBy : team.points : true')
 		.box(ng-class='team.color')
 			.name {{team.name}}
 			.score {{team.score}}

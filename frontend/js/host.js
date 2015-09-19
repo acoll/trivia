@@ -26,13 +26,13 @@
 
 		$scope.wrongClick = function () {
 			console.log('Wrong Click');
-			mySocket.emit('wrong');
+			mySocket.emit('wrong', $scope.currentBuzzer);
 			$scope.currentBuzzer = null;
 		};
 
 		$scope.correctClick = function () {
 			console.log('Correct Click');
-			mySocket.emit('correct');
+			mySocket.emit('correct', $scope.currentBuzzer);
 			$scope.currentBuzzer = null;
 		};
 
@@ -48,7 +48,7 @@
 
 		mySocket.on('buzz', function (data) {
 			console.log('Buzz:', data);
-			$scope.currentBuzzer = data.name;
+			$scope.currentBuzzer = data;
 		});
 	});
 
