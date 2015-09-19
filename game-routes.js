@@ -31,6 +31,16 @@ module.exports = function (io) {
 			.value();
 	}
 
+	/**
+	 *	Replaces [#prop] with the matching data.prop and an empty space if undefined
+	 **/
+	function annotate( string, data ) {
+		return string.replace(/\[#\w+\]/g, function ( token, idx, str ) {
+			var token = token.substring(2, token.length-1);
+			return data[token] !== undefined ? data[token] : '';
+		});
+	}
+
 	io.on('connection', function (socket) {
 		console.log('A new connection has been made', socket.id);
 
@@ -134,10 +144,14 @@ module.exports = function (io) {
 
 		socket.on('update-round', function (data) {
 			console.log('Update Round:', data);
-			rounds[rounds.length - 1].question = data.question;
-			rounds[rounds.length - 1].points = data.points;
-			rounds[rounds.length - 1].buzzes = [];
-			io.emit('round', rounds[rounds.length - 1]);
+
+			var round = rounds[ rounds.length - 1 ];
+
+			round.question 	= annotate(data.question, round);
+			round.points 	= data.points;
+			round.buzzes 	= [];
+
+			io.emit('round', round);
 		});
 	});
 };
