@@ -13,6 +13,7 @@
 var gulp 			= require('gulp'),
 	browserify 		= require('browserify'),
 	watchify 		= require('watchify'),
+	ngAnnotate 		= require('gulp-ng-annotate'),
 	browserSync 	= require('browser-sync'),
 	mergeStream		= require('merge-stream'),
 	bundleLogger 	= require('../util/bundleLogger'),
@@ -51,6 +52,7 @@ browserifyTask = function ( devMode ) {
 				.on('error', handleErrors)
 				/* vinyl-source-steam makes the stream gulp compatible */
 				.pipe(source(bundleConfig.outputName))
+				.pipe(ngAnnotate())
 				.pipe(gulp.dest(bundleConfig.dest))
 				.pipe(browserSync.reload({
 					stream: true

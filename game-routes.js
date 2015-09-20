@@ -15,7 +15,7 @@ module.exports = function (io) {
 	var hosts = {};
 	var rounds = [];
 
-	rounds.push({ question: waitText, points: 0, roundNum: rounds.length + 1 });
+	rounds.push({ questionNum: 1, question: waitText, points: 0, roundNum: rounds.length + 1 });
 
 	function getTeamBySocket( socketId ) {
 		return _.findWhere(teams, { id: socketId });
@@ -155,9 +155,11 @@ module.exports = function (io) {
 
 			var round = rounds[ rounds.length - 1 ];
 
-			round.question 	= annotate(data.question, round);
-			round.points 	= data.points;
-			round.buzzes 	= [];
+			round.roundNum  	= data.roundNum;
+			round.questionNum 	= data.questionNum;
+			round.question 		= annotate(data.question, round);
+			round.points 		= data.points;
+			round.buzzes 		= [];
 
 			io.emit('round', round);
 			io.emit('show-buzzer');

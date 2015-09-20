@@ -36,6 +36,27 @@
 			$scope.currentBuzzer = null;
 		};
 
+		$scope.decRoundNum = function decRoundNum() {
+			if ($scope.round.roundNum > 1) {
+				$scope.round.roundNum--;
+			}
+		};
+		$scope.incRoundNum = function incRoundNum() {
+			$scope.round.roundNum++;
+		};
+		$scope.decQuestionNum = function decQuestionNum() {
+			if ($scope.round.questionNum > 1) {
+				$scope.round.questionNum--;
+			}
+		};
+		$scope.incQuestionNum = function incQuestionNum() {
+			$scope.round.questionNum++;
+		};
+
+		$scope.save = function save() {
+
+		};
+
 		mySocket.on('teams', function (data) {
 			console.log('Teams:', data);
 			$scope.teams = data;

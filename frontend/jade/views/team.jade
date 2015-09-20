@@ -20,7 +20,7 @@ html(ng-app='team')
 							li(ng-repeat='team in teams') {{ team.name }} - {{ team.score }}PTS
 			.playing(ng-show='round.points')
 				.row.columns.small-12.text-left.roundquestion
-					h2 Round {{ round.roundNum }} | Question 1 | {{round.points}}pts
+					h2 Round {{ round.roundNum }} | Question {{ round.questionNum }} | {{ round.points }}pts
 				.row.columns.small-12
 					h3 {{ round.question }}
 				.row.columns.small-12.buzzcontainer

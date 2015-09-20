@@ -6,11 +6,11 @@ html(ng-app='scoreboard')
 		script(src='/socket.io/socket.io.js')
 	body(ng-controller='ScoreboardCtrl')
 		.header.row
-			span.text-center.columns.small-12 {{title}}
+			span.text-center.columns.small-12 {{ title }}
 		.container
 			.row.columns.small-12.text-left.roundquestion
-				h3 Round {{ round.roundNum }} | Question 1 | {{round.points}}pts
-			.row.columns.small-12.text-left.questiontext {{round.question}}
+				h3 Round {{ round.roundNum }} | Question {{ round.questionNum }} | {{ round.points }}pts
+			.row.columns.small-12.text-left.questiontext {{ round.question }}
 			.row.columns.small-12.text-center.currentbuzzer-container(ng-show='currentBuzzer')
 					span.buzz-alert {{ currentBuzzer }} has buzzed in first!
 		.footer
