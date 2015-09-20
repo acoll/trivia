@@ -13,6 +13,7 @@
 	})
 	.controller('TeamController', function ( $scope, mySocket ) {
 		$scope.name = 'NEW TEAM';
+		$scope.game = { title: 'Trivia' };
 		$scope.teams = [];
 		$scope.round = { points: 0 };
 		$scope.showEdit = false;
@@ -43,6 +44,11 @@
 			});
 			$scope.showEdit = false;
 		};
+
+		mySocket.on('game', function ( data ) {
+			console.log('Game:', data);
+			$scope.game = data;
+		});
 
 		mySocket.on('teams', function (data) {
 			console.log('Teams:', data);

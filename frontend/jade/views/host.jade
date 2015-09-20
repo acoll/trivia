@@ -9,7 +9,9 @@ html(ng-app='host')
 			.row
 				.columns.small-2.text-left
 					button.no-style-btn MENU
-				.columns.small-8.text-center {{ title }}
+				.columns.small-8.text-center
+					span(ng-show="!editMode") {{ game.title }}
+					input(ng-show="editMode", ng-model="game.title")
 				.columns.small-2.text-right
 					button.no-style-btn(ng-show="!editMode", ng-click="editMode = !editMode") EDIT
 					button.no-style-btn(ng-show="editMode", ng-click="editMode = !editMode;save()") SAVE

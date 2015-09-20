@@ -13,6 +13,9 @@ module.exports = function (io) {
 	var __timeouts = {};
 	var scoreboards = {};
 	var hosts = {};
+	var game = {
+		title: 'Trivia'
+	};
 	var rounds = [];
 
 	rounds.push({ questionNum: 1, question: waitText, points: 0, roundNum: rounds.length + 1 });
@@ -44,6 +47,7 @@ module.exports = function (io) {
 	io.on('connection', function (socket) {
 		console.log('A new connection has been made', socket.id);
 
+		socket.emit('game', game);
 		socket.emit('teams', getTeams());
 		socket.emit('round', rounds[rounds.length - 1]);
 
@@ -163,6 +167,18 @@ module.exports = function (io) {
 
 			io.emit('round', round);
 			io.emit('show-buzzer');
+		});
+
+
+		/**
+		 *	GAME logic
+		 **/
+		socket.on('update-game', function ( data ) {
+			console.log('Update Game', data);
+
+			game.title = data.title;
+
+			io.emit('game', game);
 		});
 	});
 };

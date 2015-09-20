@@ -14,9 +14,9 @@
 	.controller('HostController', function ($scope, mySocket) {
 		console.log('HOST SOCKET', mySocket);
 
-		$scope.title = 'Trivia';
 		$scope.teams = [];
 		$scope.round = { points: 100 };
+		$scope.game = { title: 'Trivia' };
 		$scope.currentBuzzer = null;
 
 		$scope.updateRound = function () {
@@ -54,7 +54,7 @@
 		};
 
 		$scope.save = function save() {
-
+			mySocket.emit('update-game', $scope.game);
 		};
 
 		mySocket.on('teams', function (data) {

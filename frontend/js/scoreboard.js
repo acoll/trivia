@@ -13,8 +13,13 @@
 	})
 	.controller('ScoreboardCtrl', ( $scope, mySocket ) => {
 		$scope.teams = [];
-		$scope.title = 'Trivia';
+		$scope.game = { title: 'Trivia' };
 		$scope.currentBuzzer = null;
+
+		mySocket.on('game', function ( data ) {
+			console.log('Game:', data);
+			$scope.game = data;
+		});
 
 		mySocket.on('teams', function (data) {
 			console.log('Teams:', data);
