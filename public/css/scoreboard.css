@@ -93,8 +93,6 @@ button {
 *,
 *:before,
 *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 html,
@@ -236,37 +234,37 @@ select {
     float: left; }
   .small-1 {
     position: relative;
-    width: 8.3333333333%; }
+    width: 8.33333%; }
   .small-2 {
     position: relative;
-    width: 16.6666666667%; }
+    width: 16.66667%; }
   .small-3 {
     position: relative;
     width: 25%; }
   .small-4 {
     position: relative;
-    width: 33.3333333333%; }
+    width: 33.33333%; }
   .small-5 {
     position: relative;
-    width: 41.6666666667%; }
+    width: 41.66667%; }
   .small-6 {
     position: relative;
     width: 50%; }
   .small-7 {
     position: relative;
-    width: 58.3333333333%; }
+    width: 58.33333%; }
   .small-8 {
     position: relative;
-    width: 66.6666666667%; }
+    width: 66.66667%; }
   .small-9 {
     position: relative;
     width: 75%; }
   .small-10 {
     position: relative;
-    width: 83.3333333333%; }
+    width: 83.33333%; }
   .small-11 {
     position: relative;
-    width: 91.6666666667%; }
+    width: 91.66667%; }
   .small-12 {
     position: relative;
     width: 100%; }
@@ -275,34 +273,34 @@ select {
     margin-left: 0%; }
   .small-offset-1 {
     position: relative;
-    margin-left: 8.3333333333%; }
+    margin-left: 8.33333%; }
   .small-offset-2 {
     position: relative;
-    margin-left: 16.6666666667%; }
+    margin-left: 16.66667%; }
   .small-offset-3 {
     position: relative;
     margin-left: 25%; }
   .small-offset-4 {
     position: relative;
-    margin-left: 33.3333333333%; }
+    margin-left: 33.33333%; }
   .small-offset-5 {
     position: relative;
-    margin-left: 41.6666666667%; }
+    margin-left: 41.66667%; }
   .small-offset-6 {
     position: relative;
     margin-left: 50%; }
   .small-offset-7 {
     position: relative;
-    margin-left: 58.3333333333%; }
+    margin-left: 58.33333%; }
   .small-offset-8 {
     position: relative;
-    margin-left: 66.6666666667%; }
+    margin-left: 66.66667%; }
   .small-offset-9 {
     position: relative;
     margin-left: 75%; }
   .small-offset-10 {
     position: relative;
-    margin-left: 83.3333333333%; }
+    margin-left: 83.33333%; }
   [class*="column"] + [class*="column"]:last-child {
     float: right; }
   [class*="column"] + [class*="column"].end {
@@ -318,37 +316,37 @@ select {
 @media only screen and (min-width: 768px) {
   .large-1 {
     position: relative;
-    width: 8.3333333333%; }
+    width: 8.33333%; }
   .large-2 {
     position: relative;
-    width: 16.6666666667%; }
+    width: 16.66667%; }
   .large-3 {
     position: relative;
     width: 25%; }
   .large-4 {
     position: relative;
-    width: 33.3333333333%; }
+    width: 33.33333%; }
   .large-5 {
     position: relative;
-    width: 41.6666666667%; }
+    width: 41.66667%; }
   .large-6 {
     position: relative;
     width: 50%; }
   .large-7 {
     position: relative;
-    width: 58.3333333333%; }
+    width: 58.33333%; }
   .large-8 {
     position: relative;
-    width: 66.6666666667%; }
+    width: 66.66667%; }
   .large-9 {
     position: relative;
     width: 75%; }
   .large-10 {
     position: relative;
-    width: 83.3333333333%; }
+    width: 83.33333%; }
   .large-11 {
     position: relative;
-    width: 91.6666666667%; }
+    width: 91.66667%; }
   .large-12 {
     position: relative;
     width: 100%; }
@@ -357,52 +355,52 @@ select {
     margin-left: 0%; }
   .row .large-offset-1 {
     position: relative;
-    margin-left: 8.3333333333%; }
+    margin-left: 8.33333%; }
   .row .large-offset-2 {
     position: relative;
-    margin-left: 16.6666666667%; }
+    margin-left: 16.66667%; }
   .row .large-offset-3 {
     position: relative;
     margin-left: 25%; }
   .row .large-offset-4 {
     position: relative;
-    margin-left: 33.3333333333%; }
+    margin-left: 33.33333%; }
   .row .large-offset-5 {
     position: relative;
-    margin-left: 41.6666666667%; }
+    margin-left: 41.66667%; }
   .row .large-offset-6 {
     position: relative;
     margin-left: 50%; }
   .row .large-offset-7 {
     position: relative;
-    margin-left: 58.3333333333%; }
+    margin-left: 58.33333%; }
   .row .large-offset-8 {
     position: relative;
-    margin-left: 66.6666666667%; }
+    margin-left: 66.66667%; }
   .row .large-offset-9 {
     position: relative;
     margin-left: 75%; }
   .row .large-offset-10 {
     position: relative;
-    margin-left: 83.3333333333%; }
+    margin-left: 83.33333%; }
   .row .large-offset-11 {
     position: relative;
-    margin-left: 91.6666666667%; }
+    margin-left: 91.66667%; }
   .push-1 {
     position: relative;
-    left: 8.3333333333%;
+    left: 8.33333%;
     right: auto; }
   .pull-1 {
     position: relative;
-    right: 8.3333333333%;
+    right: 8.33333%;
     left: auto; }
   .push-2 {
     position: relative;
-    left: 16.6666666667%;
+    left: 16.66667%;
     right: auto; }
   .pull-2 {
     position: relative;
-    right: 16.6666666667%;
+    right: 16.66667%;
     left: auto; }
   .push-3 {
     position: relative;
@@ -414,19 +412,19 @@ select {
     left: auto; }
   .push-4 {
     position: relative;
-    left: 33.3333333333%;
+    left: 33.33333%;
     right: auto; }
   .pull-4 {
     position: relative;
-    right: 33.3333333333%;
+    right: 33.33333%;
     left: auto; }
   .push-5 {
     position: relative;
-    left: 41.6666666667%;
+    left: 41.66667%;
     right: auto; }
   .pull-5 {
     position: relative;
-    right: 41.6666666667%;
+    right: 41.66667%;
     left: auto; }
   .push-6 {
     position: relative;
@@ -438,19 +436,19 @@ select {
     left: auto; }
   .push-7 {
     position: relative;
-    left: 58.3333333333%;
+    left: 58.33333%;
     right: auto; }
   .pull-7 {
     position: relative;
-    right: 58.3333333333%;
+    right: 58.33333%;
     left: auto; }
   .push-8 {
     position: relative;
-    left: 66.6666666667%;
+    left: 66.66667%;
     right: auto; }
   .pull-8 {
     position: relative;
-    right: 66.6666666667%;
+    right: 66.66667%;
     left: auto; }
   .push-9 {
     position: relative;
@@ -462,19 +460,19 @@ select {
     left: auto; }
   .push-10 {
     position: relative;
-    left: 83.3333333333%;
+    left: 83.33333%;
     right: auto; }
   .pull-10 {
     position: relative;
-    right: 83.3333333333%;
+    right: 83.33333%;
     left: auto; }
   .push-11 {
     position: relative;
-    left: 91.6666666667%;
+    left: 91.66667%;
     right: auto; }
   .pull-11 {
     position: relative;
-    right: 91.6666666667%;
+    right: 91.66667%;
     left: auto; }
   .column.large-centered,
   .columns.large-centered {
@@ -517,19 +515,54 @@ select {
   display: none !important; }
 
 /* Specific visilbity for tables */
-table.show-for-small, table.show-for-medium-down, table.show-for-large-down, table.hide-for-medium, table.hide-for-medium-up, table.hide-for-large, table.hide-for-large-up, table.hide-for-xlarge {
+table.show-for-small,
+table.show-for-medium-down,
+table.show-for-large-down,
+table.hide-for-medium,
+table.hide-for-medium-up,
+table.hide-for-large,
+table.hide-for-large-up,
+table.hide-for-xlarge {
   display: table; }
 
-thead.show-for-small, thead.show-for-medium-down, thead.show-for-large-down, thead.hide-for-medium, thead.hide-for-medium-up, thead.hide-for-large, thead.hide-for-large-up, thead.hide-for-xlarge {
+thead.show-for-small,
+thead.show-for-medium-down,
+thead.show-for-large-down,
+thead.hide-for-medium,
+thead.hide-for-medium-up,
+thead.hide-for-large,
+thead.hide-for-large-up,
+thead.hide-for-xlarge {
   display: table-header-group !important; }
 
-tbody.show-for-small, tbody.show-for-medium-down, tbody.show-for-large-down, tbody.hide-for-medium, tbody.hide-for-medium-up, tbody.hide-for-large, tbody.hide-for-large-up, tbody.hide-for-xlarge {
+tbody.show-for-small,
+tbody.show-for-medium-down,
+tbody.show-for-large-down,
+tbody.hide-for-medium,
+tbody.hide-for-medium-up,
+tbody.hide-for-large,
+tbody.hide-for-large-up,
+tbody.hide-for-xlarge {
   display: table-row-group !important; }
 
-tr.show-for-small, tr.show-for-medium-down, tr.show-for-large-down, tr.hide-for-medium, tr.hide-for-medium-up, tr.hide-for-large, tr.hide-for-large-up, tr.hide-for-xlarge {
+tr.show-for-small,
+tr.show-for-medium-down,
+tr.show-for-large-down,
+tr.hide-for-medium,
+tr.hide-for-medium-up,
+tr.hide-for-large,
+tr.hide-for-large-up,
+tr.hide-for-xlarge {
   display: table-row !important; }
 
-td.show-for-small, td.show-for-medium-down, td.show-for-large-down, td.hide-for-medium, td.hide-for-medium-up, td.hide-for-large, td.hide-for-large-up, td.hide-for-xlarge,
+td.show-for-small,
+td.show-for-medium-down,
+td.show-for-large-down,
+td.hide-for-medium,
+td.hide-for-medium-up,
+td.hide-for-large,
+td.hide-for-large-up,
+td.hide-for-xlarge,
 th.show-for-small,
 th.show-for-medium-down,
 th.show-for-large-down,
@@ -553,15 +586,25 @@ th.hide-for-xlarge {
   .hide-for-medium-up {
     display: none !important; }
   /* Specific visilbity for tables */
-  table.show-for-medium, table.show-for-medium-up, table.hide-for-small {
+  table.show-for-medium,
+  table.show-for-medium-up,
+  table.hide-for-small {
     display: table; }
-  thead.show-for-medium, thead.show-for-medium-up, thead.hide-for-small {
+  thead.show-for-medium,
+  thead.show-for-medium-up,
+  thead.hide-for-small {
     display: table-header-group !important; }
-  tbody.show-for-medium, tbody.show-for-medium-up, tbody.hide-for-small {
+  tbody.show-for-medium,
+  tbody.show-for-medium-up,
+  tbody.hide-for-small {
     display: table-row-group !important; }
-  tr.show-for-medium, tr.show-for-medium-up, tr.hide-for-small {
+  tr.show-for-medium,
+  tr.show-for-medium-up,
+  tr.hide-for-small {
     display: table-row !important; }
-  td.show-for-medium, td.show-for-medium-up, td.hide-for-small,
+  td.show-for-medium,
+  td.show-for-medium-up,
+  td.hide-for-small,
   th.show-for-medium,
   th.show-for-medium-up,
   th.hide-for-small {
@@ -582,15 +625,30 @@ th.hide-for-xlarge {
   .hide-for-large-up {
     display: none !important; }
   /* Specific visilbity for tables */
-  table.show-for-large, table.show-for-large-up, table.hide-for-medium, table.hide-for-medium-down {
+  table.show-for-large,
+  table.show-for-large-up,
+  table.hide-for-medium,
+  table.hide-for-medium-down {
     display: table; }
-  thead.show-for-large, thead.show-for-large-up, thead.hide-for-medium, thead.hide-for-medium-down {
+  thead.show-for-large,
+  thead.show-for-large-up,
+  thead.hide-for-medium,
+  thead.hide-for-medium-down {
     display: table-header-group !important; }
-  tbody.show-for-large, tbody.show-for-large-up, tbody.hide-for-medium, tbody.hide-for-medium-down {
+  tbody.show-for-large,
+  tbody.show-for-large-up,
+  tbody.hide-for-medium,
+  tbody.hide-for-medium-down {
     display: table-row-group !important; }
-  tr.show-for-large, tr.show-for-large-up, tr.hide-for-medium, tr.hide-for-medium-down {
+  tr.show-for-large,
+  tr.show-for-large-up,
+  tr.hide-for-medium,
+  tr.hide-for-medium-down {
     display: table-row !important; }
-  td.show-for-large, td.show-for-large-up, td.hide-for-medium, td.hide-for-medium-down,
+  td.show-for-large,
+  td.show-for-large-up,
+  td.hide-for-medium,
+  td.hide-for-medium-down,
   th.show-for-large,
   th.show-for-large-up,
   th.hide-for-medium,
@@ -610,15 +668,25 @@ th.hide-for-xlarge {
   .hide-for-xlarge {
     display: none !important; }
   /* Specific visilbity for tables */
-  table.show-for-xlarge, table.hide-for-large, table.hide-for-large-down {
+  table.show-for-xlarge,
+  table.hide-for-large,
+  table.hide-for-large-down {
     display: table; }
-  thead.show-for-xlarge, thead.hide-for-large, thead.hide-for-large-down {
+  thead.show-for-xlarge,
+  thead.hide-for-large,
+  thead.hide-for-large-down {
     display: table-header-group !important; }
-  tbody.show-for-xlarge, tbody.hide-for-large, tbody.hide-for-large-down {
+  tbody.show-for-xlarge,
+  tbody.hide-for-large,
+  tbody.hide-for-large-down {
     display: table-row-group !important; }
-  tr.show-for-xlarge, tr.hide-for-large, tr.hide-for-large-down {
+  tr.show-for-xlarge,
+  tr.hide-for-large,
+  tr.hide-for-large-down {
     display: table-row !important; }
-  td.show-for-xlarge, td.hide-for-large, td.hide-for-large-down,
+  td.show-for-xlarge,
+  td.hide-for-large,
+  td.hide-for-large-down,
   th.show-for-xlarge,
   th.hide-for-large,
   th.hide-for-large-down {
@@ -634,19 +702,24 @@ th.hide-for-xlarge {
   display: none !important; }
 
 /* Specific visilbity for tables */
-table.hide-for-landscape, table.show-for-portrait {
+table.hide-for-landscape,
+table.show-for-portrait {
   display: table; }
 
-thead.hide-for-landscape, thead.show-for-portrait {
+thead.hide-for-landscape,
+thead.show-for-portrait {
   display: table-header-group !important; }
 
-tbody.hide-for-landscape, tbody.show-for-portrait {
+tbody.hide-for-landscape,
+tbody.show-for-portrait {
   display: table-row-group !important; }
 
-tr.hide-for-landscape, tr.show-for-portrait {
+tr.hide-for-landscape,
+tr.show-for-portrait {
   display: table-row !important; }
 
-td.hide-for-landscape, td.show-for-portrait,
+td.hide-for-landscape,
+td.show-for-portrait,
 th.hide-for-landscape,
 th.show-for-portrait {
   display: table-cell !important; }
@@ -659,15 +732,20 @@ th.show-for-portrait {
   .show-for-portrait {
     display: none !important; }
   /* Specific visilbity for tables */
-  table.show-for-landscape, table.hide-for-portrait {
+  table.show-for-landscape,
+  table.hide-for-portrait {
     display: table; }
-  thead.show-for-landscape, thead.hide-for-portrait {
+  thead.show-for-landscape,
+  thead.hide-for-portrait {
     display: table-header-group !important; }
-  tbody.show-for-landscape, tbody.hide-for-portrait {
+  tbody.show-for-landscape,
+  tbody.hide-for-portrait {
     display: table-row-group !important; }
-  tr.show-for-landscape, tr.hide-for-portrait {
+  tr.show-for-landscape,
+  tr.hide-for-portrait {
     display: table-row !important; }
-  td.show-for-landscape, td.hide-for-portrait,
+  td.show-for-landscape,
+  td.hide-for-portrait,
   th.show-for-landscape,
   th.hide-for-portrait {
     display: table-cell !important; } }
@@ -680,15 +758,20 @@ th.show-for-portrait {
   .show-for-landscape {
     display: none !important; }
   /* Specific visilbity for tables */
-  table.show-for-portrait, table.hide-for-landscape {
+  table.show-for-portrait,
+  table.hide-for-landscape {
     display: table; }
-  thead.show-for-portrait, thead.hide-for-landscape {
+  thead.show-for-portrait,
+  thead.hide-for-landscape {
     display: table-header-group !important; }
-  tbody.show-for-portrait, tbody.hide-for-landscape {
+  tbody.show-for-portrait,
+  tbody.hide-for-landscape {
     display: table-row-group !important; }
-  tr.show-for-portrait, tr.hide-for-landscape {
+  tr.show-for-portrait,
+  tr.hide-for-landscape {
     display: table-row !important; }
-  td.show-for-portrait, td.hide-for-landscape,
+  td.show-for-portrait,
+  td.hide-for-landscape,
   th.show-for-portrait,
   th.hide-for-landscape {
     display: table-cell !important; } }
@@ -775,7 +858,7 @@ th.hide-for-touch {
     .small-block-grid-2 > li:nth-of-type(2n+1) {
       clear: both; }
   .small-block-grid-3 > li {
-    width: 33.3333333333%;
+    width: 33.33333%;
     padding: 0 0.625em 1.25em; }
     .small-block-grid-3 > li:nth-of-type(n) {
       clear: none; }
@@ -796,14 +879,14 @@ th.hide-for-touch {
     .small-block-grid-5 > li:nth-of-type(5n+1) {
       clear: both; }
   .small-block-grid-6 > li {
-    width: 16.6666666667%;
+    width: 16.66667%;
     padding: 0 0.625em 1.25em; }
     .small-block-grid-6 > li:nth-of-type(n) {
       clear: none; }
     .small-block-grid-6 > li:nth-of-type(6n+1) {
       clear: both; }
   .small-block-grid-7 > li {
-    width: 14.2857142857%;
+    width: 14.28571%;
     padding: 0 0.625em 1.25em; }
     .small-block-grid-7 > li:nth-of-type(n) {
       clear: none; }
@@ -817,7 +900,7 @@ th.hide-for-touch {
     .small-block-grid-8 > li:nth-of-type(8n+1) {
       clear: both; }
   .small-block-grid-9 > li {
-    width: 11.1111111111%;
+    width: 11.11111%;
     padding: 0 0.625em 1.25em; }
     .small-block-grid-9 > li:nth-of-type(n) {
       clear: none; }
@@ -831,14 +914,14 @@ th.hide-for-touch {
     .small-block-grid-10 > li:nth-of-type(10n+1) {
       clear: both; }
   .small-block-grid-11 > li {
-    width: 9.0909090909%;
+    width: 9.09091%;
     padding: 0 0.625em 1.25em; }
     .small-block-grid-11 > li:nth-of-type(n) {
       clear: none; }
     .small-block-grid-11 > li:nth-of-type(11n+1) {
       clear: both; }
   .small-block-grid-12 > li {
-    width: 8.3333333333%;
+    width: 8.33333%;
     padding: 0 0.625em 1.25em; }
     .small-block-grid-12 > li:nth-of-type(n) {
       clear: none; }
@@ -887,7 +970,7 @@ th.hide-for-touch {
     .large-block-grid-2 > li:nth-of-type(2n+1) {
       clear: both; }
   .large-block-grid-3 > li {
-    width: 33.3333333333%;
+    width: 33.33333%;
     padding: 0 0.625em 1.25em; }
     .large-block-grid-3 > li:nth-of-type(n) {
       clear: none; }
@@ -908,14 +991,14 @@ th.hide-for-touch {
     .large-block-grid-5 > li:nth-of-type(5n+1) {
       clear: both; }
   .large-block-grid-6 > li {
-    width: 16.6666666667%;
+    width: 16.66667%;
     padding: 0 0.625em 1.25em; }
     .large-block-grid-6 > li:nth-of-type(n) {
       clear: none; }
     .large-block-grid-6 > li:nth-of-type(6n+1) {
       clear: both; }
   .large-block-grid-7 > li {
-    width: 14.2857142857%;
+    width: 14.28571%;
     padding: 0 0.625em 1.25em; }
     .large-block-grid-7 > li:nth-of-type(n) {
       clear: none; }
@@ -929,7 +1012,7 @@ th.hide-for-touch {
     .large-block-grid-8 > li:nth-of-type(8n+1) {
       clear: both; }
   .large-block-grid-9 > li {
-    width: 11.1111111111%;
+    width: 11.11111%;
     padding: 0 0.625em 1.25em; }
     .large-block-grid-9 > li:nth-of-type(n) {
       clear: none; }
@@ -943,14 +1026,14 @@ th.hide-for-touch {
     .large-block-grid-10 > li:nth-of-type(10n+1) {
       clear: both; }
   .large-block-grid-11 > li {
-    width: 9.0909090909%;
+    width: 9.09091%;
     padding: 0 0.625em 1.25em; }
     .large-block-grid-11 > li:nth-of-type(n) {
       clear: none; }
     .large-block-grid-11 > li:nth-of-type(11n+1) {
       clear: both; }
   .large-block-grid-12 > li {
-    width: 8.3333333333%;
+    width: 8.33333%;
     padding: 0 0.625em 1.25em; }
     .large-block-grid-12 > li:nth-of-type(n) {
       clear: none; }
@@ -997,7 +1080,8 @@ a {
   color: #2ba6cb;
   text-decoration: none;
   line-height: inherit; }
-  a:hover, a:focus {
+  a:hover,
+  a:focus {
     color: #2795b6; }
   a img {
     border: none; }
@@ -1096,7 +1180,9 @@ ul li ol {
   font-size: 1em;
   /* Override nested font-size change */ }
 
-ul.square li ul, ul.circle li ul, ul.disc li ul {
+ul.square li ul,
+ul.circle li ul,
+ul.disc li ul {
   list-style: inherit; }
 
 ul.square {
@@ -1270,33 +1356,49 @@ button, .button {
   background-color: #2ba6cb;
   border-color: #2284a1;
   color: #fff; }
-  button:hover, button:focus, .button:hover, .button:focus {
+  button:hover,
+  button:focus, .button:hover,
+  .button:focus {
     background-color: #2284a1; }
-  button:hover, button:focus, .button:hover, .button:focus {
+  button:hover,
+  button:focus, .button:hover,
+  .button:focus {
     color: #fff; }
   button.secondary, .button.secondary {
     background-color: #e9e9e9;
     border-color: #d0d0d0;
     color: #333; }
-    button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
+    button.secondary:hover,
+    button.secondary:focus, .button.secondary:hover,
+    .button.secondary:focus {
       background-color: #d0d0d0; }
-    button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
+    button.secondary:hover,
+    button.secondary:focus, .button.secondary:hover,
+    .button.secondary:focus {
       color: #333; }
   button.success, .button.success {
     background-color: #5da423;
     border-color: #457a1a;
     color: #fff; }
-    button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
+    button.success:hover,
+    button.success:focus, .button.success:hover,
+    .button.success:focus {
       background-color: #457a1a; }
-    button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
+    button.success:hover,
+    button.success:focus, .button.success:hover,
+    .button.success:focus {
       color: #fff; }
   button.alert, .button.alert {
     background-color: #c60f13;
     border-color: #970b0e;
     color: #fff; }
-    button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
+    button.alert:hover,
+    button.alert:focus, .button.alert:hover,
+    .button.alert:focus {
       background-color: #970b0e; }
-    button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
+    button.alert:hover,
+    button.alert:focus, .button.alert:hover,
+    .button.alert:focus {
       color: #fff; }
   button.large, .button.large {
     padding-top: 1em;
@@ -1332,13 +1434,24 @@ button, .button {
     color: #fff;
     cursor: default;
     opacity: 0.6;
-    -webkit-box-shadow: none;
     box-shadow: none; }
-    button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
+    button.disabled:hover,
+    button.disabled:focus, button[disabled]:hover,
+    button[disabled]:focus, .button.disabled:hover,
+    .button.disabled:focus, .button[disabled]:hover,
+    .button[disabled]:focus {
       background-color: #2284a1; }
-    button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
+    button.disabled:hover,
+    button.disabled:focus, button[disabled]:hover,
+    button[disabled]:focus, .button.disabled:hover,
+    .button.disabled:focus, .button[disabled]:hover,
+    .button[disabled]:focus {
       color: #fff; }
-    button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
+    button.disabled:hover,
+    button.disabled:focus, button[disabled]:hover,
+    button[disabled]:focus, .button.disabled:hover,
+    .button.disabled:focus, .button[disabled]:hover,
+    .button[disabled]:focus {
       background-color: #2ba6cb; }
     button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
       background-color: #e9e9e9;
@@ -1346,13 +1459,24 @@ button, .button {
       color: #333;
       cursor: default;
       opacity: 0.6;
-      -webkit-box-shadow: none;
       box-shadow: none; }
-      button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
+      button.disabled.secondary:hover,
+      button.disabled.secondary:focus, button[disabled].secondary:hover,
+      button[disabled].secondary:focus, .button.disabled.secondary:hover,
+      .button.disabled.secondary:focus, .button[disabled].secondary:hover,
+      .button[disabled].secondary:focus {
         background-color: #d0d0d0; }
-      button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
+      button.disabled.secondary:hover,
+      button.disabled.secondary:focus, button[disabled].secondary:hover,
+      button[disabled].secondary:focus, .button.disabled.secondary:hover,
+      .button.disabled.secondary:focus, .button[disabled].secondary:hover,
+      .button[disabled].secondary:focus {
         color: #333; }
-      button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
+      button.disabled.secondary:hover,
+      button.disabled.secondary:focus, button[disabled].secondary:hover,
+      button[disabled].secondary:focus, .button.disabled.secondary:hover,
+      .button.disabled.secondary:focus, .button[disabled].secondary:hover,
+      .button[disabled].secondary:focus {
         background-color: #e9e9e9; }
     button.disabled.success, button[disabled].success, .button.disabled.success, .button[disabled].success {
       background-color: #5da423;
@@ -1360,13 +1484,24 @@ button, .button {
       color: #fff;
       cursor: default;
       opacity: 0.6;
-      -webkit-box-shadow: none;
       box-shadow: none; }
-      button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
+      button.disabled.success:hover,
+      button.disabled.success:focus, button[disabled].success:hover,
+      button[disabled].success:focus, .button.disabled.success:hover,
+      .button.disabled.success:focus, .button[disabled].success:hover,
+      .button[disabled].success:focus {
         background-color: #457a1a; }
-      button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
+      button.disabled.success:hover,
+      button.disabled.success:focus, button[disabled].success:hover,
+      button[disabled].success:focus, .button.disabled.success:hover,
+      .button.disabled.success:focus, .button[disabled].success:hover,
+      .button[disabled].success:focus {
         color: #fff; }
-      button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
+      button.disabled.success:hover,
+      button.disabled.success:focus, button[disabled].success:hover,
+      button[disabled].success:focus, .button.disabled.success:hover,
+      .button.disabled.success:focus, .button[disabled].success:hover,
+      .button[disabled].success:focus {
         background-color: #5da423; }
     button.disabled.alert, button[disabled].alert, .button.disabled.alert, .button[disabled].alert {
       background-color: #c60f13;
@@ -1374,13 +1509,24 @@ button, .button {
       color: #fff;
       cursor: default;
       opacity: 0.6;
-      -webkit-box-shadow: none;
       box-shadow: none; }
-      button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
+      button.disabled.alert:hover,
+      button.disabled.alert:focus, button[disabled].alert:hover,
+      button[disabled].alert:focus, .button.disabled.alert:hover,
+      .button.disabled.alert:focus, .button[disabled].alert:hover,
+      .button[disabled].alert:focus {
         background-color: #970b0e; }
-      button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
+      button.disabled.alert:hover,
+      button.disabled.alert:focus, button[disabled].alert:hover,
+      button[disabled].alert:focus, .button.disabled.alert:hover,
+      .button.disabled.alert:focus, .button[disabled].alert:hover,
+      .button[disabled].alert:focus {
         color: #fff; }
-      button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
+      button.disabled.alert:hover,
+      button.disabled.alert:focus, button[disabled].alert:hover,
+      button[disabled].alert:focus, .button.disabled.alert:hover,
+      .button.disabled.alert:focus, .button[disabled].alert:hover,
+      .button[disabled].alert:focus {
         background-color: #c60f13; }
 
 button, .button {
@@ -1398,19 +1544,13 @@ button, .button {
 
 @media only screen {
   button, .button {
-    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
-    -webkit-transition: background-color 300ms ease-out;
-    -moz-transition: background-color 300ms ease-out;
     transition: background-color 300ms ease-out; }
     button:active, .button:active {
-      -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset;
       box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset; }
     button.radius, .button.radius {
-      -webkit-border-radius: 3px;
       border-radius: 3px; }
     button.round, .button.round {
-      -webkit-border-radius: 1000px;
       border-radius: 1000px; } }
 
 @media only screen and (min-width: 768px) {
@@ -1489,7 +1629,6 @@ label {
   line-height: 2.125em; }
 
 .prefix.button.radius {
-  -webkit-border-radius: 0;
   border-radius: 0;
   -moz-border-radius-bottomleft: 3px;
   -moz-border-radius-topleft: 3px;
@@ -1499,7 +1638,6 @@ label {
   border-top-left-radius: 3px; }
 
 .postfix.button.radius {
-  -webkit-border-radius: 0;
   border-radius: 0;
   -moz-border-radius-topright: 3px;
   -moz-border-radius-bottomright: 3px;
@@ -1509,7 +1647,6 @@ label {
   border-bottom-right-radius: 3px; }
 
 .prefix.button.round {
-  -webkit-border-radius: 0;
   border-radius: 0;
   -moz-border-radius-bottomleft: 1000px;
   -moz-border-radius-topleft: 1000px;
@@ -1519,7 +1656,6 @@ label {
   border-top-left-radius: 1000px; }
 
 .postfix.button.round {
-  -webkit-border-radius: 0;
   border-radius: 0;
   -moz-border-radius-topright: 1000px;
   -moz-border-radius-bottomright: 1000px;
@@ -1535,7 +1671,6 @@ span.prefix {
   border-right: none;
   color: #333; }
   span.prefix.radius {
-    -webkit-border-radius: 0;
     border-radius: 0;
     -moz-border-radius-bottomleft: 3px;
     -moz-border-radius-topleft: 3px;
@@ -1550,7 +1685,6 @@ span.postfix {
   border-left: none;
   color: #333; }
   span.postfix.radius {
-    -webkit-border-radius: 0;
     border-radius: 0;
     -moz-border-radius-topright: 3px;
     -moz-border-radius-bottomright: 3px;
@@ -1610,7 +1744,6 @@ textarea {
   background-color: #fff;
   font-family: inherit;
   border: 1px solid #cccccc;
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   color: rgba(0, 0, 0, 0.75);
   display: block;
@@ -1619,11 +1752,7 @@ textarea {
   padding: 0.5em;
   height: 2.3125em;
   width: 100%;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-transition: -webkit-box-shadow 0.45s, border-color 0.45s ease-in-out;
-  -moz-transition: -moz-box-shadow 0.45s, border-color 0.45s ease-in-out;
   transition: box-shadow 0.45s, border-color 0.45s ease-in-out; }
   input[type="text"]:focus,
   input[type="password"]:focus,
@@ -1639,8 +1768,6 @@ textarea {
   input[type="time"]:focus,
   input[type="url"]:focus,
   textarea:focus {
-    -webkit-box-shadow: 0 0 5px #999999;
-    -moz-box-shadow: 0 0 5px #999999;
     box-shadow: 0 0 5px #999999;
     border-color: #999999; }
   input[type="text"]:focus,
@@ -1743,11 +1870,9 @@ form.custom .custom {
   border: solid 1px #ccc;
   background: #fff; }
   form.custom .custom.checkbox {
-    -webkit-border-radius: 0px;
     border-radius: 0px;
     padding: -1px; }
   form.custom .custom.radio {
-    -webkit-border-radius: 1000px;
     border-radius: 1000px;
     padding: 3px; }
   form.custom .custom.checkbox:before {
@@ -1760,7 +1885,6 @@ form.custom .custom {
     display: block;
     width: 8px;
     height: 8px;
-    -webkit-border-radius: 1000px;
     border-radius: 1000px;
     background: #222;
     position: relative; }
@@ -1786,7 +1910,6 @@ form.custom {
     padding: 0px;
     width: 100%;
     background: #fff;
-    background: -moz-linear-gradient(top, #fff 0%, #f3f3f3 100%);
     background: -webkit-linear-gradient(top, #fff 0%, #f3f3f3 100%);
     -webkit-box-shadow: none;
     background: linear-gradient(to bottom, #fff 0%, #f3f3f3 100%);
@@ -1847,8 +1970,6 @@ form.custom {
       display: block;
       z-index: 10;
       min-width: 100%;
-      -moz-box-sizing: content-box;
-      -webkit-box-sizing: content-box;
       box-sizing: content-box; }
     form.custom .custom.dropdown.small {
       max-width: 134px; }
@@ -1860,18 +1981,12 @@ form.custom {
       width: 100% !important; }
     form.custom .custom.dropdown.open.small ul {
       min-width: 134px;
-      -moz-box-sizing: border-box;
-      -webkit-box-sizing: border-box;
       box-sizing: border-box; }
     form.custom .custom.dropdown.open.medium ul {
       min-width: 254px;
-      -moz-box-sizing: border-box;
-      -webkit-box-sizing: border-box;
       box-sizing: border-box; }
     form.custom .custom.dropdown.open.large ul {
       min-width: 434px;
-      -moz-box-sizing: border-box;
-      -webkit-box-sizing: border-box;
       box-sizing: border-box; }
   form.custom .custom.dropdown ul {
     position: absolute;
@@ -1880,7 +1995,6 @@ form.custom {
     margin: 0;
     left: -1px;
     top: auto;
-    -webkit-box-shadow: 0 2px 2px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0 2px 2px 0px rgba(0, 0, 0, 0.1);
     margin: 0;
     padding: 0;
@@ -1975,7 +2089,7 @@ form.custom {
     .button-group.even-2 li button, .button-group.even-2 li .button {
       width: 100%; }
   .button-group.even-3 li {
-    width: 33.3333333333%; }
+    width: 33.33333%; }
     .button-group.even-3 li button, .button-group.even-3 li .button {
       width: 100%; }
   .button-group.even-4 li {
@@ -1987,11 +2101,11 @@ form.custom {
     .button-group.even-5 li button, .button-group.even-5 li .button {
       width: 100%; }
   .button-group.even-6 li {
-    width: 16.6666666667%; }
+    width: 16.66667%; }
     .button-group.even-6 li button, .button-group.even-6 li .button {
       width: 100%; }
   .button-group.even-7 li {
-    width: 14.2857142857%; }
+    width: 14.28571%; }
     .button-group.even-7 li button, .button-group.even-7 li .button {
       width: 100%; }
   .button-group.even-8 li {
@@ -2600,36 +2714,56 @@ form.custom {
         min-width: 12.5em;
         border: solid 1px #ccc; } }
 
-.no-js .section-container.auto, .no-js .section-container.accordion, .no-js .section-container.tabs, .no-js .section-container.vertical-tabs, .no-js .section-container.vertical-nav, .no-js .section-container.horizontal-nav {
+.no-js .section-container.auto,
+.no-js .section-container.accordion,
+.no-js .section-container.tabs,
+.no-js .section-container.vertical-tabs,
+.no-js .section-container.vertical-nav,
+.no-js .section-container.horizontal-nav {
   width: 100%;
   display: block;
   margin-bottom: 1.25em;
   border: 1px solid #ccc;
   border-top: none; }
   .no-js .section-container.auto > section,
-  .no-js .section-container.auto > .section, .no-js .section-container.accordion > section,
-  .no-js .section-container.accordion > .section, .no-js .section-container.tabs > section,
-  .no-js .section-container.tabs > .section, .no-js .section-container.vertical-tabs > section,
-  .no-js .section-container.vertical-tabs > .section, .no-js .section-container.vertical-nav > section,
-  .no-js .section-container.vertical-nav > .section, .no-js .section-container.horizontal-nav > section,
+  .no-js .section-container.auto > .section,
+  .no-js .section-container.accordion > section,
+  .no-js .section-container.accordion > .section,
+  .no-js .section-container.tabs > section,
+  .no-js .section-container.tabs > .section,
+  .no-js .section-container.vertical-tabs > section,
+  .no-js .section-container.vertical-tabs > .section,
+  .no-js .section-container.vertical-nav > section,
+  .no-js .section-container.vertical-nav > .section,
+  .no-js .section-container.horizontal-nav > section,
   .no-js .section-container.horizontal-nav > .section {
     position: relative; }
     .no-js .section-container.auto > section > .title,
-    .no-js .section-container.auto > .section > .title, .no-js .section-container.accordion > section > .title,
-    .no-js .section-container.accordion > .section > .title, .no-js .section-container.tabs > section > .title,
-    .no-js .section-container.tabs > .section > .title, .no-js .section-container.vertical-tabs > section > .title,
-    .no-js .section-container.vertical-tabs > .section > .title, .no-js .section-container.vertical-nav > section > .title,
-    .no-js .section-container.vertical-nav > .section > .title, .no-js .section-container.horizontal-nav > section > .title,
+    .no-js .section-container.auto > .section > .title,
+    .no-js .section-container.accordion > section > .title,
+    .no-js .section-container.accordion > .section > .title,
+    .no-js .section-container.tabs > section > .title,
+    .no-js .section-container.tabs > .section > .title,
+    .no-js .section-container.vertical-tabs > section > .title,
+    .no-js .section-container.vertical-tabs > .section > .title,
+    .no-js .section-container.vertical-nav > section > .title,
+    .no-js .section-container.vertical-nav > .section > .title,
+    .no-js .section-container.horizontal-nav > section > .title,
     .no-js .section-container.horizontal-nav > .section > .title {
       background-color: #efefef;
       cursor: pointer;
       margin-bottom: 0; }
       .no-js .section-container.auto > section > .title a,
-      .no-js .section-container.auto > .section > .title a, .no-js .section-container.accordion > section > .title a,
-      .no-js .section-container.accordion > .section > .title a, .no-js .section-container.tabs > section > .title a,
-      .no-js .section-container.tabs > .section > .title a, .no-js .section-container.vertical-tabs > section > .title a,
-      .no-js .section-container.vertical-tabs > .section > .title a, .no-js .section-container.vertical-nav > section > .title a,
-      .no-js .section-container.vertical-nav > .section > .title a, .no-js .section-container.horizontal-nav > section > .title a,
+      .no-js .section-container.auto > .section > .title a,
+      .no-js .section-container.accordion > section > .title a,
+      .no-js .section-container.accordion > .section > .title a,
+      .no-js .section-container.tabs > section > .title a,
+      .no-js .section-container.tabs > .section > .title a,
+      .no-js .section-container.vertical-tabs > section > .title a,
+      .no-js .section-container.vertical-tabs > .section > .title a,
+      .no-js .section-container.vertical-nav > section > .title a,
+      .no-js .section-container.vertical-nav > .section > .title a,
+      .no-js .section-container.horizontal-nav > section > .title a,
       .no-js .section-container.horizontal-nav > .section > .title a {
         padding: 0.9375em;
         display: inline-block;
@@ -2637,107 +2771,167 @@ form.custom {
         font-size: 0.875em;
         white-space: nowrap; }
       .no-js .section-container.auto > section > .title:hover,
-      .no-js .section-container.auto > .section > .title:hover, .no-js .section-container.accordion > section > .title:hover,
-      .no-js .section-container.accordion > .section > .title:hover, .no-js .section-container.tabs > section > .title:hover,
-      .no-js .section-container.tabs > .section > .title:hover, .no-js .section-container.vertical-tabs > section > .title:hover,
-      .no-js .section-container.vertical-tabs > .section > .title:hover, .no-js .section-container.vertical-nav > section > .title:hover,
-      .no-js .section-container.vertical-nav > .section > .title:hover, .no-js .section-container.horizontal-nav > section > .title:hover,
+      .no-js .section-container.auto > .section > .title:hover,
+      .no-js .section-container.accordion > section > .title:hover,
+      .no-js .section-container.accordion > .section > .title:hover,
+      .no-js .section-container.tabs > section > .title:hover,
+      .no-js .section-container.tabs > .section > .title:hover,
+      .no-js .section-container.vertical-tabs > section > .title:hover,
+      .no-js .section-container.vertical-tabs > .section > .title:hover,
+      .no-js .section-container.vertical-nav > section > .title:hover,
+      .no-js .section-container.vertical-nav > .section > .title:hover,
+      .no-js .section-container.horizontal-nav > section > .title:hover,
       .no-js .section-container.horizontal-nav > .section > .title:hover {
         background-color: #e2e2e2; }
     .no-js .section-container.auto > section .content,
-    .no-js .section-container.auto > .section .content, .no-js .section-container.accordion > section .content,
-    .no-js .section-container.accordion > .section .content, .no-js .section-container.tabs > section .content,
-    .no-js .section-container.tabs > .section .content, .no-js .section-container.vertical-tabs > section .content,
-    .no-js .section-container.vertical-tabs > .section .content, .no-js .section-container.vertical-nav > section .content,
-    .no-js .section-container.vertical-nav > .section .content, .no-js .section-container.horizontal-nav > section .content,
+    .no-js .section-container.auto > .section .content,
+    .no-js .section-container.accordion > section .content,
+    .no-js .section-container.accordion > .section .content,
+    .no-js .section-container.tabs > section .content,
+    .no-js .section-container.tabs > .section .content,
+    .no-js .section-container.vertical-tabs > section .content,
+    .no-js .section-container.vertical-tabs > .section .content,
+    .no-js .section-container.vertical-nav > section .content,
+    .no-js .section-container.vertical-nav > .section .content,
+    .no-js .section-container.horizontal-nav > section .content,
     .no-js .section-container.horizontal-nav > .section .content {
       display: none;
       padding: 0.9375em;
       background-color: #fff; }
       .no-js .section-container.auto > section .content > *:last-child,
-      .no-js .section-container.auto > .section .content > *:last-child, .no-js .section-container.accordion > section .content > *:last-child,
-      .no-js .section-container.accordion > .section .content > *:last-child, .no-js .section-container.tabs > section .content > *:last-child,
-      .no-js .section-container.tabs > .section .content > *:last-child, .no-js .section-container.vertical-tabs > section .content > *:last-child,
-      .no-js .section-container.vertical-tabs > .section .content > *:last-child, .no-js .section-container.vertical-nav > section .content > *:last-child,
-      .no-js .section-container.vertical-nav > .section .content > *:last-child, .no-js .section-container.horizontal-nav > section .content > *:last-child,
+      .no-js .section-container.auto > .section .content > *:last-child,
+      .no-js .section-container.accordion > section .content > *:last-child,
+      .no-js .section-container.accordion > .section .content > *:last-child,
+      .no-js .section-container.tabs > section .content > *:last-child,
+      .no-js .section-container.tabs > .section .content > *:last-child,
+      .no-js .section-container.vertical-tabs > section .content > *:last-child,
+      .no-js .section-container.vertical-tabs > .section .content > *:last-child,
+      .no-js .section-container.vertical-nav > section .content > *:last-child,
+      .no-js .section-container.vertical-nav > .section .content > *:last-child,
+      .no-js .section-container.horizontal-nav > section .content > *:last-child,
       .no-js .section-container.horizontal-nav > .section .content > *:last-child {
         margin-bottom: 0; }
       .no-js .section-container.auto > section .content > *:first-child,
-      .no-js .section-container.auto > .section .content > *:first-child, .no-js .section-container.accordion > section .content > *:first-child,
-      .no-js .section-container.accordion > .section .content > *:first-child, .no-js .section-container.tabs > section .content > *:first-child,
-      .no-js .section-container.tabs > .section .content > *:first-child, .no-js .section-container.vertical-tabs > section .content > *:first-child,
-      .no-js .section-container.vertical-tabs > .section .content > *:first-child, .no-js .section-container.vertical-nav > section .content > *:first-child,
-      .no-js .section-container.vertical-nav > .section .content > *:first-child, .no-js .section-container.horizontal-nav > section .content > *:first-child,
+      .no-js .section-container.auto > .section .content > *:first-child,
+      .no-js .section-container.accordion > section .content > *:first-child,
+      .no-js .section-container.accordion > .section .content > *:first-child,
+      .no-js .section-container.tabs > section .content > *:first-child,
+      .no-js .section-container.tabs > .section .content > *:first-child,
+      .no-js .section-container.vertical-tabs > section .content > *:first-child,
+      .no-js .section-container.vertical-tabs > .section .content > *:first-child,
+      .no-js .section-container.vertical-nav > section .content > *:first-child,
+      .no-js .section-container.vertical-nav > .section .content > *:first-child,
+      .no-js .section-container.horizontal-nav > section .content > *:first-child,
       .no-js .section-container.horizontal-nav > .section .content > *:first-child {
         padding-top: 0; }
       .no-js .section-container.auto > section .content > *:last-child,
-      .no-js .section-container.auto > .section .content > *:last-child, .no-js .section-container.accordion > section .content > *:last-child,
-      .no-js .section-container.accordion > .section .content > *:last-child, .no-js .section-container.tabs > section .content > *:last-child,
-      .no-js .section-container.tabs > .section .content > *:last-child, .no-js .section-container.vertical-tabs > section .content > *:last-child,
-      .no-js .section-container.vertical-tabs > .section .content > *:last-child, .no-js .section-container.vertical-nav > section .content > *:last-child,
-      .no-js .section-container.vertical-nav > .section .content > *:last-child, .no-js .section-container.horizontal-nav > section .content > *:last-child,
+      .no-js .section-container.auto > .section .content > *:last-child,
+      .no-js .section-container.accordion > section .content > *:last-child,
+      .no-js .section-container.accordion > .section .content > *:last-child,
+      .no-js .section-container.tabs > section .content > *:last-child,
+      .no-js .section-container.tabs > .section .content > *:last-child,
+      .no-js .section-container.vertical-tabs > section .content > *:last-child,
+      .no-js .section-container.vertical-tabs > .section .content > *:last-child,
+      .no-js .section-container.vertical-nav > section .content > *:last-child,
+      .no-js .section-container.vertical-nav > .section .content > *:last-child,
+      .no-js .section-container.horizontal-nav > section .content > *:last-child,
       .no-js .section-container.horizontal-nav > .section .content > *:last-child {
         padding-bottom: 0; }
     .no-js .section-container.auto > section.active > .content,
-    .no-js .section-container.auto > .section.active > .content, .no-js .section-container.accordion > section.active > .content,
-    .no-js .section-container.accordion > .section.active > .content, .no-js .section-container.tabs > section.active > .content,
-    .no-js .section-container.tabs > .section.active > .content, .no-js .section-container.vertical-tabs > section.active > .content,
-    .no-js .section-container.vertical-tabs > .section.active > .content, .no-js .section-container.vertical-nav > section.active > .content,
-    .no-js .section-container.vertical-nav > .section.active > .content, .no-js .section-container.horizontal-nav > section.active > .content,
+    .no-js .section-container.auto > .section.active > .content,
+    .no-js .section-container.accordion > section.active > .content,
+    .no-js .section-container.accordion > .section.active > .content,
+    .no-js .section-container.tabs > section.active > .content,
+    .no-js .section-container.tabs > .section.active > .content,
+    .no-js .section-container.vertical-tabs > section.active > .content,
+    .no-js .section-container.vertical-tabs > .section.active > .content,
+    .no-js .section-container.vertical-nav > section.active > .content,
+    .no-js .section-container.vertical-nav > .section.active > .content,
+    .no-js .section-container.horizontal-nav > section.active > .content,
     .no-js .section-container.horizontal-nav > .section.active > .content {
       display: block; }
     .no-js .section-container.auto > section.active > .title,
-    .no-js .section-container.auto > .section.active > .title, .no-js .section-container.accordion > section.active > .title,
-    .no-js .section-container.accordion > .section.active > .title, .no-js .section-container.tabs > section.active > .title,
-    .no-js .section-container.tabs > .section.active > .title, .no-js .section-container.vertical-tabs > section.active > .title,
-    .no-js .section-container.vertical-tabs > .section.active > .title, .no-js .section-container.vertical-nav > section.active > .title,
-    .no-js .section-container.vertical-nav > .section.active > .title, .no-js .section-container.horizontal-nav > section.active > .title,
+    .no-js .section-container.auto > .section.active > .title,
+    .no-js .section-container.accordion > section.active > .title,
+    .no-js .section-container.accordion > .section.active > .title,
+    .no-js .section-container.tabs > section.active > .title,
+    .no-js .section-container.tabs > .section.active > .title,
+    .no-js .section-container.vertical-tabs > section.active > .title,
+    .no-js .section-container.vertical-tabs > .section.active > .title,
+    .no-js .section-container.vertical-nav > section.active > .title,
+    .no-js .section-container.vertical-nav > .section.active > .title,
+    .no-js .section-container.horizontal-nav > section.active > .title,
     .no-js .section-container.horizontal-nav > .section.active > .title {
       background: #d5d5d5; }
       .no-js .section-container.auto > section.active > .title a,
-      .no-js .section-container.auto > .section.active > .title a, .no-js .section-container.accordion > section.active > .title a,
-      .no-js .section-container.accordion > .section.active > .title a, .no-js .section-container.tabs > section.active > .title a,
-      .no-js .section-container.tabs > .section.active > .title a, .no-js .section-container.vertical-tabs > section.active > .title a,
-      .no-js .section-container.vertical-tabs > .section.active > .title a, .no-js .section-container.vertical-nav > section.active > .title a,
-      .no-js .section-container.vertical-nav > .section.active > .title a, .no-js .section-container.horizontal-nav > section.active > .title a,
+      .no-js .section-container.auto > .section.active > .title a,
+      .no-js .section-container.accordion > section.active > .title a,
+      .no-js .section-container.accordion > .section.active > .title a,
+      .no-js .section-container.tabs > section.active > .title a,
+      .no-js .section-container.tabs > .section.active > .title a,
+      .no-js .section-container.vertical-tabs > section.active > .title a,
+      .no-js .section-container.vertical-tabs > .section.active > .title a,
+      .no-js .section-container.vertical-nav > section.active > .title a,
+      .no-js .section-container.vertical-nav > .section.active > .title a,
+      .no-js .section-container.horizontal-nav > section.active > .title a,
       .no-js .section-container.horizontal-nav > .section.active > .title a {
         color: #333; }
     .no-js .section-container.auto > section > .title,
-    .no-js .section-container.auto > .section > .title, .no-js .section-container.accordion > section > .title,
-    .no-js .section-container.accordion > .section > .title, .no-js .section-container.tabs > section > .title,
-    .no-js .section-container.tabs > .section > .title, .no-js .section-container.vertical-tabs > section > .title,
-    .no-js .section-container.vertical-tabs > .section > .title, .no-js .section-container.vertical-nav > section > .title,
-    .no-js .section-container.vertical-nav > .section > .title, .no-js .section-container.horizontal-nav > section > .title,
+    .no-js .section-container.auto > .section > .title,
+    .no-js .section-container.accordion > section > .title,
+    .no-js .section-container.accordion > .section > .title,
+    .no-js .section-container.tabs > section > .title,
+    .no-js .section-container.tabs > .section > .title,
+    .no-js .section-container.vertical-tabs > section > .title,
+    .no-js .section-container.vertical-tabs > .section > .title,
+    .no-js .section-container.vertical-nav > section > .title,
+    .no-js .section-container.vertical-nav > .section > .title,
+    .no-js .section-container.horizontal-nav > section > .title,
     .no-js .section-container.horizontal-nav > .section > .title {
       top: 0;
       width: 100%;
       margin: 0;
       border-top: solid 1px #ccc; }
       .no-js .section-container.auto > section > .title a,
-      .no-js .section-container.auto > .section > .title a, .no-js .section-container.accordion > section > .title a,
-      .no-js .section-container.accordion > .section > .title a, .no-js .section-container.tabs > section > .title a,
-      .no-js .section-container.tabs > .section > .title a, .no-js .section-container.vertical-tabs > section > .title a,
-      .no-js .section-container.vertical-tabs > .section > .title a, .no-js .section-container.vertical-nav > section > .title a,
-      .no-js .section-container.vertical-nav > .section > .title a, .no-js .section-container.horizontal-nav > section > .title a,
+      .no-js .section-container.auto > .section > .title a,
+      .no-js .section-container.accordion > section > .title a,
+      .no-js .section-container.accordion > .section > .title a,
+      .no-js .section-container.tabs > section > .title a,
+      .no-js .section-container.tabs > .section > .title a,
+      .no-js .section-container.vertical-tabs > section > .title a,
+      .no-js .section-container.vertical-tabs > .section > .title a,
+      .no-js .section-container.vertical-nav > section > .title a,
+      .no-js .section-container.vertical-nav > .section > .title a,
+      .no-js .section-container.horizontal-nav > section > .title a,
       .no-js .section-container.horizontal-nav > .section > .title a {
         width: 100%; }
     .no-js .section-container.auto > section .title,
-    .no-js .section-container.auto > .section .title, .no-js .section-container.accordion > section .title,
-    .no-js .section-container.accordion > .section .title, .no-js .section-container.tabs > section .title,
-    .no-js .section-container.tabs > .section .title, .no-js .section-container.vertical-tabs > section .title,
-    .no-js .section-container.vertical-tabs > .section .title, .no-js .section-container.vertical-nav > section .title,
-    .no-js .section-container.vertical-nav > .section .title, .no-js .section-container.horizontal-nav > section .title,
+    .no-js .section-container.auto > .section .title,
+    .no-js .section-container.accordion > section .title,
+    .no-js .section-container.accordion > .section .title,
+    .no-js .section-container.tabs > section .title,
+    .no-js .section-container.tabs > .section .title,
+    .no-js .section-container.vertical-tabs > section .title,
+    .no-js .section-container.vertical-tabs > .section .title,
+    .no-js .section-container.vertical-nav > section .title,
+    .no-js .section-container.vertical-nav > .section .title,
+    .no-js .section-container.horizontal-nav > section .title,
     .no-js .section-container.horizontal-nav > .section .title {
       position: static;
       width: 100%;
       border-left: 0;
       border-right: 0; }
     .no-js .section-container.auto > section .content,
-    .no-js .section-container.auto > .section .content, .no-js .section-container.accordion > section .content,
-    .no-js .section-container.accordion > .section .content, .no-js .section-container.tabs > section .content,
-    .no-js .section-container.tabs > .section .content, .no-js .section-container.vertical-tabs > section .content,
-    .no-js .section-container.vertical-tabs > .section .content, .no-js .section-container.vertical-nav > section .content,
-    .no-js .section-container.vertical-nav > .section .content, .no-js .section-container.horizontal-nav > section .content,
+    .no-js .section-container.auto > .section .content,
+    .no-js .section-container.accordion > section .content,
+    .no-js .section-container.accordion > .section .content,
+    .no-js .section-container.tabs > section .content,
+    .no-js .section-container.tabs > .section .content,
+    .no-js .section-container.vertical-tabs > section .content,
+    .no-js .section-container.vertical-tabs > .section .content,
+    .no-js .section-container.vertical-nav > section .content,
+    .no-js .section-container.vertical-nav > .section .content,
+    .no-js .section-container.horizontal-nav > section .content,
     .no-js .section-container.horizontal-nav > .section .content {
       position: static;
       display: block;
@@ -2830,7 +3024,6 @@ form.custom {
           display: block;
           width: 16px;
           height: 0;
-          -webkit-box-shadow: 0 10px 0 1px #fff, 0 16px 0 1px #fff, 0 22px 0 1px #fff;
           box-shadow: 0 10px 0 1px #fff, 0 16px 0 1px #fff, 0 22px 0 1px #fff; }
   .top-bar.expanded {
     height: auto;
@@ -2840,15 +3033,12 @@ form.custom {
     .top-bar.expanded .toggle-topbar a {
       color: #888; }
       .top-bar.expanded .toggle-topbar a span {
-        -webkit-box-shadow: 0 10px 0 1px #888, 0 16px 0 1px #888, 0 22px 0 1px #888;
         box-shadow: 0 10px 0 1px #888, 0 16px 0 1px #888, 0 22px 0 1px #888; }
 
 .top-bar-section {
   left: 0;
   position: relative;
   width: auto;
-  -webkit-transition: left 300ms ease-out;
-  -moz-transition: left 300ms ease-out;
   transition: left 300ms ease-out; }
   .top-bar-section ul {
     width: 100%;
@@ -2980,8 +3170,6 @@ form.custom {
     max-width: 62.5em;
     margin: 0 auto; }
   .top-bar-section {
-    -webkit-transition: none 0 0;
-    -moz-transition: none 0 0;
     transition: none 0 0;
     left: 0 !important; }
     .top-bar-section ul {
@@ -3063,18 +3251,6 @@ form.custom {
   to {
     -webkit-transform: rotate(360deg); } }
 
-@-moz-keyframes rotate {
-  from {
-    -webkit-transform: rotate(0deg); }
-  to {
-    -webkit-transform: rotate(360deg); } }
-
-@-o-keyframes rotate {
-  from {
-    -webkit-transform: rotate(0deg); }
-  to {
-    -webkit-transform: rotate(360deg); } }
-
 @keyframes rotate {
   from {
     -webkit-transform: rotate(0deg); }
@@ -3110,7 +3286,6 @@ form.custom {
   margin-left: -20px;
   border: solid 3px;
   border-color: #555 #fff;
-  -webkit-border-radius: 1000px;
   border-radius: 1000px;
   -webkit-animation-name: rotate;
   -webkit-animation-duration: 1.5s;
@@ -3124,10 +3299,14 @@ form.custom {
   -o-animation-duration: 1.5s;
   -o-animation-iteration-count: infinite;
   -o-animation-timing-function: linear;
-  animation-name: rotate;
-  animation-duration: 1.5s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear; }
+  -webkit-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear; }
 
 .orbit-container {
   overflow: hidden;
@@ -3249,7 +3428,6 @@ form.custom {
     float: left;
     margin-right: 6px;
     border: solid 2px #222;
-    -webkit-border-radius: 1000px;
     border-radius: 1000px; }
     .orbit-bullets li.active {
       background: #222; }
@@ -3293,7 +3471,6 @@ form.custom {
   background-color: #fff;
   padding: 1.25em;
   border: solid 1px #666;
-  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   top: 50px; }
   .reveal-modal .column,
@@ -3432,7 +3609,8 @@ form.custom {
   font-size: 30px;
   font-weight: normal;
   line-height: .5 !important; }
-  .joyride-close-tip:hover, .joyride-close-tip:focus {
+  .joyride-close-tip:hover,
+  .joyride-close-tip:focus {
     color: #eee !important; }
 
 .joyride-modal-bg {
@@ -3452,8 +3630,6 @@ form.custom {
   position: absolute;
   border-radius: 3px;
   z-index: 102;
-  -moz-box-shadow: 0px 0px 30px #ffffff;
-  -webkit-box-shadow: 0px 0px 15px #ffffff;
   box-shadow: 0px 0px 15px #ffffff; }
 
 .joyride-expose-cover {
@@ -3555,7 +3731,8 @@ form.custom {
   line-height: 1;
   color: #fff;
   display: none; }
-  .clearing-close:hover, .clearing-close:focus {
+  .clearing-close:hover,
+  .clearing-close:focus {
     color: #ccc; }
 
 .clearing-assembled .clearing-container {
@@ -3626,7 +3803,6 @@ form.custom {
           max-width: none; }
         .clearing-assembled .clearing-container .carousel > ul li a.th {
           border: none;
-          -webkit-box-shadow: none;
           box-shadow: none;
           display: block; }
         .clearing-assembled .clearing-container .carousel > ul li img {
@@ -3667,13 +3843,12 @@ form.custom {
     right: 0.3125em;
     color: #333;
     opacity: 0.3; }
-    .alert-box .close:hover, .alert-box .close:focus {
+    .alert-box .close:hover,
+    .alert-box .close:focus {
       opacity: 0.5; }
   .alert-box.radius {
-    -webkit-border-radius: 3px;
     border-radius: 3px; }
   .alert-box.round {
-    -webkit-border-radius: 1000px;
     border-radius: 1000px; }
   .alert-box.success {
     background-color: #5da423;
@@ -3699,7 +3874,6 @@ form.custom {
   border-width: 1px;
   background-color: #f6f6f6;
   border-color: gainsboro;
-  -webkit-border-radius: 3px;
   border-radius: 3px; }
   .breadcrumbs > * {
     margin: 0;
@@ -3719,14 +3893,16 @@ form.custom {
       .breadcrumbs > *.current a {
         cursor: default;
         color: #333; }
-      .breadcrumbs > *.current:hover, .breadcrumbs > *.current:hover a, .breadcrumbs > *.current:focus, .breadcrumbs > *.current:focus a {
+      .breadcrumbs > *.current:hover, .breadcrumbs > *.current:hover a,
+      .breadcrumbs > *.current:focus, .breadcrumbs > *.current:focus a {
         text-decoration: none; }
     .breadcrumbs > *.unavailable {
       color: #999; }
       .breadcrumbs > *.unavailable a {
         color: #999; }
       .breadcrumbs > *.unavailable:hover,
-      .breadcrumbs > *.unavailable:hover a, .breadcrumbs > *.unavailable:focus,
+      .breadcrumbs > *.unavailable:hover a,
+      .breadcrumbs > *.unavailable:focus,
       .breadcrumbs > *.unavailable a:focus {
         text-decoration: none;
         color: #999;
@@ -3753,7 +3929,6 @@ kbd {
   font-family: "Consolas", "Menlo", "Courier", monospace;
   font-size: 0.875em;
   padding: 0.125em 0.25em 0em;
-  -webkit-border-radius: 3px;
   border-radius: 3px; }
 
 /* Labels */
@@ -3770,10 +3945,8 @@ kbd {
   background-color: #2ba6cb;
   color: #fff; }
   .label.radius {
-    -webkit-border-radius: 3px;
     border-radius: 3px; }
   .label.round {
-    -webkit-border-radius: 1000px;
     border-radius: 1000px; }
   .label.alert {
     background-color: #c60f13;
@@ -3830,7 +4003,8 @@ kbd {
       color: #fff;
       font-weight: bold;
       cursor: default; }
-      .pagination li.current a:hover, .pagination li.current a:focus {
+      .pagination li.current a:hover,
+      .pagination li.current a:focus {
         background: #2ba6cb; }
 
 .pagination-centered {
@@ -3865,7 +4039,6 @@ kbd {
     margin-bottom: 1.25em;
     padding: 1.25em;
     background: #2ba6cb;
-    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; }
     .panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout h4, .panel.callout h5, .panel.callout h6, .panel.callout p {
       color: #fff; }
@@ -3879,7 +4052,6 @@ kbd {
       .panel.callout h1.subheader, .panel.callout h2.subheader, .panel.callout h3.subheader, .panel.callout h4.subheader, .panel.callout h5.subheader, .panel.callout h6.subheader {
         line-height: 1.4; }
   .panel.radius {
-    -webkit-border-radius: 3px;
     border-radius: 3px; }
 
 /* Pricing Tables */
@@ -3950,16 +4122,12 @@ kbd {
     height: 100%;
     display: block; }
   .progress.radius {
-    -webkit-border-radius: 3px;
     border-radius: 3px; }
     .progress.radius .meter {
-      -webkit-border-radius: 2px;
       border-radius: 2px; }
   .progress.round {
-    -webkit-border-radius: 1000px;
     border-radius: 1000px; }
     .progress.round .meter {
-      -webkit-border-radius: 999px;
       border-radius: 999px; }
 
 /* Side Nav */
@@ -4008,7 +4176,6 @@ kbd {
       text-decoration: none; }
     .sub-nav dt.active a,
     .sub-nav dd.active a {
-      -webkit-border-radius: 1000px;
       border-radius: 1000px;
       font-weight: bold;
       background: #2ba6cb;
@@ -4041,8 +4208,6 @@ kbd {
       margin: 0;
       font-weight: bold;
       text-align: left;
-      -webkit-transition: all 0.1s ease-out;
-      -moz-transition: all 0.1s ease-out;
       transition: all 0.1s ease-out; }
     div.switch input {
       position: absolute;
@@ -4051,7 +4216,8 @@ kbd {
       width: 100%;
       height: 100%;
       -moz-appearance: none; }
-      div.switch input:hover, div.switch input:focus {
+      div.switch input:hover,
+      div.switch input:focus {
         cursor: pointer; }
     div.switch > span {
       position: absolute;
@@ -4062,8 +4228,6 @@ kbd {
       padding: 0;
       border-width: 1px;
       border-style: solid;
-      -webkit-transition: all 0.1s ease-out;
-      -moz-transition: all 0.1s ease-out;
       transition: all 0.1s ease-out; }
     div.switch input:not(:checked) + label {
       opacity: 0; }
@@ -4102,15 +4266,11 @@ kbd {
     div.switch > span {
       border-color: #b3b3b3;
       background: #fff;
-      background: -moz-linear-gradient(top, #fff 0%, #f2f2f2 100%);
-      background: -webkit-linear-gradient(top, #fff 0%, #f2f2f2 100%);
       background: linear-gradient(to bottom, #fff 0%, #f2f2f2 100%);
-      -webkit-box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.07), 1000px 0 0 1000px #e1f5d1, -2px 0 10px 0 rgba(0, 0, 0, 0.07), -1000px 0 0 1000px #f5f5f5;
       box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.07), 1000px 0 0 980px #e1f5d1, -2px 0 10px 0 rgba(0, 0, 0, 0.07), -1000px 0 0 1000px #f5f5f5; }
-    div.switch:hover > span, div.switch:focus > span {
+    div.switch:hover > span,
+    div.switch:focus > span {
       background: #fff;
-      background: -moz-linear-gradient(top, #fff 0%, #e6e6e6 100%);
-      background: -webkit-linear-gradient(top, #fff 0%, #e6e6e6 100%);
       background: linear-gradient(to bottom, #fff 0%, #e6e6e6 100%); }
     div.switch:active {
       background: transparent; }
@@ -4151,16 +4311,12 @@ kbd {
         width: 1.375em;
         height: 1.375em; }
     div.switch.radius {
-      -webkit-border-radius: 4px;
       border-radius: 4px; }
       div.switch.radius > span {
-        -webkit-border-radius: 3px;
         border-radius: 3px; }
     div.switch.round {
-      -webkit-border-radius: 1000px;
       border-radius: 1000px; }
       div.switch.round > span {
-        -webkit-border-radius: 999px;
         border-radius: 999px; }
       div.switch.round label {
         padding: 0 0.5625em; }
@@ -4202,7 +4358,9 @@ table {
     padding: 0.5625em 0.625em;
     font-size: 0.875em;
     color: #222; }
-  table tr.even, table tr.alt, table tr:nth-of-type(even) {
+  table tr.even,
+  table tr.alt,
+  table tr:nth-of-type(even) {
     background: #f9f9f9; }
   table thead tr th,
   table tfoot tr th,
@@ -4217,16 +4375,12 @@ table {
   line-height: 0;
   display: inline-block;
   border: solid 4px #fff;
-  -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
-  -webkit-transition: all 200ms ease-out;
-  -moz-transition: all 200ms ease-out;
   transition: all 200ms ease-out; }
-  .th:hover, .th:focus {
-    -webkit-box-shadow: 0 0 6px 1px rgba(43, 166, 203, 0.5);
+  .th:hover,
+  .th:focus {
     box-shadow: 0 0 6px 1px rgba(43, 166, 203, 0.5); }
   .th.radius {
-    -webkit-border-radius: 3px;
     border-radius: 3px; }
 
 a.th {
@@ -4238,10 +4392,12 @@ a.th {
   cursor: help;
   font-weight: bold;
   color: #333; }
-  .has-tip:hover, .has-tip:focus {
+  .has-tip:hover,
+  .has-tip:focus {
     border-bottom: dotted 1px #196177;
     color: #2ba6cb; }
-  .has-tip.tip-left, .has-tip.tip-right {
+  .has-tip.tip-left,
+  .has-tip.tip-right {
     float: none !important; }
 
 .tooltip {
@@ -4257,7 +4413,6 @@ a.th {
   width: 100%;
   color: #fff;
   background: #000;
-  -webkit-border-radius: 3px;
   border-radius: 3px; }
   .tooltip > .nub {
     display: block;
@@ -4286,7 +4441,8 @@ a.th {
     border-color: #000 transparent transparent transparent;
     top: auto;
     bottom: -10px; }
-  .tooltip.tip-left, .tooltip.tip-right {
+  .tooltip.tip-left,
+  .tooltip.tip-right {
     float: none !important; }
   .tooltip.tip-left > .nub {
     border-color: transparent transparent transparent #000;
@@ -4359,7 +4515,8 @@ a.th {
     cursor: pointer;
     line-height: 1.125em;
     margin: 0; }
-    .f-dropdown li:hover, .f-dropdown li:focus {
+    .f-dropdown li:hover,
+    .f-dropdown li:focus {
       background: #eeeeee; }
     .f-dropdown li a {
       display: block;

@@ -5,20 +5,20 @@
     <link rel="stylesheet" type="text/css" href="/css/scoreboard.css">
     <script src="/socket.io/socket.io.js"></script>
   </head>
-  <body ng-controller="ScoreboardController">
-    <div class="header row"><span class="text-center columns small-12">{{title}}</span></div>
+  <body ng-controller="ScoreboardCtrl">
+    <div class="header row"><span class="text-center columns small-12">{{ game.title }}</span></div>
     <div class="container">
       <div class="row columns small-12 text-left roundquestion">
-        <h3>Round {{ round.roundNum }} | Question 1 | {{round.points}}pts</h3>
+        <h3>Round {{ round.roundNum }} | Question {{ round.questionNum }} | {{ round.points }}pts</h3>
       </div>
-      <div class="row columns small-12 text-left questiontext">{{round.question}}</div>
+      <div class="row columns small-12 text-left questiontext">{{ round.question }}</div>
       <div ng-show="currentBuzzer" class="row columns small-12 text-center currentbuzzer-container"><span class="buzz-alert">{{ currentBuzzer }} has buzzed in first!</span></div>
     </div>
     <div class="footer">
       <div class="row">
         <div class="columns small-12">
           <ul class="small-block-grid-6">
-            <li ng-repeat="team in teams">
+            <li ng-repeat="team in teams | orderBy : team.points : true">
               <div ng-class="team.color" class="box">
                 <div class="name">{{team.name}}</div>
                 <div class="score">{{team.score}}</div>
@@ -28,7 +28,6 @@
         </div>
       </div>
     </div>
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
     <script src="/js/scoreboard.js"></script>
   </body>
 </html>

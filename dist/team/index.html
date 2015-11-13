@@ -27,13 +27,13 @@
       </div>
       <div ng-show="round.points" class="playing">
         <div class="row columns small-12 text-left roundquestion">
-          <h2>Round {{ round.roundNum }} | Question 1 | {{round.points}}pts</h2>
+          <h2>Round {{ round.roundNum }} | Question {{ round.questionNum }} | {{ round.points }}pts</h2>
         </div>
         <div class="row columns small-12">
           <h3>{{ round.question }}</h3>
         </div>
         <div class="row columns small-12 buzzcontainer">
-          <button ng-click="buzz()" ng-class="color" ng-disabled="buzzDisabled" ng-hide="showAnswering">BUZZ IN</button>
+          <button ng-click="buzz()" ng-class="color" ng-show="showBuzzer">BUZZ IN</button>
         </div>
       </div>
       <div ng-show="showAnswering" class="answering">{{ currentBuzzer.name }} HAS BUZZED IN</div>
@@ -135,7 +135,7 @@
       <div class="row leaderboard-header text-center">
         <h2>STANDINGS</h2>
       </div>
-      <div ng-repeat="team in teams" ng-class="team.color" class="row team">
+      <div ng-repeat="team in teams | orderBy : team.points : true" ng-class="team.color" class="row team">
         <div class="text-center">{{ team.name }} - {{team.score}}PTS</div>
       </div>
     </div>
@@ -145,7 +145,6 @@
         <div ng-click="showLeaderboard = false" ng-class="{active: showLeaderboard}" class="myteam-tab columns small-6 text-center"><img src="/images/group-dark.png"><span>MY TEAM</span></div>
       </div>
     </div>
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
     <script src="/js/team.js"></script>
   </body>
 </html>
